@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 17
+  controlID: 87
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 26
+  controlID: 77
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 27
+  controlID: 78
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -348,22 +348,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials/Felix
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
-  m_StartGridSize: 16
+  m_StartGridSize: 65
   m_LastFolders:
-  - Assets/Materials/Felix
-  m_LastFoldersGridSize: 16
+  - Assets
+  m_LastFoldersGridSize: 65
   m_LastProjectPath: G:\Felix\Documents\Unity Projects\ExpandedRealities\S6\P6_Spectroscopy\P6_Spectroscopy
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 7}
-    m_SelectedIDs: cc6e0000
-    m_LastClickedID: 28364
-    m_ExpandedIDs: 00000000ce6c0000666e00006e6e00007a6e0000e06e0000ee730000f2730000f473000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: e26f0000
+    m_LastClickedID: 28642
+    m_ExpandedIDs: 00000000e26f00007871000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -391,7 +391,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ce6c0000
+    m_ExpandedIDs: 00000000e26f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -444,7 +444,7 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 16
+    m_GridSize: 65
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
 --- !u!114 &14
@@ -523,7 +523,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: ac44ffffb244ffffd246ffffd846ffffc84affffce4affffe0f7ffffecf7fffff2f7fffff8f7ffff2efbffff
+      m_ExpandedIDs: 2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -773,9 +773,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 12.354497, y: -4.7659054, z: -7.874877}
+    m_Target: {x: 0.11344877, y: 1.3515207, z: 0.20059466}
     speed: 2
-    m_Value: {x: 12.354497, y: -4.7659054, z: -7.874877}
+    m_Value: {x: 0.11344877, y: 1.3515207, z: 0.20059466}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -822,13 +822,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.09329535, y: -0.8618751, z: 0.17185211, w: -0.46793112}
+    m_Target: {x: -0.01179615, y: 0.97869986, z: -0.19635503, w: -0.058792528}
     speed: 2
-    m_Value: {x: -0.09329417, y: -0.8618642, z: 0.17184994, w: -0.46792522}
+    m_Value: {x: -0.011796123, y: 0.97869766, z: -0.19635458, w: -0.058792394}
   m_Size:
-    m_Target: 12.669951
+    m_Target: 0.18475787
     speed: 2
-    m_Value: 12.669951
+    m_Value: 0.18475787
   m_Ortho:
     m_Target: 0
     speed: 2
