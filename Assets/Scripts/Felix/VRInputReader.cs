@@ -27,7 +27,7 @@ public class VRInputReader : MonoBehaviour
         foreach (var inputDevice in inputDevices)
         {
             inputDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue);
-            Debug.Log(inputDevice.name + " " + triggerValue);
+            //Debug.Log(inputDevice.name + " " + triggerValue);
 
             //Debug.Log(inputDevice.name + " " + inputDevice.characteristics);
         }
