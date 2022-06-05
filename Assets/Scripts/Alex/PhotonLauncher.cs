@@ -49,12 +49,20 @@ public class PhotonLauncher : MonoBehaviourPunCallbacks
     {
         Debug.Log("Joined Lobby.");
         MenuManager.Instance.OpenMenu("title");
-        PhotonNetwork.NickName = "Player " + Random.Range(0, 1000).ToString("0000");
+
+        if (PhotonNetwork.IsMasterClient)
+        {
+            PhotonNetwork.NickName = "CAVE Player " + Random.Range(0, 1000).ToString("0000");
+        }
+        else
+        {
+            PhotonNetwork.NickName = "Player " + Random.Range(0, 1000).ToString("0000");
+        }
     }
 
     public void CreateRoom()
     {
-        // making sure a Room Name is entered, or return (alternatively, "" can be entered to create a random roomname)
+        // making sure a Room Name is entered, or return
         if (string.IsNullOrEmpty(roomNameInputField.text))
         {
             return;
