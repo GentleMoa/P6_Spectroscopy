@@ -1075,6 +1075,7 @@ Transform:
   m_Children:
   - {fileID: 2900148234312724416}
   - {fileID: 8846484046347050579}
+  - {fileID: 6027851591486527791}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 132.52, z: 0}
@@ -1253,3 +1254,54 @@ MonoBehaviour:
   ShowAlignmentCube: 0
   AlignmentDepth: 5
   AlignmentMaterial: {fileID: 0}
+--- !u!1 &8911099386732423700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6027851591486527791}
+  - component: {fileID: 4498584112619524621}
+  m_Layer: 0
+  m_Name: VRUser_HandChecker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6027851591486527791
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8911099386732423700}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8846484046984156720}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4498584112619524621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8911099386732423700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d545296165b824da76ba37a3a1df63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _leftController: {fileID: 0}
+  _rightController: {fileID: 0}
+  _leftHand: {fileID: 0}
+  _rightHand: {fileID: 0}
+  _leftHandFound: 0
+  _rightHandFound: 0
+  _handsParented: 0

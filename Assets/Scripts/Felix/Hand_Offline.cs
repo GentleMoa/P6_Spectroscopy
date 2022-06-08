@@ -7,15 +7,18 @@ using UnityEngine.XR;
 using Photon.Pun;
 using System.IO;
 
-public class Hand : MonoBehaviour
+public class Hand_Offline : MonoBehaviour
 {
+    //Stores handPrefab to be Instantiated
+    public GameObject handPrefab;
+
     //Stores what kind of characteristics we're looking for with our Input Device when we search for it later
     public InputDeviceCharacteristics inputDeviceCharacteristics;
 
     //Stores the InputDevice that we're Targeting once we find it in InitializeHand()
     private InputDevice _targetDevice;
     private Animator _handAnimator;
-    private GameObject _spawnedHand;
+
 
     private void Start()
     {
@@ -34,37 +37,29 @@ public class Hand : MonoBehaviour
         {
 
             _targetDevice = devices[0];
-            if (gameObject.tag == "LeftController")
-            {
-                //Instantiate Left hand here
-                _spawnedHand = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "LeftHand"), new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z), Quaternion.Euler(0.0f, 0.0f, 0.0f));
-                Invoke("ParentHandPrefabToController", 0.1f);
-                Debug.Log("LeftHand parented to Left Controller!");
-                //Reset Position & Rotation to fit the Controller Pos & Rot
-                _spawnedHand.transform.rotation = Quaternion.Euler(0.0f, -10.0f, 90.0f);
-                _spawnedHand.transform.position = new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z);
 
-                _handAnimator = _spawnedHand.GetComponent<Animator>();
-            }
-            else if (this.gameObject.tag == "RightController")
-            {
-                //Instantiate Right hand here
-                _spawnedHand = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "RightHand"), new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z), Quaternion.Euler(0.0f, 0.0f, 0.0f));
-                Invoke("ParentHandPrefabToController", 0.1f);
-                Debug.Log("RightHand parented to Right Controller!");
-                //Reset Position & Rotation to fit the Controller Pos & Rot
-                _spawnedHand.transform.rotation = Quaternion.Euler(0.0f, 10.0f, -90.0f);
-                _spawnedHand.transform.position = new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z);
+            //if (gameObject.tag == "LeftHand")
+            //{
+            //    //Instantiate Left hand here
+            //    GameObject spawnedHand = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "LeftHand"), new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z), Quaternion.identity);
+            //    _handAnimator = spawnedHand.GetComponent<Animator>();
+            //    spawnedHand.transform.parent = this.gameObject.transform;
+            //}
+            //else if (this.gameObject.tag == "RightHand")
+            //{
+            //    //Instantiate Right hand here
+            //    GameObject spawnedHand = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "RightHand"), new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z), Quaternion.identity);
+            //    _handAnimator = spawnedHand.GetComponent<Animator>();
+            //    spawnedHand.transform.parent = this.gameObject.transform;
+            //}
 
-                _handAnimator = _spawnedHand.GetComponent<Animator>();
-            }
+            GameObject spawnedHand = Instantiate(handPrefab, transform);
+            _handAnimator = spawnedHand.GetComponent<Animator>();
+
+
         }
     }
 
-    private void ParentHandPrefabToController()
-    {
-        _spawnedHand.transform.SetParent(this.gameObject.transform);
-    }
 
     // Update is called once per frame
     private void Update()

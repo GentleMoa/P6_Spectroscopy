@@ -8,6 +8,8 @@ TagManager:
   - Teleport
   - LeftHand
   - RightHand
+  - LeftController
+  - RightController
   layers:
   - Default
   - TransparentFX
