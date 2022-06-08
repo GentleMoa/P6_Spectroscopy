@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Alex/MainMenu.unity
     guid: be368ba5808c5a140bf46e2820fcc9e3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Alex/TestGame.unity
     guid: f76d0edbf0261c941a2a1edfcfb672cb
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Felix/Scene_VR_Test.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:

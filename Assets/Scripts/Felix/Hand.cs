@@ -4,6 +4,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
+using Photon.Pun;
+using System.IO;
 
 public class Hand : MonoBehaviour
 {
@@ -35,9 +37,20 @@ public class Hand : MonoBehaviour
         {
 
             _targetDevice = devices[0];
-
-            GameObject spawnedHand = Instantiate(handPrefab, transform);
-            _handAnimator = spawnedHand.GetComponent<Animator>();
+            if (gameObject.tag == "LeftHand")
+            {
+                //Instantiate Left hand here
+                GameObject spawnedHand = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "LeftHand"), Vector3.zero, Quaternion.identity);
+                _handAnimator = spawnedHand.GetComponent<Animator>();
+                spawnedHand.transform.parent = this.gameObject.transform;
+            }
+            else if (this.gameObject.tag == "RightHand")
+            {
+                //Instantiate Right hand here
+                GameObject spawnedHand = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "RightHand"), Vector3.zero, Quaternion.identity);
+                _handAnimator = spawnedHand.GetComponent<Animator>();
+                spawnedHand.transform.parent = this.gameObject.transform;
+            }
         }
     }
 
