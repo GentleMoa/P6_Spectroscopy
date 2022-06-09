@@ -14,6 +14,7 @@ public class ComponentOverseer : MonoBehaviour
     public string Layer5;
     private int minPowerUnit = 10;
     public bool Cheking = false;
+    public bool printing;
     //public List<string> Layers = new List<string>();
     //public List<int> Components = new List<int>();
 
@@ -31,7 +32,7 @@ public class ComponentOverseer : MonoBehaviour
         }
 
     }
-    public void EnergyCheck()
+    /*public void EnergyCheck()
     {
         if (Layer0 == "Layer0" )
         {
@@ -58,17 +59,17 @@ public class ComponentOverseer : MonoBehaviour
             overallPower += minPowerUnit;
         }
 
-    }
+    }*/
     private void Update()
     {
-        Debug.Log("SolarPannel Power is - " + overallPower);
+        /*Debug.Log("SolarPannel Power is - " + overallPower);
         if (Cheking)
         {
             overallPower = 0;
             Invoke("EnergyCheck", 1f);
             Cheking = false;
 
-        }
+        }*/
 
 
     }
