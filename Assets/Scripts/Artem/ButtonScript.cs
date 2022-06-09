@@ -7,7 +7,6 @@ public class ButtonScript : MonoBehaviour
     public GameObject sollarPannel;
     public GameObject point;
     public bool buttonPressed = false;
-    //private bool spawend = false;
     Animator button_Animator;
     
     // Start is called before the first frame update

@@ -12,7 +12,7 @@ public class ComponentOverseer : MonoBehaviour
     public string Layer3;
     public string Layer4;
     public string Layer5;
-    private int minPowerUnit = 10;
+    //private int minPowerUnit = 10;
     public bool Cheking = false;
     public bool printing;
     //public List<string> Layers = new List<string>();

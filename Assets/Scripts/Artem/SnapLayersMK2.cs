@@ -15,7 +15,7 @@ public class SnapLayersMK2 : MonoBehaviour
 
     void Update()
     {
-        if (layerWriter)
+        if (layerWriter && layer != null)
         {
             if (layer.GetComponent<GrabCheck>().grabbed)
             {
