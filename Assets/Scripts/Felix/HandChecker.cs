@@ -57,18 +57,6 @@ public class HandChecker : MonoBehaviour
                 _rightController = GameObject.Find("RightHand Controller");
 
                 Invoke("HandParenting", 1.0f);
-
-                //if (_leftController != null && _rightController != null)
-                //{
-                //    _leftHand.transform.SetParent(_leftController.transform);
-                //    _rightHand.transform.SetParent(_rightController.transform);
-                //
-                //    _handsParented = true;
-                //}
-                //else
-                //{
-                //    Debug.LogWarning("VR Controllers have not been found!");
-                //}
             }
         }
     }

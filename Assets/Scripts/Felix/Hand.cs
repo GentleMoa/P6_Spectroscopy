@@ -41,8 +41,9 @@ public class Hand : MonoBehaviour
                 Invoke("ParentHandPrefabToController", 0.1f);
                 Debug.Log("LeftHand parented to Left Controller!");
                 //Reset Position & Rotation to fit the Controller Pos & Rot
-                _spawnedHand.transform.rotation = Quaternion.Euler(0.0f, -10.0f, 90.0f);
-                _spawnedHand.transform.position = new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z);
+                _spawnedHand.transform.localRotation = Quaternion.Euler(0.0f, -10.0f, 90.0f);
+                //_spawnedHand.transform.position = new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z);
+                _spawnedHand.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
 
                 _handAnimator = _spawnedHand.GetComponent<Animator>();
             }
@@ -53,8 +54,9 @@ public class Hand : MonoBehaviour
                 Invoke("ParentHandPrefabToController", 0.1f);
                 Debug.Log("RightHand parented to Right Controller!");
                 //Reset Position & Rotation to fit the Controller Pos & Rot
-                _spawnedHand.transform.rotation = Quaternion.Euler(0.0f, 10.0f, -90.0f);
-                _spawnedHand.transform.position = new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z);
+                _spawnedHand.transform.localRotation = Quaternion.Euler(0.0f, 10.0f, -90.0f);
+                //_spawnedHand.transform.position = new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z);
+                _spawnedHand.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
 
                 _handAnimator = _spawnedHand.GetComponent<Animator>();
             }
