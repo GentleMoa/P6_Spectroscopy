@@ -21,5 +21,9 @@ public class OwnershipHandler : MonoBehaviour
             //_photonView.TransferOwnership(Player requestingPlayer);
             _photonView.RequestOwnership();
         }
+        else
+        {
+            Debug.Log("No Controller touched the ball but this object did:" + collision.gameObject.name);
+        }
     }
 }
