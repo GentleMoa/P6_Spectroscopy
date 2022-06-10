@@ -8,6 +8,7 @@ public class DetectorBehaviour : MonoBehaviour
     GameObject player;
     GameObject element;
 
+    #region Variables
     // variables for the beeping of the detector
     public AudioSource audioS;
     private float slowBeepFrequ = 1f; // time the detector takes before beeping again
@@ -24,6 +25,8 @@ public class DetectorBehaviour : MonoBehaviour
 
     private GameObject spawner;
     private GameObject[] elementsRef;
+
+    #endregion
 
     void Start()
     {

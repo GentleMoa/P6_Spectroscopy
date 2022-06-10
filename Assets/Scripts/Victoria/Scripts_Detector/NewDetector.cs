@@ -53,15 +53,15 @@ public class NewDetector : MonoBehaviour
         float closestDistance = Mathf.Infinity;
         
 
-        foreach (GameObject go in elements) // loop through all elements
+        foreach (GameObject go in elements)
         {
             float currentDistance; 
-            currentDistance = Vector3.Distance(transform.position, go.transform.position); // calculate the distance between the Detector and the Elements
+            currentDistance = Vector3.Distance(transform.position, go.transform.position);
 
             if(currentDistance < closestDistance)
             {
-                closestDistance = currentDistance; // set closestDistance to the distance between Detector and Element if it's in range
-                trans = go.transform; // store the transform of the current Element
+                closestDistance = currentDistance;
+                trans = go.transform;
             }
         }
 
@@ -74,18 +74,15 @@ public class NewDetector : MonoBehaviour
 
         if ((dist <= beepDist1) && (dist >= beepDist2))
         {
-            if (waitTime <= 0) // checks if the waiting time is 0 or smaller
+            if (waitTime <= 0)
             {
-                waitTime = slowBeepFrequ; // resets the waiting time to the starting value
+                waitTime = slowBeepFrequ;
                 audioS.PlayOneShot(audioS.clip);
             }
             else
             {
                 waitTime -= Time.deltaTime;
             }
-
-            //Debug.Log("Element found!");
-
         }
         else if ((dist <= beepDist2) && (dist >= beepDist3))
         {
