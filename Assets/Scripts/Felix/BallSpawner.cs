@@ -13,10 +13,4 @@ public class BallSpawner : MonoBehaviour
         PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "Ball_2 (Kinematic)"), new Vector3(0.0f, 0.85f, -0.9f), Quaternion.identity);
         PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "Ball_3 (Velocity Tracking)"), new Vector3(0.4f, 0.85f, -0.9f), Quaternion.identity);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
