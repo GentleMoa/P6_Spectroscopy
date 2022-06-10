@@ -14,13 +14,6 @@ public class HandChecker : MonoBehaviour
     [SerializeField] private bool _rightHandFound = false;
     [SerializeField] private bool _handsParented = false;
 
-    // Start is called before the first frame update
-    //void Start()
-    //{
-    //    _leftController = GameObject.FindGameObjectWithTag("LeftController");
-    //    _rightController = GameObject.FindGameObjectWithTag("RightController");
-    //}
-
     // Update is called once per frame
     void Update()
     {
