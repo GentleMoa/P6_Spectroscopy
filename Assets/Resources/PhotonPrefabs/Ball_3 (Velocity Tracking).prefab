@@ -17,6 +17,8 @@ GameObject:
   - component: {fileID: 6005662471736330047}
   - component: {fileID: 6005662471736330046}
   - component: {fileID: -8273408882483016708}
+  - component: {fileID: 1594221218056540718}
+  - component: {fileID: 1491173823752112848}
   m_Layer: 0
   m_Name: Ball_3 (Velocity Tracking)
   m_TagString: Untagged
@@ -288,3 +290,27 @@ MonoBehaviour:
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
   m_UseLocal: 1
+--- !u!114 &1594221218056540718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6005662471736330039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d28f3ee71237eab4e85bdedfeab398a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1491173823752112848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6005662471736330039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b74d2632fa3ecf40b2a428c25c645ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

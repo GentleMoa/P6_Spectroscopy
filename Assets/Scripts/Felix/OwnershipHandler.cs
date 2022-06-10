@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
-//using System.IO;
 
 public class OwnershipHandler : MonoBehaviour
 {
