@@ -18,12 +18,15 @@ public class OwnershipHandler : MonoBehaviour
     {
         if (collision.gameObject.tag == "LeftController" || collision.gameObject.tag == "RightController")
         {
-            //_photonView.TransferOwnership(Player requestingPlayer);
+            Debug.Log("Ownership WILL be requested by: " + collision.gameObject.name);
+
             _photonView.RequestOwnership();
+
+            Debug.Log("Ownership HAS been requested by: " + collision.gameObject.name);
         }
         else
         {
-            Debug.Log("No Controller touched the ball but this object did:" + collision.gameObject.name);
+            Debug.Log("No Controller touched the ball but this object did: " + collision.gameObject.name);
         }
     }
 }

@@ -13,6 +13,7 @@ public class HandChecker : MonoBehaviour
     [SerializeField] private bool _leftHandFound = false;
     [SerializeField] private bool _rightHandFound = false;
     [SerializeField] private bool _handsParented = false;
+    [SerializeField] private bool _handsReset = false;
 
     // Update is called once per frame
     void Update()
@@ -28,7 +29,7 @@ public class HandChecker : MonoBehaviour
             }
             else if (_leftHand == null)
             {
-                Debug.Log("LeftHand Prefab has not been found yet!");
+                //Debug.Log("LeftHand Prefab has not been found yet!");
             }
 
             if (_rightHand != null)
@@ -37,7 +38,7 @@ public class HandChecker : MonoBehaviour
             }
             else if (_rightHand == null)
             {
-                Debug.Log("RightHand Prefab has not been found yet!");
+                //Debug.Log("RightHand Prefab has not been found yet!");
             }
         }
         else if (_leftHandFound == true && _rightHandFound == true && _handsParented == false)
@@ -58,10 +59,17 @@ public class HandChecker : MonoBehaviour
     {
         if (_leftController != null && _rightController != null)
         {
+            //Parenting the hand prefabs to the controllers
             _leftHand.transform.SetParent(_leftController.transform);
             _rightHand.transform.SetParent(_rightController.transform);
-
             _handsParented = true;
+
+            //resetting hands pos and rot
+            _leftHand.transform.position = new Vector3(_leftController.transform.position.x, _leftController.transform.position.y, _leftController.transform.position.z);
+            _leftHand.transform.rotation = Quaternion.Euler(0.0f, 0.0f, 0.0f);
+            _rightHand.transform.position = new Vector3(_rightController.transform.position.x, _rightController.transform.position.y, _rightController.transform.position.z);
+            _rightHand.transform.rotation = Quaternion.Euler(0.0f, 0.0f, 0.0f);
+            _handsReset = true;
         }
         else
         {

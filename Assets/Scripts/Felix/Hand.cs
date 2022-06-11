@@ -38,7 +38,7 @@ public class Hand : MonoBehaviour
             {
                 //Instantiate Left hand here
                 _spawnedHand = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "LeftHand"), new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z), Quaternion.Euler(0.0f, 0.0f, 0.0f));
-                Invoke("ParentHandPrefabToController", 0.1f);
+                Invoke("ParentLeftHandPrefabToController", 0.1f);
                 Debug.Log("LeftHand parented to Left Controller!");
                 //Reset Position & Rotation to fit the Controller Pos & Rot
                 //_spawnedHand.transform.localRotation = Quaternion.Euler(0.0f, -10.0f, 90.0f);
@@ -51,7 +51,7 @@ public class Hand : MonoBehaviour
             {
                 //Instantiate Right hand here
                 _spawnedHand = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "RightHand"), new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z), Quaternion.Euler(0.0f, 0.0f, 0.0f));
-                Invoke("ParentHandPrefabToController", 0.1f);
+                Invoke("ParentRightHandPrefabToController", 0.1f);
                 Debug.Log("RightHand parented to Right Controller!");
                 //Reset Position & Rotation to fit the Controller Pos & Rot
                 //_spawnedHand.transform.localRotation = Quaternion.Euler(0.0f, 10.0f, -90.0f);
@@ -63,11 +63,20 @@ public class Hand : MonoBehaviour
         }
     }
 
-    private void ParentHandPrefabToController()
+    private void ParentLeftHandPrefabToController()
     {
         _spawnedHand.transform.SetParent(this.gameObject.transform);
         _spawnedHand.transform.position = new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z);
-        _spawnedHand.transform.rotation = Quaternion.Euler(0.0f, 10.0f, -90.0f);
+        _spawnedHand.transform.rotation = Quaternion.Euler(0.0f, 0.0f, 0.0f);
+        //(0.0f, -10.0f, 90.0f);
+    }
+
+    private void ParentRightHandPrefabToController()
+    {
+        _spawnedHand.transform.SetParent(this.gameObject.transform);
+        _spawnedHand.transform.position = new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z);
+        _spawnedHand.transform.rotation = Quaternion.Euler(0.0f, 0.0f, 0.0f);
+        //(0.0f, 10.0f, -90.0f);
     }
 
     // Update is called once per frame

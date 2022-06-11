@@ -31,8 +31,8 @@ public class PlayerManager : MonoBehaviour
         }
         else
         {
-            //PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "VRPlayerController"), new Vector3(2, 1, 2), Quaternion.identity);
-            PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "VRPlayer_Controller_2"), new Vector3(2, 1, 2), Quaternion.identity);
+            PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "VRPlayerController"), new Vector3(0, 0, 0), Quaternion.identity);
+            //PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "VRPlayer_Controller_2"), new Vector3(2, 1, 2), Quaternion.identity);
             Debug.Log("Instantiated VrPlayer");
         }
         // Instantiate our playercontroller (VR or CAVE) + attach PhotonView to this prefab

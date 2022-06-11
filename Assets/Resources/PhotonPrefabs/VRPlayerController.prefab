@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8856398153572940917}
   - component: {fileID: 8856398153572940916}
   m_Layer: 0
-  m_Name: XR Interaction Manager
+  m_Name: XR Interaction Manager_VR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -626,7 +626,7 @@ GameObject:
   - component: {fileID: 8856398154444459818}
   - component: {fileID: 8856398154444459821}
   m_Layer: 0
-  m_Name: XR Action Input Manager
+  m_Name: XR Action Input Manager_VR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -944,9 +944,9 @@ MonoBehaviour:
   m_PlayHapticsOnSelectCanceled: 0
   m_HapticSelectCancelIntensity: 0
   m_HapticSelectCancelDuration: 0
-  m_PlayHapticsOnHoverEntered: 0
-  m_HapticHoverEnterIntensity: 0
-  m_HapticHoverEnterDuration: 0
+  m_PlayHapticsOnHoverEntered: 1
+  m_HapticHoverEnterIntensity: 0.5
+  m_HapticHoverEnterDuration: 0.5
   m_PlayHapticsOnHoverExited: 0
   m_HapticHoverExitIntensity: 0
   m_HapticHoverExitDuration: 0
@@ -1537,7 +1537,7 @@ GameObject:
   - component: {fileID: 6989282969588673912}
   m_Layer: 0
   m_Name: Camera Offset
-  m_TagString: Untagged
+  m_TagString: VRCameraOffset
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1645,7 +1645,7 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2
+  m_Height: 0.8
   m_Radius: 0.3
   m_SlopeLimit: 45
   m_StepOffset: 0.3
@@ -1723,7 +1723,7 @@ GameObject:
   - component: {fileID: 8856398155119640749}
   - component: {fileID: 8856398155119640746}
   m_Layer: 0
-  m_Name: Locomotion System
+  m_Name: Locomotion System_VR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

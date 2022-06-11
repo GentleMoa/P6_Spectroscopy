@@ -1,5 +1,58 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1728732369089012494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1079343367716123114}
+  - component: {fileID: 4910261761365515611}
+  m_Layer: 0
+  m_Name: VRUser_XRInputScriptsDisabler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1079343367716123114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728732369089012494}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8846484046984156720}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4910261761365515611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728732369089012494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a0089278d15f5f45aebd3081df6f4eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _photonView: {fileID: -6925219889120309074}
+  _vrPlayerXROrigin: {fileID: 0}
+  _vrCameraObject: {fileID: 0}
+  _leftController: {fileID: 0}
+  _rightController: {fileID: 0}
+  _locomotionSystem_VR: {fileID: 0}
+  _xrInteractionManager_VR: {fileID: 0}
+  _xrActionInputManager_VR: {fileID: 0}
+  _vrInputReader: {fileID: 0}
 --- !u!1 &2900148234312724422
 GameObject:
   m_ObjectHideFlags: 0
@@ -1076,6 +1129,7 @@ Transform:
   - {fileID: 2900148234312724416}
   - {fileID: 8846484046347050579}
   - {fileID: 6027851591486527791}
+  - {fileID: 1079343367716123114}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 132.52, z: 0}
@@ -1305,3 +1359,4 @@ MonoBehaviour:
   _leftHandFound: 0
   _rightHandFound: 0
   _handsParented: 0
+  _handsReset: 0

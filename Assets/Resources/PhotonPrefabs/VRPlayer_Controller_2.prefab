@@ -1102,6 +1102,8 @@ MonoBehaviour:
   - {fileID: 5700560355180128924}
   - {fileID: 3923065133843953650}
   - {fileID: 1830277671394693410}
+  - {fileID: 0}
+  - {fileID: 0}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -1132,7 +1134,7 @@ GameObject:
   - component: {fileID: 3923065133843953650}
   - component: {fileID: 7076558225014576570}
   m_Layer: 0
-  m_Name: Left Hand
+  m_Name: Left Hand Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1178,7 +1180,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3154980847876446920}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.1
@@ -2190,7 +2192,7 @@ GameObject:
   - component: {fileID: 1830277671394693410}
   - component: {fileID: 6484163850823175803}
   m_Layer: 0
-  m_Name: Right Hand
+  m_Name: Right Hand Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2236,7 +2238,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6959344013174748278}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.1
