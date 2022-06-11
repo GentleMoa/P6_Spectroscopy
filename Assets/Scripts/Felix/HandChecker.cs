@@ -13,7 +13,7 @@ public class HandChecker : MonoBehaviour
     [SerializeField] private bool _leftHandFound = false;
     [SerializeField] private bool _rightHandFound = false;
     [SerializeField] private bool _handsParented = false;
-    [SerializeField] private bool _handsReset = false;
+    //[SerializeField] private bool _handsReset = false;
 
     // Update is called once per frame
     void Update()
@@ -69,7 +69,7 @@ public class HandChecker : MonoBehaviour
             _leftHand.transform.rotation = Quaternion.Euler(0.0f, 0.0f, 0.0f);
             _rightHand.transform.position = new Vector3(_rightController.transform.position.x, _rightController.transform.position.y, _rightController.transform.position.z);
             _rightHand.transform.rotation = Quaternion.Euler(0.0f, 0.0f, 0.0f);
-            _handsReset = true;
+            //_handsReset = true;
         }
         else
         {

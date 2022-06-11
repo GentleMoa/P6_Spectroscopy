@@ -294,6 +294,7 @@ GameObject:
   - component: {fileID: 8856398154418496396}
   - component: {fileID: 8856398154418496398}
   - component: {fileID: 1965941272952095630}
+  - component: {fileID: 2319963696841159427}
   m_Layer: 0
   m_Name: LeftHand Controller
   m_TagString: LeftController
@@ -615,6 +616,19 @@ MonoBehaviour:
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
   m_UseLocal: 1
+--- !u!114 &2319963696841159427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8856398154418496388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c0bab9f223d16b49ba150e799f5c9c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _photonView: {fileID: 0}
 --- !u!1 &8856398154444459820
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,6 +689,7 @@ GameObject:
   - component: {fileID: 8856398154867493100}
   - component: {fileID: 8856398154867493102}
   - component: {fileID: 8807009990842846916}
+  - component: {fileID: 1945212327547881077}
   m_Layer: 0
   m_Name: RightHand Controller
   m_TagString: RightController
@@ -995,6 +1010,19 @@ MonoBehaviour:
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
   m_UseLocal: 1
+--- !u!114 &1945212327547881077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8856398154867493092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c0bab9f223d16b49ba150e799f5c9c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _photonView: {fileID: 0}
 --- !u!1 &8856398154875957042
 GameObject:
   m_ObjectHideFlags: 0
@@ -1633,7 +1661,7 @@ MonoBehaviour:
   m_OriginBaseGameObject: {fileID: 8856398155088883167}
   m_CameraFloorOffsetObject: {fileID: 8856398154913060601}
   m_RequestedTrackingOriginMode: 0
-  m_CameraYOffset: 1.1176
+  m_CameraYOffset: 0
 --- !u!143 &8856398155088883163
 CharacterController:
   m_ObjectHideFlags: 0
@@ -1665,8 +1693,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_LocomotionProvider: {fileID: 8856398155119640751}
-  m_MinHeight: 1
-  m_MaxHeight: 2
+  m_MinHeight: 0.5
+  m_MaxHeight: 0.8
 --- !u!114 &5839806453160207913
 MonoBehaviour:
   m_ObjectHideFlags: 0
