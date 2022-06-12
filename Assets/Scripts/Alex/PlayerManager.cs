@@ -26,7 +26,8 @@ public class PlayerManager : MonoBehaviour
     {
         if (PhotonNetwork.IsMasterClient)
         {
-            PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "CAVEPlayerController"), new Vector3(0, 1, 0), Quaternion.identity);
+            //PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "CAVEPlayerController"), new Vector3(0, 1, 0), Quaternion.identity);
+            PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "VRPlayerController"), new Vector3(0, 1, 0), Quaternion.identity);
             Debug.Log("Instantiated CavePlayer");
         }
         else

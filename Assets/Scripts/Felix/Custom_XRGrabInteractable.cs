@@ -15,7 +15,7 @@ namespace UnityEngine.XR.Interaction.Toolkit
     [RequireComponent(typeof(Rigidbody))]
 
     //EDITED
-    [RequireComponent(typeof(PhotonView))]
+    //[RequireComponent(typeof(PhotonView))]
     //EDITED
 
 
@@ -40,13 +40,13 @@ namespace UnityEngine.XR.Interaction.Toolkit
         const float k_DefaultThrowAngularVelocityScale = 1f;
 
         //EDITED
-        [SerializeField] private PhotonView _photonView;
-
-
-        void Start()
-        {
-            _photonView = GetComponent<PhotonView>();
-        }
+        //[SerializeField] private PhotonView _photonView;
+        //
+        //
+        //void Start()
+        //{
+        //    _photonView = GetComponent<PhotonView>();
+        //}
         //EDITED
 
 
@@ -738,9 +738,9 @@ namespace UnityEngine.XR.Interaction.Toolkit
         /// <inheritdoc />
         protected override void OnSelectEntering(SelectEnterEventArgs args)
         {
-            //EDITED
-            _photonView.RequestOwnership();
-            //EDITED
+           ////EDITED
+           //_photonView.RequestOwnership();
+           ////EDITED
             base.OnSelectEntering(args);
             Grab();
         }
