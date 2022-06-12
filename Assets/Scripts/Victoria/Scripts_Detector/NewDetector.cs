@@ -109,11 +109,11 @@ public class NewDetector : MonoBehaviour
             }
 
             // picking the up the element if the player ist close to it (replace KeyCode.Space later for VR)
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                Debug.Log("Has Collected");
-                getClosestElement().gameObject.tag = "CollectedElement"; // change the tag of the collected element so it's longer being detected by the detector
-            }
+            //if (Input.GetKeyDown(KeyCode.Space))
+            //{
+            //    Debug.Log("Has Collected");
+            //    getClosestElement().gameObject.tag = "CollectedElement"; // change the tag of the collected element so it's longer being detected by the detector
+            //}
         }
         else
         {
