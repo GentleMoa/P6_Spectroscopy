@@ -292,6 +292,7 @@ GameObject:
   - component: {fileID: 1475940122253560864}
   - component: {fileID: 1475940122253560865}
   - component: {fileID: 1475940122253560925}
+  - component: {fileID: 6117029159419151504}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -394,7 +395,22 @@ MonoBehaviour:
     type: 3}
   point: {fileID: 6702751449742538980}
   buttonPressed: 0
-  impulse: {x: 3, y: 0, z: 0}
+--- !u!54 &6117029159419151504
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475940122253560871}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1475940123556061215
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,6 +483,8 @@ GameObject:
   - component: {fileID: 1436981183812068441}
   - component: {fileID: 1475940121873029704}
   - component: {fileID: 1436981183812068440}
+  - component: {fileID: 517983443240605351}
+  - component: {fileID: 9085693393241502550}
   m_Layer: 0
   m_Name: PressNew
   m_TagString: Untagged
@@ -504,7 +522,7 @@ MeshCollider:
   m_GameObject: {fileID: 1782016331260477155}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
@@ -529,6 +547,50 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &517983443240605351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782016331260477155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents:
+  - {fileID: 9085693393241502550}
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &9085693393241502550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782016331260477155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowLayerWeightsInspector: 1
+  ShowParameterInspector: 1
+  m_SynchronizeParameters:
+  - Type: 9
+    SynchronizeType: 1
+    Name: PressProcess
+  m_SynchronizeLayers:
+  - SynchronizeType: 1
+    LayerIndex: 0
 --- !u!1 &5702248898412223957
 GameObject:
   m_ObjectHideFlags: 0

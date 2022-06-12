@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
+using System.IO;
 
 public class ButtonScript : MonoBehaviour
 {
@@ -8,6 +10,7 @@ public class ButtonScript : MonoBehaviour
     public GameObject point;
     public bool buttonPressed = false;
     Animator button_Animator;
+    //public bool printingOngoing = false;
     
     // Start is called before the first frame update
     void Start()
@@ -26,19 +29,17 @@ public class ButtonScript : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    public void Pressed()
     {
-        if (collision.gameObject.tag == "LeftHand" || collision.gameObject.tag == "RightHand")
-        {
-            Pressed();
- 
+        //if (printingOngoing == false)
+        //{
+        //    //printingOngoing = true;
+        //    button_Animator.SetTrigger("PressProcess");
+        //    ComponentOverseer.Instance.printing = true;
+        //    buttonPressed = false;
+        //}
 
-
-        }
-    }
-
-    private void Pressed()
-    {
+        //printingOngoing = true;
         button_Animator.SetTrigger("PressProcess");
         ComponentOverseer.Instance.printing = true;
         buttonPressed = false;
@@ -46,8 +47,10 @@ public class ButtonScript : MonoBehaviour
 
     private void SpawnSollarPannel()
     {
-        Instantiate(sollarPannel, point.transform.position, Quaternion.identity);
+        //Instantiate(sollarPannel, point.transform.position, Quaternion.identity);
+        PhotonNetwork.Instantiate(Path.Combine("PhotonPanels", "SolarPanelHolder"), point.transform.position, Quaternion.identity);
         ComponentOverseer.Instance.printing = false;
+        //printingOngoing = false;
     }
 
 }

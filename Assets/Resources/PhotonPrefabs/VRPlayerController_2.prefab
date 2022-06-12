@@ -1530,8 +1530,9 @@ GameObject:
   - component: {fileID: 5839806453160207913}
   - component: {fileID: 872805396812202878}
   - component: {fileID: 4714426587761553093}
+  - component: {fileID: 7307648945592142095}
   m_Layer: 0
-  m_Name: VRPlayerController
+  m_Name: VRPlayerController_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1589,7 +1590,7 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 0.55, z: 0}
 --- !u!114 &8856398155088883162
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1675,6 +1676,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _camera: {fileID: 8856398153982744089}
   _audioListener: {fileID: 8856398153982744088}
+--- !u!114 &7307648945592142095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8856398155088883167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 799f732e4b6d1f541b68416ea499d662, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8856398155119640736
 GameObject:
   m_ObjectHideFlags: 0
