@@ -764,6 +764,7 @@ GameObject:
   - component: {fileID: 5171504317588492312}
   - component: {fileID: 1002646275803252980}
   - component: {fileID: 5982554193934890467}
+  - component: {fileID: -5193691096015059163}
   m_Layer: 0
   m_Name: LeftHand
   m_TagString: LeftHand
@@ -872,6 +873,18 @@ MonoBehaviour:
   m_SynchronizeLayers:
   - SynchronizeType: 1
     LayerIndex: 0
+--- !u!114 &-5193691096015059163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6253199330027444422}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d35efbc6b1842346a4075443d6801a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7412941008282626040
 GameObject:
   m_ObjectHideFlags: 0

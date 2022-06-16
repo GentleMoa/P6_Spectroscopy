@@ -11,6 +11,13 @@ TagManager:
   - LeftController
   - RightController
   - VRCameraOffset
+  - Detector
+  - CanvasImage
+  - Element
+  - Layer
+  - Spawner
+  - VRPlayer
+  - CAVEPlayer
   layers:
   - Default
   - TransparentFX

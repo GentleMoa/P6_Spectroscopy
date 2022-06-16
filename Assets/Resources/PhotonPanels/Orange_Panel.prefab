@@ -162,6 +162,7 @@ GameObject:
   - component: {fileID: 5437018707126075935}
   - component: {fileID: 3887459065883103781}
   - component: {fileID: 1177990615188240149}
+  - component: {fileID: -2894482160442884943}
   m_Layer: 0
   m_Name: Orange_Panel
   m_TagString: Layer
@@ -295,7 +296,9 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 5437018707126075935}
+  - {fileID: 3887459065883103781}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -446,3 +449,15 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!114 &-2894482160442884943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8446273503738535995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d35efbc6b1842346a4075443d6801a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

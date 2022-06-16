@@ -162,6 +162,7 @@ GameObject:
   - component: {fileID: -7755584309965211039}
   - component: {fileID: 3173063937753961441}
   - component: {fileID: -3968335009500173487}
+  - component: {fileID: -1761463745620642261}
   m_Layer: 0
   m_Name: Purple_Panel
   m_TagString: Layer
@@ -295,7 +296,9 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: -7755584309965211039}
+  - {fileID: 3173063937753961441}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -446,3 +449,15 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!114 &-1761463745620642261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6310938668631126351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d35efbc6b1842346a4075443d6801a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

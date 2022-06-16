@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1121002186802717365}
   - component: {fileID: 5724495532303448790}
+  - component: {fileID: 6239702042642797683}
   m_Layer: 0
   m_Name: PressParent
   m_TagString: Untagged
@@ -56,6 +57,18 @@ MonoBehaviour:
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &6239702042642797683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230169888483723686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d35efbc6b1842346a4075443d6801a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3117711511602965512
 GameObject:
   m_ObjectHideFlags: 0

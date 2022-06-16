@@ -20,17 +20,17 @@ public class ElementSpawn : MonoBehaviour
 
     private void SpawnElements()
     {
-        Vector3 spawnPos = new Vector3(Random.Range(0, 20), 1.0f, Random.Range(0, 20));
+        Vector3 spawnPos = new Vector3(Random.Range(-10, 10), 1.0f, Random.Range(-10, 10));
         PhotonNetwork.Instantiate(Path.Combine("PhotonElements", "GaAs (Gallium_Arsenide)"), spawnPos, Quaternion.identity);
-        spawnPos = new Vector3(Random.Range(0, 20), 1.0f, Random.Range(0, 20));
+        spawnPos = new Vector3(Random.Range(-10, 10), 1.0f, Random.Range(-10, 10));
         PhotonNetwork.Instantiate(Path.Combine("PhotonElements", "GaInAs (Galluim_Induim_Arsenide)"), spawnPos, Quaternion.identity);
-        spawnPos = new Vector3(Random.Range(0, 20), 1.0f, Random.Range(0, 20));
+        spawnPos = new Vector3(Random.Range(-10, 10), 1.0f, Random.Range(-10, 10));
         PhotonNetwork.Instantiate(Path.Combine("PhotonElements", "GaInNAs (Galluim_Induim_Nitrogen_Arsenide)"), spawnPos, Quaternion.identity);
-        spawnPos = new Vector3(Random.Range(0, 20), 1.0f, Random.Range(0, 20));
+        spawnPos = new Vector3(Random.Range(-10, 10), 1.0f, Random.Range(-10, 10));
         PhotonNetwork.Instantiate(Path.Combine("PhotonElements", "GaInP (Galluim_Induim_Phosphate)"), spawnPos, Quaternion.identity);
-        spawnPos = new Vector3(Random.Range(0, 20), 1.0f, Random.Range(0, 20));
+        spawnPos = new Vector3(Random.Range(-10, 10), 1.0f, Random.Range(-10, 10));
         PhotonNetwork.Instantiate(Path.Combine("PhotonElements", "Ge (Germanium)"), spawnPos, Quaternion.identity);
-        spawnPos = new Vector3(Random.Range(0, 20), 1.0f, Random.Range(0, 20));
+        spawnPos = new Vector3(Random.Range(-10, 10), 1.0f, Random.Range(-10, 10));
         PhotonNetwork.Instantiate(Path.Combine("PhotonElements", "Si (Silicon)"), spawnPos, Quaternion.identity);
 
         //for(int i = 0; i < elements.Length-1; i++)
