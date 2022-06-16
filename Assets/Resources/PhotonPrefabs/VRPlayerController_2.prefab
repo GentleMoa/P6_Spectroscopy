@@ -1528,12 +1528,11 @@ GameObject:
   - component: {fileID: 8856398155088883162}
   - component: {fileID: 6979328040713396159}
   - component: {fileID: 5839806453160207913}
-  - component: {fileID: 872805396812202878}
   - component: {fileID: 4714426587761553093}
-  - component: {fileID: 7307648945592142095}
+  - component: {fileID: 7410672842829117231}
   m_Layer: 0
   m_Name: VRPlayerController_2
-  m_TagString: Untagged
+  m_TagString: VRPlayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1571,7 +1570,7 @@ MonoBehaviour:
   m_Camera: {fileID: 8856398153982744089}
   m_OriginBaseGameObject: {fileID: 8856398155088883167}
   m_CameraFloorOffsetObject: {fileID: 8856398154913060601}
-  m_RequestedTrackingOriginMode: 0
+  m_RequestedTrackingOriginMode: 2
   m_CameraYOffset: 0
 --- !u!143 &8856398155088883163
 CharacterController:
@@ -1584,13 +1583,13 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 0.8
+  m_Height: 1.2
   m_Radius: 0.3
   m_SlopeLimit: 45
-  m_StepOffset: 0.3
+  m_StepOffset: 0.001
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0.55, z: 0}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!114 &8856398155088883162
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1604,7 +1603,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_LocomotionProvider: {fileID: 8856398155119640751}
-  m_MinHeight: 0.5
+  m_MinHeight: 0
   m_MaxHeight: 0.8
 --- !u!114 &6979328040713396159
 MonoBehaviour:
@@ -1648,20 +1647,6 @@ MonoBehaviour:
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
   m_UseLocal: 1
---- !u!114 &872805396812202878
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8856398155088883167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017c5e3933235514c9520e1dace2a4b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ActionAssets:
-  - {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!114 &4714426587761553093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1676,7 +1661,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _camera: {fileID: 8856398153982744089}
   _audioListener: {fileID: 8856398153982744088}
---- !u!114 &7307648945592142095
+--- !u!114 &7410672842829117231
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1685,9 +1670,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 8856398155088883167}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 799f732e4b6d1f541b68416ea499d662, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ee7d269679c5454a8f9790b1b95926a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _vrPlayerXROrigin: {fileID: 8856398155088883164}
+  _leftHandXRController: {fileID: 8856398154418496385}
+  _rightHandXRController: {fileID: 8856398154867493089}
+  _leftHandXRInteractor: {fileID: 8856398154418496399}
+  _rightHandXRInteractor: {fileID: 8856398154867493103}
+  _teleportXRController: {fileID: 8856398154875957055}
+  _teleportXRInteractor: {fileID: 8856398154875957054}
+  _charControllerDriver: {fileID: 8856398155088883162}
+  _locomotionSystemObj: {fileID: 8856398155119640736}
+  _vrInputReaderObj: {fileID: 8856398153982500168}
+  _multiDisplayScript: {fileID: 0}
+  _projectionPlanesObj: {fileID: 0}
+  _leftHandXRController_CAVE: {fileID: 0}
+  _rightHandXRController_CAVE: {fileID: 0}
+  _leftHandXRInteractor_CAVE: {fileID: 0}
+  _rightHandXRInteractor_CAVE: {fileID: 0}
+  _locomotionSystemObj_CAVE: {fileID: 0}
+  _vrInputReaderObj_CAVE: {fileID: 0}
 --- !u!1 &8856398155119640736
 GameObject:
   m_ObjectHideFlags: 0
@@ -1702,7 +1705,7 @@ GameObject:
   - component: {fileID: 8856398155119640749}
   - component: {fileID: 8856398155119640746}
   m_Layer: 0
-  m_Name: Locomotion System_VR
+  m_Name: Locomotion System_CAVE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

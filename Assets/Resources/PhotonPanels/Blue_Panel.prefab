@@ -162,6 +162,7 @@ GameObject:
   - component: {fileID: 7432528011875388912}
   - component: {fileID: -4422752191782861282}
   - component: {fileID: -4731608818411115641}
+  - component: {fileID: -1906628992789012502}
   m_Layer: 0
   m_Name: Blue_Panel
   m_TagString: Layer
@@ -448,3 +449,15 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!114 &-1906628992789012502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4286601035727066663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d35efbc6b1842346a4075443d6801a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
