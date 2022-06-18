@@ -785,6 +785,7 @@ GameObject:
   - component: {fileID: 4064340442462345297}
   - component: {fileID: 4064340442462345296}
   - component: {fileID: 4064340442462345299}
+  - component: {fileID: 342361911663001748}
   m_Layer: 0
   m_Name: RightHand Controller
   m_TagString: RightController
@@ -1370,6 +1371,20 @@ MonoBehaviour:
   m_SnapThresholdDistance: 10
   m_Reticle: {fileID: 0}
   m_StopLineAtFirstRaycastHit: 1
+--- !u!114 &342361911663001748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4064340442462345389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0115f69143b3186418a3456c20564c46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RobotArmsActive: 0
+  _robotArmTarget: {fileID: 0}
 --- !u!1 &4064340442546298610
 GameObject:
   m_ObjectHideFlags: 0
@@ -1610,6 +1625,7 @@ GameObject:
   - component: {fileID: 4064340443240837070}
   - component: {fileID: 4064340443240837065}
   - component: {fileID: 4064340443240837064}
+  - component: {fileID: 9041302864029348657}
   m_Layer: 0
   m_Name: LeftHand Controller
   m_TagString: LeftController
@@ -2195,6 +2211,20 @@ MonoBehaviour:
   m_SnapThresholdDistance: 10
   m_Reticle: {fileID: 0}
   m_StopLineAtFirstRaycastHit: 1
+--- !u!114 &9041302864029348657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4064340443240837066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0115f69143b3186418a3456c20564c46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RobotArmsActive: 0
+  _robotArmTarget: {fileID: 0}
 --- !u!1 &4064340443294226718
 GameObject:
   m_ObjectHideFlags: 0
