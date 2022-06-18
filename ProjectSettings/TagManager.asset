@@ -18,6 +18,8 @@ TagManager:
   - Spawner
   - VRPlayer
   - CAVEPlayer
+  - RobotArmTarget_L
+  - RobotArmTarget_R
   layers:
   - Default
   - TransparentFX
