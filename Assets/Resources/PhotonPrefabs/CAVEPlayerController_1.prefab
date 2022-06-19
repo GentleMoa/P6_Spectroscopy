@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69731ae4cf816434e98b6718daa03459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ProjectionScreen: {fileID: 0}
+  ProjectionScreen: {fileID: 4064340443313451753}
   ClampNearPlane: 0
   DrawGizmos: 1
 --- !u!114 &4064340441578351942
@@ -316,13 +316,14 @@ Transform:
   m_GameObject: {fileID: 4064340441810427007}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.91, y: 0.91, z: 0.91}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4064340443437378115}
   - {fileID: 4064340443294226719}
   - {fileID: 4064340441920409555}
   - {fileID: 4087583946436402253}
+  - {fileID: 4064340442771820026}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -546,7 +547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69731ae4cf816434e98b6718daa03459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ProjectionScreen: {fileID: 0}
+  ProjectionScreen: {fileID: 4064340441807061829}
   ClampNearPlane: 0
   DrawGizmos: 1
 --- !u!114 &4064340442034700207
@@ -731,7 +732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69731ae4cf816434e98b6718daa03459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ProjectionScreen: {fileID: 0}
+  ProjectionScreen: {fileID: 4064340442170033909}
   ClampNearPlane: 0
   DrawGizmos: 1
 --- !u!114 &4064340442331158019
@@ -806,7 +807,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4064340443437378115}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4064340442462345307
 MonoBehaviour:
@@ -1384,7 +1385,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RobotArmsActive: 0
-  _robotArmTarget: {fileID: 0}
 --- !u!1 &4064340442546298610
 GameObject:
   m_ObjectHideFlags: 0
@@ -1460,7 +1460,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4064340442771820021}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.24000001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1470,8 +1470,8 @@ Transform:
   - {fileID: 4064340443358536713}
   - {fileID: 4064340442170033908}
   - {fileID: 4064340441664017132}
-  m_Father: {fileID: 4064340443437378115}
-  m_RootOrder: 6
+  m_Father: {fileID: 4064340441810427004}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4064340443003118038
 GameObject:
@@ -1571,7 +1571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69731ae4cf816434e98b6718daa03459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ProjectionScreen: {fileID: 0}
+  ProjectionScreen: {fileID: 4064340443358536718}
   ClampNearPlane: 0
   DrawGizmos: 1
 --- !u!114 &4064340443003118036
@@ -1646,7 +1646,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4064340443437378115}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4064340443240837104
 MonoBehaviour:
@@ -2224,7 +2224,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RobotArmsActive: 0
-  _robotArmTarget: {fileID: 0}
 --- !u!1 &4064340443294226718
 GameObject:
   m_ObjectHideFlags: 0
@@ -2569,7 +2568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69731ae4cf816434e98b6718daa03459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ProjectionScreen: {fileID: 0}
+  ProjectionScreen: {fileID: 4064340442546298608}
   ClampNearPlane: 0
   DrawGizmos: 1
 --- !u!114 &4064340443386765617
@@ -2630,7 +2629,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4064340443437378114}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.24, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2640,7 +2639,6 @@ Transform:
   - {fileID: 4064340443003118039}
   - {fileID: 4064340442331158018}
   - {fileID: 4064340443465579812}
-  - {fileID: 4064340442771820026}
   - {fileID: 4064340443240837067}
   - {fileID: 4064340442462345298}
   m_Father: {fileID: 4064340441810427004}
@@ -2756,7 +2754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69731ae4cf816434e98b6718daa03459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ProjectionScreen: {fileID: 0}
+  ProjectionScreen: {fileID: 4064340441664017133}
   ClampNearPlane: 0
   DrawGizmos: 1
 --- !u!114 &4064340443465579813
