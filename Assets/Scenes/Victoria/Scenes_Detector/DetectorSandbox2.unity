@@ -1176,7 +1176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 716911379}
   m_Layer: 0
-  m_Name: '- - - XR Requirements - - -'
+  m_Name: ------XR REQUIREMENTS--------------
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1207,7 +1207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 780370124}
   m_Layer: 0
-  m_Name: '- - - Game Logic - - -'
+  m_Name: ------GAME LOGIC-------------------
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1575,7 +1575,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1086302587}
   m_Layer: 0
-  m_Name: '- - - Scene Setup - - -'
+  m_Name: ------SCENE SETUP---------------
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1606,7 +1606,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1155137367}
   m_Layer: 0
-  m_Name: '- - - XR Teleport - - -'
+  m_Name: ------XR TELEPORT----------------
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2911,7 +2911,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2062608458}
   m_Layer: 0
-  m_Name: '- - - XR Interactables - - -'
+  m_Name: -----XR INTERACTABLES------------
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
