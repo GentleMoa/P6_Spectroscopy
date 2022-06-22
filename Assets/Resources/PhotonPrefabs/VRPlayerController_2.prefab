@@ -97,6 +97,57 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &6455809993508841424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6066670738404897497}
+  - component: {fileID: 757876972306567168}
+  m_Layer: 0
+  m_Name: HandChecker_OnVR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6066670738404897497
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6455809993508841424}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.90999997, y: 0.90999997, z: 0.90999997}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8856398155088883165}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &757876972306567168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6455809993508841424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f3b32d3bfa592c4998504496c5b0f3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _leftController: {fileID: 0}
+  _rightController: {fileID: 0}
+  _leftHand: {fileID: 0}
+  _rightHand: {fileID: 0}
+  _leftHandFound: 0
+  _rightHandFound: 0
+  _handsParented: 0
 --- !u!1 &8856398153982500168
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,12 +396,12 @@ GameObject:
   - component: {fileID: 8856398154418496389}
   - component: {fileID: 8856398154418496385}
   - component: {fileID: 8856398154418496399}
-  - component: {fileID: 8856398154418496396}
   - component: {fileID: 8856398154418496398}
   - component: {fileID: 1965941272952095630}
   - component: {fileID: 2319963696841159427}
+  - component: {fileID: 4065227544307993659}
   m_Layer: 0
-  m_Name: LeftHand Controller
+  m_Name: LeftHand Controller_VR
   m_TagString: LeftController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -628,19 +679,6 @@ MonoBehaviour:
   m_PlayHapticsOnHoverCanceled: 0
   m_HapticHoverCancelIntensity: 0
   m_HapticHoverCancelDuration: 0
---- !u!114 &8856398154418496396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8856398154418496388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7800e3f1423f6b54d820da2659c8e5dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inputDeviceCharacteristics: 320
 --- !u!135 &8856398154418496398
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -683,6 +721,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _photonView: {fileID: 0}
+--- !u!114 &4065227544307993659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8856398154418496388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76d137aa9a995824498b815a6e6b3b94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputDeviceCharacteristics_VR: 320
 --- !u!1 &8856398154867493092
 GameObject:
   m_ObjectHideFlags: 0
@@ -694,12 +745,12 @@ GameObject:
   - component: {fileID: 8856398154867493093}
   - component: {fileID: 8856398154867493089}
   - component: {fileID: 8856398154867493103}
-  - component: {fileID: 8856398154867493100}
   - component: {fileID: 8856398154867493102}
   - component: {fileID: 8807009990842846916}
   - component: {fileID: 1945212327547881077}
+  - component: {fileID: 4776707848479027992}
   m_Layer: 0
-  m_Name: RightHand Controller
+  m_Name: RightHand Controller_VR
   m_TagString: RightController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -976,19 +1027,6 @@ MonoBehaviour:
   m_PlayHapticsOnHoverCanceled: 0
   m_HapticHoverCancelIntensity: 0
   m_HapticHoverCancelDuration: 0
---- !u!114 &8856398154867493100
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8856398154867493092}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7800e3f1423f6b54d820da2659c8e5dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inputDeviceCharacteristics: 576
 --- !u!135 &8856398154867493102
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1031,6 +1069,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _photonView: {fileID: 0}
+--- !u!114 &4776707848479027992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8856398154867493092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76d137aa9a995824498b815a6e6b3b94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputDeviceCharacteristics_VR: 576
 --- !u!1 &8856398154875957042
 GameObject:
   m_ObjectHideFlags: 0
@@ -1650,6 +1701,7 @@ Transform:
   - {fileID: 8856398154913060550}
   - {fileID: 8856398155119640737}
   - {fileID: 8856398153982500182}
+  - {fileID: 6066670738404897497}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1803,7 +1855,7 @@ GameObject:
   - component: {fileID: 8856398155119640749}
   - component: {fileID: 8856398155119640746}
   m_Layer: 0
-  m_Name: Locomotion System_CAVE
+  m_Name: Locomotion System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

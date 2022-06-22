@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4087583946436402253}
-  - component: {fileID: 4391768711794417060}
+  - component: {fileID: 4938429635280813595}
   m_Layer: 0
-  m_Name: VRUser_HandChecker
+  m_Name: HandChecker_OnCAVE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,7 +32,7 @@ Transform:
   m_Father: {fileID: 4064340441810427004}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4391768711794417060
+--- !u!114 &4938429635280813595
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,7 +41,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2140236742668718607}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0d545296165b824da76ba37a3a1df63, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d930e2d9b8ea1744832c56cc0caea6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _leftController: {fileID: 0}
@@ -779,7 +779,6 @@ GameObject:
   - component: {fileID: 4064340442462345298}
   - component: {fileID: 4064340442462345307}
   - component: {fileID: 4064340442462345306}
-  - component: {fileID: 4064340442462345301}
   - component: {fileID: 4064340442462345300}
   - component: {fileID: 4064340442462345303}
   - component: {fileID: 4064340442462345302}
@@ -787,8 +786,9 @@ GameObject:
   - component: {fileID: 4064340442462345296}
   - component: {fileID: 4064340442462345299}
   - component: {fileID: 342361911663001748}
+  - component: {fileID: 8859070376749571919}
   m_Layer: 0
-  m_Name: RightHand Controller
+  m_Name: RightHand Controller_CAVE
   m_TagString: RightController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1094,19 +1094,6 @@ MonoBehaviour:
   m_RotateSpeed: 180
   m_TranslateSpeed: 1
   m_AnchorRotateReferenceFrame: {fileID: 0}
---- !u!114 &4064340442462345301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4064340442462345389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7800e3f1423f6b54d820da2659c8e5dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inputDeviceCharacteristics: 576
 --- !u!135 &4064340442462345300
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1385,6 +1372,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RobotArmsActive: 0
+--- !u!114 &8859070376749571919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4064340442462345389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b5319af292e7f64ea69a74e94f1f3a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputDeviceCharacteristics_CAVE: 320
 --- !u!1 &4064340442546298610
 GameObject:
   m_ObjectHideFlags: 0
@@ -1618,7 +1618,6 @@ GameObject:
   - component: {fileID: 4064340443240837067}
   - component: {fileID: 4064340443240837104}
   - component: {fileID: 4064340443240837107}
-  - component: {fileID: 4064340443240837106}
   - component: {fileID: 4064340443240837069}
   - component: {fileID: 4064340443240837068}
   - component: {fileID: 4064340443240837071}
@@ -1626,8 +1625,9 @@ GameObject:
   - component: {fileID: 4064340443240837065}
   - component: {fileID: 4064340443240837064}
   - component: {fileID: 9041302864029348657}
+  - component: {fileID: 8768588561604791770}
   m_Layer: 0
-  m_Name: LeftHand Controller
+  m_Name: LeftHand Controller_CAVE
   m_TagString: LeftController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1933,19 +1933,6 @@ MonoBehaviour:
   m_RotateSpeed: 180
   m_TranslateSpeed: 1
   m_AnchorRotateReferenceFrame: {fileID: 0}
---- !u!114 &4064340443240837106
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4064340443240837066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7800e3f1423f6b54d820da2659c8e5dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inputDeviceCharacteristics: 320
 --- !u!135 &4064340443240837069
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2224,6 +2211,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RobotArmsActive: 0
+--- !u!114 &8768588561604791770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4064340443240837066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b5319af292e7f64ea69a74e94f1f3a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputDeviceCharacteristics_CAVE: 576
 --- !u!1 &4064340443294226718
 GameObject:
   m_ObjectHideFlags: 0
@@ -2238,7 +2238,7 @@ GameObject:
   - component: {fileID: 4064340443294226717}
   - component: {fileID: 4064340443294226716}
   m_Layer: 0
-  m_Name: Locomotion System_VR
+  m_Name: Locomotion System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

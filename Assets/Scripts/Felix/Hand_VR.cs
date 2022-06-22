@@ -7,10 +7,10 @@ using UnityEngine.XR;
 using Photon.Pun;
 using System.IO;
 
-public class Hand : MonoBehaviour
+public class Hand_VR : MonoBehaviour
 {
     //Stores what kind of characteristics we're looking for with our Input Device when we search for it later
-    public InputDeviceCharacteristics inputDeviceCharacteristics;
+    public InputDeviceCharacteristics inputDeviceCharacteristics_VR;
 
     //Stores the InputDevice that we're Targeting once we find it in InitializeHand()
     private InputDevice _targetDevice;
@@ -26,7 +26,7 @@ public class Hand : MonoBehaviour
     {
         List<InputDevice> devices = new List<InputDevice>();
         //Call InputDevices to see if it can find any devices with the characteristics we're looking for
-        InputDevices.GetDevicesWithCharacteristics(inputDeviceCharacteristics, devices);
+        InputDevices.GetDevicesWithCharacteristics(inputDeviceCharacteristics_VR, devices);
 
         //Our hands might not be active and so they will not be generated from the search.
         //We check if any devices are found here to avoid errors.
@@ -37,7 +37,7 @@ public class Hand : MonoBehaviour
             if (gameObject.tag == "LeftController")
             {
                 //Instantiate Left hand here
-                _spawnedHand = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "LeftHand"), new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z), Quaternion.Euler(0.0f, 0.0f, 0.0f));
+                _spawnedHand = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "LeftHand_VR"), new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z), Quaternion.Euler(0.0f, 0.0f, 0.0f));
                 Invoke("ParentLeftHandPrefabToController", 0.1f);
                 Debug.Log("LeftHand parented to Left Controller!");
                 //Reset Position & Rotation to fit the Controller Pos & Rot
@@ -50,7 +50,7 @@ public class Hand : MonoBehaviour
             else if (this.gameObject.tag == "RightController")
             {
                 //Instantiate Right hand here
-                _spawnedHand = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "RightHand"), new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z), Quaternion.Euler(0.0f, 0.0f, 0.0f));
+                _spawnedHand = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "RightHand_VR"), new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z), Quaternion.Euler(0.0f, 0.0f, 0.0f));
                 Invoke("ParentRightHandPrefabToController", 0.1f);
                 Debug.Log("RightHand parented to Right Controller!");
                 //Reset Position & Rotation to fit the Controller Pos & Rot

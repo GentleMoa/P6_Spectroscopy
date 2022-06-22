@@ -956,8 +956,8 @@ GameObject:
   - component: {fileID: -8607269861624759583}
   - component: {fileID: 6795248656966107826}
   m_Layer: 0
-  m_Name: RightHand
-  m_TagString: RightHand
+  m_Name: RightHand_CAVE
+  m_TagString: RightHand_CAVE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 
-public class HandChecker : MonoBehaviour
+public class HandChecker_VR : MonoBehaviour
 {
     //Private Variables
     [SerializeField] private GameObject _leftController;
@@ -20,8 +20,8 @@ public class HandChecker : MonoBehaviour
     {
         if (_leftHandFound == false || _rightHandFound == false)
         {
-            _leftHand = GameObject.FindGameObjectWithTag("LeftHand");
-            _rightHand = GameObject.FindGameObjectWithTag("RightHand");
+            _leftHand = GameObject.FindGameObjectWithTag("LeftHand_CAVE");
+            _rightHand = GameObject.FindGameObjectWithTag("RightHand_CAVE");
 
             if (_leftHand != null)
             {
@@ -47,8 +47,8 @@ public class HandChecker : MonoBehaviour
             {
                 //_leftController = GameObject.FindGameObjectWithTag("LeftController");
                 //_rightController = GameObject.FindGameObjectWithTag("RightController");
-                _leftController = GameObject.Find("LeftHand Controller");
-                _rightController = GameObject.Find("RightHand Controller");
+                _leftController = GameObject.Find("LeftHand Controller_CAVE");
+                _rightController = GameObject.Find("RightHand Controller_CAVE");
 
                 Invoke("HandParenting", 1.0f);
             }

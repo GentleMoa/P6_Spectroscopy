@@ -20,6 +20,10 @@ TagManager:
   - CAVEPlayer
   - RobotArmTarget_L
   - RobotArmTarget_R
+  - LeftHand_VR
+  - RightHand_VR
+  - LeftHand_CAVE
+  - RightHand_CAVE
   layers:
   - Default
   - TransparentFX
