@@ -17,6 +17,14 @@ public class HardwareChecker : MonoBehaviour
     private CAVEPlayerSpawner _cavePlayerSpawner;
     private VRPlayerSpawner _vrPlayerSpawner;
 
+    //Reference to the inactive VR/CAVE player prefabs
+    [SerializeField] private GameObject vrPlayer;
+    [SerializeField] private GameObject cavePlayer;
+
+    //Reference to the inactive VR/CAVE UI canvas
+    [SerializeField] private GameObject canvasVR;
+    [SerializeField] private GameObject canvasCAVE;
+
     [Header("Time frame given to find a connected HMD")]
     //Time frame which is given to find the HMD
     [SerializeField] private float timeFrame = 0.8f;
@@ -90,13 +98,22 @@ public class HardwareChecker : MonoBehaviour
         if (hmdPresent == true && caveSetupPresent == false)
         {
             //Executed when the hardware checker found a HMD and less than 6 displays
-            _vrPlayerSpawner.SpawnMenuVRPlayer();
+            //_vrPlayerSpawner.SpawnMenuVRPlayer();
 
+            //Activate the corresponding player (VR)
+            vrPlayer.SetActive(true);
+            //Activate the corresponding UI (VR)
+            canvasVR.SetActive(true);
         }
         else if (hmdPresent == false && caveSetupPresent == true)
         {
             //Executed when the hardware checker found no HMD and at least 6 displays
-            _cavePlayerSpawner.SpawnMenuCAVEPlayer();
+            //_cavePlayerSpawner.SpawnMenuCAVEPlayer();
+
+            //Activate the corresponding player (CAVE)
+            cavePlayer.SetActive(true);
+            //Activate the corresponding UI (CAVE)
+            canvasCAVE.SetActive(true);
         }
     }
 
