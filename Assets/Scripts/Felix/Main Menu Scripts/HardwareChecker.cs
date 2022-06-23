@@ -17,6 +17,10 @@ public class HardwareChecker : MonoBehaviour
     private CAVEPlayerSpawner _cavePlayerSpawner;
     private VRPlayerSpawner _vrPlayerSpawner;
 
+    [Header("Time frame given to find a connected HMD")]
+    //Time frame which is given to find the HMD
+    [SerializeField] private float timeFrame = 0.8f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,10 +33,11 @@ public class HardwareChecker : MonoBehaviour
             Debug.Log("The conditional player spawner scripts have not been found!");
         }
 
-        CheckForHMD();
+        InvokeRepeating("CheckForHMD", 0.1f, 0.1f);
         CheckForCAVEsetup();
 
-        Invoke("SpawnConditionalPlayer", 0.5f);
+        Invoke("SpawnConditionalPlayer", timeFrame);
+        Invoke("StopInvokes", timeFrame);
     }
 
     private void CheckForHMD()
@@ -93,5 +98,12 @@ public class HardwareChecker : MonoBehaviour
             //Executed when the hardware checker found no HMD and at least 6 displays
             _cavePlayerSpawner.SpawnMenuCAVEPlayer();
         }
+    }
+
+    private void StopInvokes()
+    {
+        CancelInvoke();
+
+        Debug.Log("All Invokes have been stopped!");
     }
 }

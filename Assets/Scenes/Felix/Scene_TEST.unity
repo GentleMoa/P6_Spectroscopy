@@ -984,6 +984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hmdPresent: 0
   caveSetupPresent: 0
+  timeFrame: 0.6
 --- !u!114 &2046265998
 MonoBehaviour:
   m_ObjectHideFlags: 0
