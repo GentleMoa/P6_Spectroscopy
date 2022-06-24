@@ -26,8 +26,8 @@ public class NewDetector : MonoBehaviour
     private float beepDist1 = 15f, beepDist2 = 8f, beepDist3 = 2f;
 
     // variables for UI
-    public TextMeshProUGUI nameText;
-    public Image canvImg;
+    [SerializeField] private TextMeshProUGUI nameText;
+    [SerializeField] private Image canvImg;
 
     void Start()
     {
