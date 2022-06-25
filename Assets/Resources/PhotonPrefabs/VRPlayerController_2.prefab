@@ -107,7 +107,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6066670738404897497}
   - component: {fileID: 757876972306567168}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandChecker_OnVR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158,7 +158,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8856398153982500182}
   - component: {fileID: 8856398153982500169}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: VRInputReader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1622,7 +1622,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8856398154913060550}
   - component: {fileID: 6989282969588673912}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Camera Offset
   m_TagString: VRCameraOffset
   m_Icon: {fileID: 0}
@@ -1679,7 +1679,7 @@ GameObject:
   - component: {fileID: 5839806453160207913}
   - component: {fileID: 4714426587761553093}
   - component: {fileID: 7410672842829117231}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: VRPlayerController_2
   m_TagString: VRPlayer
   m_Icon: {fileID: 0}
@@ -1854,7 +1854,7 @@ GameObject:
   - component: {fileID: 8856398155119640751}
   - component: {fileID: 8856398155119640749}
   - component: {fileID: 8856398155119640746}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Locomotion System
   m_TagString: Untagged
   m_Icon: {fileID: 0}

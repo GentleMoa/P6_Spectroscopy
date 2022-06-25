@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 1183643439962273458}
   - component: {fileID: 3792663469933874307}
   - component: {fileID: 8197494226554705374}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MaterialDetector
   m_TagString: Detector
   m_Icon: {fileID: 0}
@@ -380,7 +380,7 @@ GameObject:
   - component: {fileID: 2129497472953429362}
   - component: {fileID: 2129497472953429361}
   - component: {fileID: 4469380594763935598}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Detector_Sensor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -477,7 +477,7 @@ GameObject:
   - component: {fileID: 2129497473346837023}
   - component: {fileID: 2129497473346837022}
   - component: {fileID: 2129497473346837021}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Detector_Stick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -574,7 +574,7 @@ GameObject:
   - component: {fileID: 2129497473572857139}
   - component: {fileID: 2129497473572857138}
   - component: {fileID: 2129497473572857137}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Detector_Screen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -668,7 +668,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3794739780893436631}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GrabPosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}

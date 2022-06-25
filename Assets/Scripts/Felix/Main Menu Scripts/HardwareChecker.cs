@@ -77,14 +77,14 @@ public class HardwareChecker : MonoBehaviour
     private void CheckForCAVEsetup()
     {
         //Checking the amount of connected displays ! ! ! - Only works in builds, not in the Unity Editor - ! ! !
-        if (Display.displays.Length > 5)
+        if (Display.displays.Length > 1)
         {
             Debug.Log("There are at least 6 displays connected, it is assumed that you run this build via a CAVE setup!");
 
             //Set the caveSetupPresent flag, which will be used to determine what player prefab to spawn to true
             caveSetupPresent = true;
         }
-        else if (Display.displays.Length < 5)
+        else if (Display.displays.Length < 1)
         {
             Debug.Log("Less than 6 displays are connected, it is assumed that you DO NOT run this build via a CAVE setup!");
 
