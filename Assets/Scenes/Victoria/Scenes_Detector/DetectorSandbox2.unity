@@ -393,7 +393,7 @@ GameObject:
   - component: {fileID: 189719832}
   - component: {fileID: 189719831}
   m_Layer: 6
-  m_Name: Teleportation Area
+  m_Name: TeleportationArea
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
