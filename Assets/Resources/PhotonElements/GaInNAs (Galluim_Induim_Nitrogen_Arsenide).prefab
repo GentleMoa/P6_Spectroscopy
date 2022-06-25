@@ -183,7 +183,7 @@ GameObject:
   - component: {fileID: -3004996766770817830}
   - component: {fileID: -7954880368656897116}
   - component: {fileID: -8348725528220074613}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GaInNAs (Galluim_Induim_Nitrogen_Arsenide)
   m_TagString: Element
   m_Icon: {fileID: 0}

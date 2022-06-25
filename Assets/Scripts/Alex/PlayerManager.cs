@@ -28,15 +28,11 @@ public class PlayerManager : MonoBehaviour
         {
             //CAVE Player with Vive Controllers (able to control Robot Arms)
             PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "CAVE_Player_Controllers"), new Vector3(-2.0f, 3.0f, 16.0f), Quaternion.identity * Quaternion.Euler(0.0f, 90.0f, 0.0f));
-            //Combined CAVE User with Camera Array and VR Controllers
-            //PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "CAVEPlayerController_1"), new Vector3(-2.0f, 3.0f, 16.0f), Quaternion.identity * Quaternion.Euler(0.0f, 90.0f, 0.0f));
+
             //Robot Arm Controller Test VR Player
             //PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "VRPlayerController_RobotArmTest"), new Vector3(-2.0f, 1.17f, 16.0f), Quaternion.identity);
-            //Old CAVE User prefab
-            //PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "CAVEPlayerController"), new Vector3(-2.0f, 1.17f, 16.0f), Quaternion.identity);
-            //"Fake" CAVE User prefab (VR) in Truck
-            //PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "VRPlayerController_1"), new Vector3(-2.0f, 1.17f, 16.0f)/*new Vector3(0, 1, 0)*/, Quaternion.identity);
-            //"Fake" CAVE User prefab (VR) outside
+
+            //"Fake" CAVE User prefab (VR) outside [subsitute the spawn vector with: (-2.0f, 1.17f, 16.0f) if you want the "Fake" CAVE VR player to spawn inside the truck]
             //PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "VRPlayerController_2"), new Vector3(0f, 0.5f, 0f), Quaternion.identity);
 
             Debug.Log("Instantiated CavePlayer");
@@ -45,13 +41,10 @@ public class PlayerManager : MonoBehaviour
         {
             //Correct VR Player Prefab to instantiate
             PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "VRPlayerController_2"), new Vector3(0f, 0f, 2f), Quaternion.identity);
-            //Robot Arm Controller Test VR Player
-            //PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "VRPlayerController_RobotArmTest"), new Vector3(0f, 0f, 2f), Quaternion.identity);
-            //False VR Player?
-            //PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "VRPlayer_Controller_2"), new Vector3(2, 1, 2), Quaternion.identity);
 
             Debug.Log("Instantiated VrPlayer");
         }
+
         // Instantiate our playercontroller (VR or CAVE) + attach PhotonView to this prefab
         //PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "INSERT PREFAB NAME HERE"), Vector3.zero, Quaternion.identity);
     }

@@ -1679,6 +1679,7 @@ GameObject:
   - component: {fileID: 5839806453160207913}
   - component: {fileID: 4714426587761553093}
   - component: {fileID: 7410672842829117231}
+  - component: {fileID: 5123779498226245808}
   m_Layer: 7
   m_Name: VRPlayerController_2
   m_TagString: VRPlayer
@@ -1841,6 +1842,20 @@ MonoBehaviour:
   _rightHandXRInteractor_CAVE: {fileID: 0}
   _locomotionSystemObj_CAVE: {fileID: 0}
   _vrInputReaderObj_CAVE: {fileID: 0}
+--- !u!114 &5123779498226245808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8856398155088883167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017c5e3933235514c9520e1dace2a4b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ActionAssets:
+  - {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &8856398155119640736
 GameObject:
   m_ObjectHideFlags: 0

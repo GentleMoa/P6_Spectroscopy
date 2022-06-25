@@ -183,7 +183,7 @@ GameObject:
   - component: {fileID: 5091451826491336899}
   - component: {fileID: 5868659112396249503}
   - component: {fileID: 8101537856372986417}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ge (Germanium)
   m_TagString: Element
   m_Icon: {fileID: 0}
