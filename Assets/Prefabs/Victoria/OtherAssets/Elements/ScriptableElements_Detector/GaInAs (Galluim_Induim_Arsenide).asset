@@ -16,3 +16,4 @@ MonoBehaviour:
   image: {fileID: 21300000, guid: 4b0fa232fbd42d945aa0597095620b1f, type: 3}
   absorbingWavelegth: 
   conpatibleWithElements: []
+  efficiency: 18.3

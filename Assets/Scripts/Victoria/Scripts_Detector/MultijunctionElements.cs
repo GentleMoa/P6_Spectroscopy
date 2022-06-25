@@ -13,5 +13,6 @@ public class MultijunctionElements : ScriptableObject
     public Sprite image;
     public string absorbingWavelegth;
     public string[] conpatibleWithElements;
+    public string efficiency;
 
 }
