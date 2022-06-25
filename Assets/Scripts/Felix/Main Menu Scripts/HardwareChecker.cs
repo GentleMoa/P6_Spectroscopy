@@ -13,17 +13,12 @@ public class HardwareChecker : MonoBehaviour
     //Creating a List of Input Devices to store our Input Devices in (we will only search for Input Devices with the Characteristic of "HeadMounted" to look for a HMD)
     List<InputDevice> inputDevices = new List<InputDevice>();
 
-    //References to the VR/CAVE player spawner scripts
-    private CAVEPlayerSpawner _cavePlayerSpawner;
-    private VRPlayerSpawner _vrPlayerSpawner;
-
     //Reference to the inactive VR/CAVE player prefabs
     [SerializeField] private GameObject vrPlayer;
     [SerializeField] private GameObject cavePlayer;
 
-    //Reference to the inactive VR/CAVE UI canvas
-    [SerializeField] private GameObject canvasVR;
-    [SerializeField] private GameObject canvasCAVE;
+    //Reference to the inactive XR Canvas
+    [SerializeField] private GameObject xrCanvas;
 
     [Header("Time frame given to find a connected HMD")]
     //Time frame which is given to find the HMD
@@ -32,15 +27,6 @@ public class HardwareChecker : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Find the VR/CAVE player spawner scripts
-        _cavePlayerSpawner = GameObject.FindObjectOfType<CAVEPlayerSpawner>();
-        _vrPlayerSpawner = GameObject.FindObjectOfType<VRPlayerSpawner>();
-
-        if(_cavePlayerSpawner == null || _vrPlayerSpawner == null)
-        {
-            Debug.Log("The conditional player spawner scripts have not been found!");
-        }
-
         InvokeRepeating("CheckForHMD", 0.1f, 0.1f);
         CheckForCAVEsetup();
 
@@ -97,23 +83,19 @@ public class HardwareChecker : MonoBehaviour
     {
         if (hmdPresent == true && caveSetupPresent == false)
         {
-            //Executed when the hardware checker found a HMD and less than 6 displays
-            //_vrPlayerSpawner.SpawnMenuVRPlayer();
-
             //Activate the corresponding player (VR)
             vrPlayer.SetActive(true);
-            //Activate the corresponding UI (VR)
-            canvasVR.SetActive(true);
+
+            //Activate the XR Canvas
+            xrCanvas.SetActive(true);
         }
         else if (hmdPresent == false && caveSetupPresent == true)
         {
-            //Executed when the hardware checker found no HMD and at least 6 displays
-            //_cavePlayerSpawner.SpawnMenuCAVEPlayer();
-
             //Activate the corresponding player (CAVE)
             cavePlayer.SetActive(true);
-            //Activate the corresponding UI (CAVE)
-            canvasCAVE.SetActive(true);
+
+            //Activate the XR Canvas
+            xrCanvas.SetActive(true);
         }
     }
 
