@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 565589790333483860}
   - component: {fileID: -8222504591056179630}
   - component: {fileID: -7337107266723535137}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GaInAs (Galluim_Induim_Arsenide)
   m_TagString: Element
   m_Icon: {fileID: 0}

@@ -183,7 +183,7 @@ GameObject:
   - component: {fileID: 3510270840462225570}
   - component: {fileID: -653968582360875166}
   - component: {fileID: -5255232836390938769}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GaAs (Gallium_Arsenide)
   m_TagString: Element
   m_Icon: {fileID: 0}

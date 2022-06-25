@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 6342952575850031112}
   - component: {fileID: -7646214873623538180}
   - component: {fileID: 6826495267665659828}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Si (Silicon)
   m_TagString: Element
   m_Icon: {fileID: 0}

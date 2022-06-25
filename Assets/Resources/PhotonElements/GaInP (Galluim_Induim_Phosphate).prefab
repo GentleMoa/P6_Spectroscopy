@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 8824304107314315563}
   - component: {fileID: 2708723412951278938}
   - component: {fileID: 1659305364727393753}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GaInP (Galluim_Induim_Phosphate)
   m_TagString: Element
   m_Icon: {fileID: 0}
