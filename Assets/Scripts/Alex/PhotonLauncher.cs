@@ -14,7 +14,7 @@ public class PhotonLauncher : MonoBehaviourPunCallbacks
 {
     public static PhotonLauncher Instance;
 
-
+    [SerializeField] HardwareChecker hardwareChecker;
     [SerializeField] TMP_InputField roomNameInputField;
     [SerializeField] TMP_Text errorText;
     [SerializeField] TMP_Text roomNameText;
@@ -50,24 +50,30 @@ public class PhotonLauncher : MonoBehaviourPunCallbacks
         Debug.Log("Joined Lobby.");
         MenuManager.Instance.OpenMenu("title");
 
-        if (PhotonNetwork.IsMasterClient)
+        if (hardwareChecker.hmdPresent == true)
         {
-            PhotonNetwork.NickName = "CAVE Player " + Random.Range(0, 1000).ToString("0000");
+            //Activate the corresponding player (VR)
+            PhotonNetwork.NickName = "VR Player " + Random.Range(0, 1000).ToString("0000");
         }
-        else
+        else if (hardwareChecker.hmdPresent == false)
         {
-            PhotonNetwork.NickName = "Player " + Random.Range(0, 1000).ToString("0000");
+            //Activate the corresponding player (CAVE)
+            PhotonNetwork.NickName = "CAVE Player " + Random.Range(0, 1000).ToString("0000");
         }
     }
 
     public void CreateRoom()
     {
         // making sure a Room Name is entered, or return
-        if (string.IsNullOrEmpty(roomNameInputField.text))
-        {
-            return;
-        }
-        PhotonNetwork.CreateRoom(roomNameInputField.text);
+        //if (string.IsNullOrEmpty(roomNameInputField.text))
+        //{
+        //    return;
+        //}
+        //PhotonNetwork.CreateRoom(roomNameInputField.text);
+        //MenuManager.Instance.OpenMenu("loading");
+
+        // creating room with random number as a name (instead of using the InputField)
+        PhotonNetwork.CreateRoom(Random.Range(0, 1000).ToString("0000"));
         MenuManager.Instance.OpenMenu("loading");
     }
 

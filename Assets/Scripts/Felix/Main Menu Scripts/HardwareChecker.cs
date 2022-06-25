@@ -7,8 +7,8 @@ using UnityEngine.XR;
 public class HardwareChecker : MonoBehaviour
 {
     //Our main flags to tell us if we have HMD or CAVE harware connected
-    [SerializeField] private bool hmdPresent = false;
-    [SerializeField] private bool caveSetupPresent = false;
+    [SerializeField] public bool hmdPresent = false;
+    [SerializeField] public bool caveSetupPresent = false;
 
     //Creating a List of Input Devices to store our Input Devices in (we will only search for Input Devices with the Characteristic of "HeadMounted" to look for a HMD)
     List<InputDevice> inputDevices = new List<InputDevice>();
@@ -34,7 +34,7 @@ public class HardwareChecker : MonoBehaviour
         Invoke("StopInvokes", timeFrame);
     }
 
-    private void CheckForHMD()
+    public void CheckForHMD()
     {
         //Fill the list with all devices found that match the characteristic of "HeadMounted" (usually only HMDs)
         InputDevices.GetDevicesWithCharacteristics(InputDeviceCharacteristics.HeadMounted, inputDevices);
@@ -60,7 +60,7 @@ public class HardwareChecker : MonoBehaviour
         }
     }
 
-    private void CheckForCAVEsetup()
+    public void CheckForCAVEsetup()
     {
         //Checking the amount of connected displays ! ! ! - Only works in builds, not in the Unity Editor - ! ! !
         if (Display.displays.Length > 1)
