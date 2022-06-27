@@ -50,12 +50,12 @@ public class PhotonLauncher : MonoBehaviourPunCallbacks
         Debug.Log("Joined Lobby.");
         MenuManager.Instance.OpenMenu("title");
 
-        if (hardwareChecker.hmdPresent == true)
+        if (hardwareChecker.caveSetupPresent == false)
         {
             //Activate the corresponding player (VR)
             PhotonNetwork.NickName = "VR Player " + Random.Range(0, 1000).ToString("0000");
         }
-        else if (hardwareChecker.hmdPresent == false)
+        else if (hardwareChecker.caveSetupPresent == true)
         {
             //Activate the corresponding player (CAVE)
             PhotonNetwork.NickName = "CAVE Player " + Random.Range(0, 1000).ToString("0000");

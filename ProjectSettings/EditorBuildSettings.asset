@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Alex/MainMenu.unity
     guid: be368ba5808c5a140bf46e2820fcc9e3
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Felix/Scene_TEST.unity
     guid: a09d1146bc5cb4d448dfef47008f57bb
   - enabled: 1

@@ -63,14 +63,14 @@ public class HardwareChecker : MonoBehaviour
     public void CheckForCAVEsetup()
     {
         //Checking the amount of connected displays ! ! ! - Only works in builds, not in the Unity Editor - ! ! !
-        if (Display.displays.Length > 1)
+        if (Display.displays.Length > 5)
         {
             Debug.Log("There are at least 6 displays connected, it is assumed that you run this build via a CAVE setup!");
 
             //Set the caveSetupPresent flag, which will be used to determine what player prefab to spawn to true
             caveSetupPresent = true;
         }
-        else if (Display.displays.Length < 1)
+        else if (Display.displays.Length < 5)
         {
             Debug.Log("Less than 6 displays are connected, it is assumed that you DO NOT run this build via a CAVE setup!");
 
@@ -81,15 +81,15 @@ public class HardwareChecker : MonoBehaviour
 
     private void SpawnConditionalPlayer()
     {
-        if (hmdPresent == true && caveSetupPresent == false)
+        if (/*hmdPresent == true && */caveSetupPresent == false)
         {
             //Activate the corresponding player (VR)
             vrPlayer.SetActive(true);
-
+        
             //Activate the XR Canvas
             xrCanvas.SetActive(true);
         }
-        else if (hmdPresent == false && caveSetupPresent == true)
+        else if (/*hmdPresent == false && */caveSetupPresent == true)
         {
             //Activate the corresponding player (CAVE)
             cavePlayer.SetActive(true);
