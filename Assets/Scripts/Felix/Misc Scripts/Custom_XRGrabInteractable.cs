@@ -1,3 +1,9 @@
+//---------------------------------------------------------------------------------------------------------------//
+//------- Felix Venne - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 28.06.2022 --------//
+//---------------------------------------------------------------------------------------------------------------//
+
+//edited XRGrabInteractable Script from the UnityEngine.XR.Interaction.Toolkit
+
 using System;
 using UnityEngine.Serialization;
 using Photon.Pun;

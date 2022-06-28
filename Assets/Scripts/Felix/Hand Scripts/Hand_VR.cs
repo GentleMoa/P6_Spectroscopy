@@ -1,3 +1,7 @@
+//---------------------------------------------------------------------------------------------------------------//
+//------- Felix Venne - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 28.06.2022 --------//
+//---------------------------------------------------------------------------------------------------------------//
+
 //Credit: "Fist Full of Shrimp" on Youtube: https://www.youtube.com/watch?v=qQqNQ4y-cU8&list=PLZxzW13nmdJE_HAMQEqTNk3BgYjedyfUX&index=3&t=31s, accessed 03.06.2022
 
 using System.Collections;

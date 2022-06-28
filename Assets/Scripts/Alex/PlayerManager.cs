@@ -29,9 +29,6 @@ public class PlayerManager : MonoBehaviour
             //CAVE Player with Vive Controllers (able to control Robot Arms)
             PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "CAVE_Player_Controllers"), new Vector3(-2.0f, 3.0f, 16.0f), Quaternion.identity * Quaternion.Euler(0.0f, 90.0f, 0.0f));
 
-            //Robot Arm Controller Test VR Player
-            //PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "VRPlayerController_RobotArmTest"), new Vector3(-2.0f, 1.17f, 16.0f), Quaternion.identity);
-
             //"Fake" CAVE User prefab (VR) outside [subsitute the spawn vector with: (-2.0f, 1.17f, 16.0f) if you want the "Fake" CAVE VR player to spawn inside the truck]
             //PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "VRPlayerController_2"), new Vector3(0f, 0.5f, 0f), Quaternion.identity);
 
