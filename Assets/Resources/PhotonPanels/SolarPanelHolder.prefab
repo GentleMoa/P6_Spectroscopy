@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 4021179919019782211}
   - component: {fileID: 2388576470706159753}
   - component: {fileID: 199044128537100263}
-  - component: {fileID: 1469631454291446951}
+  - component: {fileID: 7410504856226425151}
   m_Layer: 0
   m_Name: SolarPanel
   m_TagString: Untagged
@@ -149,7 +149,7 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 3
-  OwnershipTransfer: 0
+  OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
   - {fileID: 2388576470706159753}
@@ -189,7 +189,7 @@ MonoBehaviour:
   m_SynchronizeAngularVelocity: 0
   m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
---- !u!114 &1469631454291446951
+--- !u!114 &7410504856226425151
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -198,7 +198,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5571453427513352377}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8586d37b8144f4a46b4279fc9eec8090, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
@@ -396,7 +396,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 987130060055792838}
-  - component: {fileID: 799108249654761634}
   m_Layer: 0
   m_Name: SolarPanelHolder
   m_TagString: Untagged
@@ -420,15 +419,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &799108249654761634
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7360744723891106552}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d35efbc6b1842346a4075443d6801a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

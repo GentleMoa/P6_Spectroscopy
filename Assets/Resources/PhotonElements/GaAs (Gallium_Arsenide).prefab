@@ -181,8 +181,7 @@ GameObject:
   - component: {fileID: -4668566065368020281}
   - component: {fileID: 457361091058018471}
   - component: {fileID: 3510270840462225570}
-  - component: {fileID: -653968582360875166}
-  - component: {fileID: -5255232836390938769}
+  - component: {fileID: 4458671657382187674}
   m_Layer: 7
   m_Name: GaAs (Gallium_Arsenide)
   m_TagString: Element
@@ -306,7 +305,7 @@ MonoBehaviour:
   m_SynchronizeAngularVelocity: 0
   m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
---- !u!114 &-653968582360875166
+--- !u!114 &4458671657382187674
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -315,7 +314,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3671369985056224184}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8586d37b8144f4a46b4279fc9eec8090, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
@@ -421,18 +420,6 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
---- !u!114 &-5255232836390938769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3671369985056224184}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d35efbc6b1842346a4075443d6801a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3671369986037664998
 GameObject:
   m_ObjectHideFlags: 0

@@ -100,8 +100,7 @@ GameObject:
   - component: {fileID: -5961279801564488926}
   - component: {fileID: 6993355814390203320}
   - component: {fileID: 6342952575850031112}
-  - component: {fileID: -7646214873623538180}
-  - component: {fileID: 6826495267665659828}
+  - component: {fileID: 7481623867955076598}
   m_Layer: 7
   m_Name: Si (Silicon)
   m_TagString: Element
@@ -274,7 +273,7 @@ MonoBehaviour:
   m_SynchronizeAngularVelocity: 0
   m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
---- !u!114 &-7646214873623538180
+--- !u!114 &7481623867955076598
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -283,7 +282,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5230726298113742696}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8586d37b8144f4a46b4279fc9eec8090, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
@@ -389,18 +388,6 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
---- !u!114 &6826495267665659828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5230726298113742696}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d35efbc6b1842346a4075443d6801a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5230726298294004624
 GameObject:
   m_ObjectHideFlags: 0

@@ -17,7 +17,6 @@ GameObject:
   - component: {fileID: 2535953740738160589}
   - component: {fileID: 2535953740738160588}
   - component: {fileID: -8835721578941955174}
-  - component: {fileID: -1988047546954529551}
   m_Layer: 0
   m_Name: Ball_2 (Kinematic)
   m_TagString: Untagged
@@ -290,15 +289,3 @@ MonoBehaviour:
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
   m_UseLocal: 1
---- !u!114 &-1988047546954529551
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2535953740738160565}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d35efbc6b1842346a4075443d6801a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

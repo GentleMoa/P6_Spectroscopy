@@ -181,8 +181,7 @@ GameObject:
   - component: {fileID: 3937231097616543263}
   - component: {fileID: 4860172658345288118}
   - component: {fileID: 5091451826491336899}
-  - component: {fileID: 5868659112396249503}
-  - component: {fileID: 8101537856372986417}
+  - component: {fileID: 1674031938194088887}
   m_Layer: 7
   m_Name: Ge (Germanium)
   m_TagString: Element
@@ -305,7 +304,7 @@ MonoBehaviour:
   m_SynchronizeAngularVelocity: 0
   m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
---- !u!114 &5868659112396249503
+--- !u!114 &1674031938194088887
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -314,7 +313,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6494867074676084268}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8586d37b8144f4a46b4279fc9eec8090, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
@@ -420,15 +419,3 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
---- !u!114 &8101537856372986417
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6494867074676084268}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d35efbc6b1842346a4075443d6801a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

@@ -17,7 +17,6 @@ GameObject:
   - component: {fileID: 3001117911074858167}
   - component: {fileID: 1183643439962273458}
   - component: {fileID: 3792663469933874307}
-  - component: {fileID: 8197494226554705374}
   m_Layer: 7
   m_Name: MaterialDetector
   m_TagString: Detector
@@ -198,9 +197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
-  m_Colliders:
-  - {fileID: 2129497473346837021}
-  - {fileID: 4469380594763935598}
+  m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -358,18 +355,6 @@ MonoBehaviour:
   m_SynchronizeAngularVelocity: 1
   m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
---- !u!114 &8197494226554705374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2129497471937237259}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d35efbc6b1842346a4075443d6801a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2129497472953429366
 GameObject:
   m_ObjectHideFlags: 0

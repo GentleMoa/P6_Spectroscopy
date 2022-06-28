@@ -21,9 +21,13 @@ public class Controller_OwnershipHandler : MonoBehaviour
             _photonView.RequestOwnership();
             Debug.Log(other.gameObject.name + " has been touched and owned by: " + this.gameObject.name);
         }
-        else
+        else if (other.gameObject.GetComponent<PhotonView>() == null)
         {
-            Debug.Log("The touched object does not have a 'PhotonView' Component!");
+            Debug.Log(other.gameObject.name + " does not have a 'PhotonView' component!");
+        }
+        else if (other.gameObject.GetComponent<XRGrabInteractable>() == null)
+        {
+            Debug.Log(other.gameObject.name + " does not have a 'XRGrabInteractable' component!");
         }
     }
 }
