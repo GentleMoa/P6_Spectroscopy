@@ -22,9 +22,10 @@ public class ConverterBehaviour : MonoBehaviour
 
             if (PhotonNetwork.IsMasterClient){
 
-                PhotonNetwork.Instantiate(Path.Combine("PhotonPanels", layer), transform.position, Quaternion.identity);
-                PhotonNetwork.Destroy(other.gameObject);
-            }  
+                PhotonNetwork.Instantiate(Path.Combine("PhotonPanels", layer), transform.position, Quaternion.identity);               
+            }
+
+            Destroy(other.gameObject);
         }
     }
 }
