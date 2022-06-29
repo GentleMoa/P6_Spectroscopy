@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 19
+  controlID: 112
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 76
+  controlID: 98
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 77
+  controlID: 99
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -272,8 +272,8 @@ MonoBehaviour:
     y: 0
     width: 545
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -449,23 +449,23 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 7a19fdff1429fdffa238fdff163cfdffd43cfdffc040fdffe241fdff2c53fdffae56fdff6c57fdff585bfdff7a5cfdff5465fdff6e69fdff5a96fdffca04feff8805feff7209feff940afeff4c16feff9a23feff4e27feff0c28fefffe2bfeff282dfeff2230feffc038feff7846feff3647feff284bfeff524cfeff9a4ffeff6261feff066bfeff6c6efeff2a6ffeff1c73feff4674feff4478feff4289fefff892feff7896feff3697feff1e9bfeff489cfeff409ffeff3eb2fefff6cffeff28fdfeffe6fdfeffd801ffff0203ffffee0effff4e15ffff8c18ffffa41affff001cfffffe1dffff1425ffff8626ffff9228ffff7e29fffff62bffff902dffffb62fffff2831ffffcc33ffffee34ffff8c36ffffbc38ffffd83dffff2e4dffffd85affffc48affffee91ffff0694ffffdc94ffffc295ffffaa96ffff009dffff1ebfffff8ec0ffffdedbffff24fbffff42e400003cfd000030120100
+      m_ExpandedIDs: ba5cfeff9660feff5461feff4465feff6666feffca80feff6c85feff7a8bfeff3e8cfeffe08ffeff1891feffda9ffeffe023fffff423ffff5825ffffe431ffffa232ffff6a36ffff8c37ffffe23affff6057ffff1276ffffde79ffff9c7affff827effffa47fffff9683ffffce87ffff32c6ffff7ec7ffff84c7ffff98c7fffffcc8ffff10d6ffff8ed9ffff4cdaffff3adeffff5cdfffff22e9ffff2eedffff24fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Canvas
+        m_OriginalName: Canvas
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 66616
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 9}
+        m_ClientGUIView: {fileID: 8}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -710,9 +710,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.6232952, y: 1.6060115, z: 3.2071464}
+    m_Target: {x: 537, y: 312, z: 0}
     speed: 2
-    m_Value: {x: -1.6232952, y: 1.6060115, z: 3.2071464}
+    m_Value: {x: 537, y: 312, z: 0.000009867534}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -759,13 +759,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.11694739, y: -0.36312035, z: 0.046000574, w: -0.9232433}
+    m_Target: {x: -0.1283142, y: -0.07138751, z: 0.009235955, w: -0.98913723}
     speed: 2
-    m_Value: {x: -0.11556083, y: -0.363184, z: 0.0454552, w: -0.9234051}
+    m_Value: {x: -0.12970592, y: -0.08026951, z: 0.010510618, w: -0.98824227}
   m_Size:
-    m_Target: 0.10539918
+    m_Target: 621.058
     speed: 2
-    m_Value: 0.105399266
+    m_Value: 621.0579
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -996,22 +996,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/Victoria/Scenes_Detector
+    - Assets/Scenes/Alex
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 65
   m_LastFolders:
-  - Assets/Scenes/Victoria/Scenes_Detector
+  - Assets/Scenes/Alex
   m_LastFoldersGridSize: 65
   m_LastProjectPath: G:\Felix\Documents\Unity Projects\ExpandedRealities\S6\P6_Spectroscopy\P6_Spectroscopy
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 112}
-    m_SelectedIDs: 887c0000
-    m_LastClickedID: 31880
-    m_ExpandedIDs: 00000000c0750000c2750000c4750000c6750000c8750000ca750000e0750000e4750000e6750000767900006e7c000000ca9a3b
+    scrollPos: {x: 0, y: 32}
+    m_SelectedIDs: a67a0000
+    m_LastClickedID: 31398
+    m_ExpandedIDs: 000000006a7a00006c7a00006e7a0000707a0000727a0000747a0000767a0000787a00008a7a00008e7a0000907a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1039,7 +1039,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c0750000c2750000c4750000c6750000c8750000ca750000
+    m_ExpandedIDs: 000000006a7a00006c7a00006e7a0000707a0000727a0000747a0000767a0000787a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1066,7 +1066,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000006890000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

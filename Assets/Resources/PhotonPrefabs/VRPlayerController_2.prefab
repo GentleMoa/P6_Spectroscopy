@@ -398,7 +398,6 @@ GameObject:
   - component: {fileID: 8856398154418496399}
   - component: {fileID: 8856398154418496398}
   - component: {fileID: 1965941272952095630}
-  - component: {fileID: 2319963696841159427}
   - component: {fileID: 4065227544307993659}
   m_Layer: 0
   m_Name: LeftHand Controller_VR
@@ -708,19 +707,6 @@ MonoBehaviour:
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
   m_UseLocal: 1
---- !u!114 &2319963696841159427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8856398154418496388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c0bab9f223d16b49ba150e799f5c9c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _photonView: {fileID: 0}
 --- !u!114 &4065227544307993659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -747,7 +733,6 @@ GameObject:
   - component: {fileID: 8856398154867493103}
   - component: {fileID: 8856398154867493102}
   - component: {fileID: 8807009990842846916}
-  - component: {fileID: 1945212327547881077}
   - component: {fileID: 4776707848479027992}
   m_Layer: 0
   m_Name: RightHand Controller_VR
@@ -1056,19 +1041,6 @@ MonoBehaviour:
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
   m_UseLocal: 1
---- !u!114 &1945212327547881077
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8856398154867493092}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c0bab9f223d16b49ba150e799f5c9c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _photonView: {fileID: 0}
 --- !u!114 &4776707848479027992
 MonoBehaviour:
   m_ObjectHideFlags: 0

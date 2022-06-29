@@ -101,6 +101,7 @@ GameObject:
   - component: {fileID: -3507970747521620699}
   - component: {fileID: 565589790333483860}
   - component: {fileID: 981352346238435248}
+  - component: {fileID: -6293295705360980095}
   m_Layer: 7
   m_Name: GaInAs (Galluim_Induim_Arsenide)
   m_TagString: Element
@@ -233,7 +234,7 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 3
-  OwnershipTransfer: 0
+  OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
   - {fileID: -3507970747521620699}
@@ -314,7 +315,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -6293295705360980095}
+        m_TargetAssemblyTypeName: ObjectOwnershipTransferOnGrab, Assembly-CSharp
+        m_MethodName: ObjectOwnershipTransfer
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: -2106928038392600974}
+          m_ObjectArgumentAssemblyTypeName: Photon.Pun.PhotonView, PhotonUnityNetworking
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -388,6 +401,18 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!114 &-6293295705360980095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412443527841837708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 989681bf60bcbd641bf50952f65c5604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1412443528391496918
 GameObject:
   m_ObjectHideFlags: 0
