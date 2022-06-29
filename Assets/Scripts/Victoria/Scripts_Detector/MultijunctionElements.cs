@@ -14,5 +14,6 @@ public class MultijunctionElements : ScriptableObject
     public string absorbingWavelegth;
     public string[] conpatibleWithElements;
     public string efficiency;
+    public GameObject layer;
 
 }

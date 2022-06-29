@@ -17,3 +17,4 @@ MonoBehaviour:
   absorbingWavelegth: 
   conpatibleWithElements: []
   efficiency: 10
+  layer: {fileID: 3119451604655524663, guid: 89f9b4883ef4a0d45b51fea0001635ae, type: 3}
