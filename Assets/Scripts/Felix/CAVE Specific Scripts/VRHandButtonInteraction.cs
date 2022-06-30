@@ -14,18 +14,18 @@ public class VRHandButtonInteraction : MonoBehaviour
     {
         _buttonScript = other.gameObject.GetComponent<ButtonScript>();
 
-        Debug.Log(other.gameObject.name);
+        //Debug.Log(other.gameObject.name);
 
         if(other.gameObject.GetComponent<ButtonScript>() != null)
         {
-            Debug.Log("Button Script has been found!");
+            //Debug.Log("Button Script has been found!");
             _buttonScript.Pressed();
             _buttonScript.buttonPressed = true;
             //_buttonScript.printingOngoing = true;
         }
         else
         {
-            Debug.Log("No Button script has been found!");
+            //Debug.Log("No Button script has been found!");
         }
     }
 }

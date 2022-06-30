@@ -850,7 +850,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0115f69143b3186418a3456c20564c46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RobotArmsActive: 0
+  _robotArmsActive: 0
+  _restPos: {x: 0, y: 0, z: 0}
+  _lastActivePos: {x: 0, y: 0, z: 0}
+  restPosDefined: 0
+  _lerpValue: 0
+  lerpDuration: 1.5
 --- !u!114 &3247675498426231094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1491,7 +1496,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0115f69143b3186418a3456c20564c46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RobotArmsActive: 0
+  _robotArmsActive: 0
+  _restPos: {x: 0, y: 0, z: 0}
+  _lastActivePos: {x: 0, y: 0, z: 0}
+  restPosDefined: 0
+  _lerpValue: 0
+  lerpDuration: 1.5
 --- !u!114 &8353425052186163829
 MonoBehaviour:
   m_ObjectHideFlags: 0

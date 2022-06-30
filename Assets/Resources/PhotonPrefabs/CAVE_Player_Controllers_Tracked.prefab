@@ -1734,7 +1734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0115f69143b3186418a3456c20564c46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RobotArmsActive: 0
+  _robotArmsActive: 0
 --- !u!114 &3925872870956251200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2375,7 +2375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0115f69143b3186418a3456c20564c46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RobotArmsActive: 0
+  _robotArmsActive: 0
 --- !u!114 &3835507586873518805
 MonoBehaviour:
   m_ObjectHideFlags: 0
