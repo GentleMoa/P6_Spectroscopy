@@ -1082,17 +1082,17 @@ PrefabInstance:
     - target: {fileID: 2857390094721966707, guid: 5dd2b8b83eb1c0d4cb4064f84bb6c325,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.0042045
+      value: 0.0037956964
       objectReference: {fileID: 0}
     - target: {fileID: 2857390094721966707, guid: 5dd2b8b83eb1c0d4cb4064f84bb6c325,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.0042045
+      value: 0.0037956964
       objectReference: {fileID: 0}
     - target: {fileID: 2857390094721966707, guid: 5dd2b8b83eb1c0d4cb4064f84bb6c325,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.0042045
+      value: 0.0037956964
       objectReference: {fileID: 0}
     - target: {fileID: 2857390094721966707, guid: 5dd2b8b83eb1c0d4cb4064f84bb6c325,
         type: 3}
@@ -1107,7 +1107,7 @@ PrefabInstance:
     - target: {fileID: 2857390094721966707, guid: 5dd2b8b83eb1c0d4cb4064f84bb6c325,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.163
+      value: 3.66
       objectReference: {fileID: 0}
     - target: {fileID: 2857390094721966707, guid: 5dd2b8b83eb1c0d4cb4064f84bb6c325,
         type: 3}
@@ -1137,7 +1137,7 @@ PrefabInstance:
     - target: {fileID: 2857390094721966707, guid: 5dd2b8b83eb1c0d4cb4064f84bb6c325,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1.699
+      value: 2.03
       objectReference: {fileID: 0}
     - target: {fileID: 2857390094721966707, guid: 5dd2b8b83eb1c0d4cb4064f84bb6c325,
         type: 3}
@@ -2189,7 +2189,7 @@ GameObject:
   - component: {fileID: 6902679090432245140}
   m_Layer: 0
   m_Name: TM Cam
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -16,6 +16,7 @@ MonoBehaviour:
   - {fileID: -8951632623357103485}
   - {fileID: 3727609629388519412}
   - {fileID: 6125696166174548905}
+  - {fileID: 7629922044301838927}
   - {fileID: 397380081542152568}
   - {fileID: 8961153248688617807}
   - {fileID: -3196992635922858271}
@@ -320,6 +321,7 @@ MonoBehaviour:
   - {fileID: -5080138358718396561}
   - {fileID: -7792054834626707744}
   - {fileID: 6730604962382496057}
+  - {fileID: 2096167320221757782}
   - {fileID: -5972685126940900089}
   - {fileID: 1098990178505416125}
   - {fileID: 7175972995224107406}
@@ -464,6 +466,26 @@ MonoBehaviour:
   featureIdInternal: com.unity.openxr.feature.input.oculustouch
   openxrExtensionStrings: 
   company: Unity
+  priority: 0
+  required: 0
+--- !u!114 &2096167320221757782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 933faea0a18c5904696ea6a324ca6c7d, type: 3}
+  m_Name: HTCViveTrackerProfile WSA
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: HTC Vive Tracker Profile
+  version: 0.0.1
+  featureIdInternal: com.massive.openxr.feature.input.htcvivetracker
+  openxrExtensionStrings: XR_HTCX_vive_tracker_interaction
+  company: MASSIVE
   priority: 0
   required: 0
 --- !u!114 &3316404155397388656
@@ -751,6 +773,26 @@ MonoBehaviour:
   required: 0
   cacheSize: 1048576
   perThreadCacheSize: 51200
+--- !u!114 &7629922044301838927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 933faea0a18c5904696ea6a324ca6c7d, type: 3}
+  m_Name: HTCViveTrackerProfile Standalone
+  m_EditorClassIdentifier: 
+  m_enabled: 1
+  nameUi: HTC Vive Tracker Profile
+  version: 0.0.1
+  featureIdInternal: com.massive.openxr.feature.input.htcvivetracker
+  openxrExtensionStrings: XR_HTCX_vive_tracker_interaction
+  company: MASSIVE
+  priority: 0
+  required: 0
 --- !u!114 &8541979425278197489
 MonoBehaviour:
   m_ObjectHideFlags: 0
