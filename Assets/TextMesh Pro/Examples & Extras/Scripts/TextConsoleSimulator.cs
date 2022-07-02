@@ -8,6 +8,7 @@ namespace TMPro.Examples
     {
         private TMP_Text m_TextComponent;
         private bool hasTextChanged;
+        public float speed = 0.1f;
 
         void Awake()
         {
@@ -72,7 +73,7 @@ namespace TMPro.Examples
 
                 visibleCount += 1;
 
-                yield return null;
+                yield return new WaitForSeconds(speed);
             }
         }
 
