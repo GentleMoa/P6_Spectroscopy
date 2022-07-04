@@ -5,44 +5,42 @@ using Photon.Pun;
 using System.IO;
 
 // ------- SCRIPT BY VICTORIA AMELUNXEN ------- //
-//  This script has the purpose of spawning the Element-Prefabs contained in an array at a random position   //
-//  on the terrain using a for-loop.                                                                         //
+//  This script has the purpose of spawning the Element-Prefabs, contained in an array, at a random position   //
+//  on the terrain using a for-loop. It also spawns Rock-Prefabs on fixed positions across the terrain.        //
 
 public class ElementSpawn : MonoBehaviour
 {
     public GameObject[] elements;
+    public GameObject[] rocks; // FILL IN ROCK-PREFABS ONCE THEY'VE BEEN CONSTRUCTED AND FILLED WITH ELEMENTS
+    public Transform[] spawnPos; // RE-POSITION THEM IN THE SCENE ONCE THE PROPPER TERRAIN HAS BEEN BUILT BY ALEX
 
     void Awake()
     {
         SpawnElements();
-        //SpawnOne();
+        //SpawnRocks();
     }
 
     private void SpawnElements()
     {
-        Vector3 spawnPos = new Vector3(Random.Range(-10, 10), 1.0f, Random.Range(-10, 10));
-        PhotonNetwork.Instantiate(Path.Combine("PhotonElements", "GaAs (Gallium_Arsenide)"), spawnPos, Quaternion.identity);
-        spawnPos = new Vector3(Random.Range(-10, 10), 1.0f, Random.Range(-10, 10));
-        PhotonNetwork.Instantiate(Path.Combine("PhotonElements", "GaInAs (Galluim_Induim_Arsenide)"), spawnPos, Quaternion.identity);
-        spawnPos = new Vector3(Random.Range(-10, 10), 1.0f, Random.Range(-10, 10));
-        PhotonNetwork.Instantiate(Path.Combine("PhotonElements", "GaInNAs (Galluim_Induim_Nitrogen_Arsenide)"), spawnPos, Quaternion.identity);
-        spawnPos = new Vector3(Random.Range(-10, 10), 1.0f, Random.Range(-10, 10));
-        PhotonNetwork.Instantiate(Path.Combine("PhotonElements", "GaInP (Galluim_Induim_Phosphate)"), spawnPos, Quaternion.identity);
-        spawnPos = new Vector3(Random.Range(-10, 10), 1.0f, Random.Range(-10, 10));
-        PhotonNetwork.Instantiate(Path.Combine("PhotonElements", "Ge (Germanium)"), spawnPos, Quaternion.identity);
-        spawnPos = new Vector3(Random.Range(-10, 10), 1.0f, Random.Range(-10, 10));
-        PhotonNetwork.Instantiate(Path.Combine("PhotonElements", "Si (Silicon)"), spawnPos, Quaternion.identity);
+        for (int i = 0; i < elements.Length; i++)
+        {
+            Vector3 spawnPos = new Vector3(Random.Range(0, 10), 1, Random.Range(0, 10));
+            PhotonNetwork.Instantiate(Path.Combine("PhotonElements", elements[i].name), spawnPos, Quaternion.identity);
+        }
+    }
 
-        //for(int i = 0; i < elements.Length-1; i++)
-        //{
-        //    Vector3 spawnPos = new Vector3(Random.Range(0, 40), 0.5f, Random.Range(0, 40));
-        //    //Instantiate(elements[i], spawnPos, Quaternion.identity);
-        //}
+    private void SpawnRocks()
+    {
+        for (int i = 0; i < elements.Length; i++)
+        {
+            PhotonNetwork.Instantiate(Path.Combine("PhotonElements", rocks[i].name), spawnPos[i].position, Quaternion.identity); // FILL IN ROCK-PREFABS-FOLDER INSTEAD OF ELEMENTS
+        }
     }
 
     private void SpawnOne()
     {
-            Vector3 spawnPos = new Vector3(Random.Range(0, 40), 0.5f, Random.Range(0, 40));
-            Instantiate(elements[4], spawnPos, Quaternion.identity);
+        // spawn only one element at a random pos (for debugging purposes)
+        Vector3 spawnPos = new Vector3(Random.Range(0, 10), 1, Random.Range(0, 10));
+        PhotonNetwork.Instantiate(Path.Combine("PhotonElement", elements[4].name), spawnPos, Quaternion.identity);
     }
 }

@@ -164,7 +164,7 @@ GameObject:
   - component: {fileID: 3119451604655524662}
   - component: {fileID: -5684946125611028839}
   m_Layer: 0
-  m_Name: Blue_Panel
+  m_Name: Ge_Panel
   m_TagString: Layer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -214,7 +214,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e682d50605eb95d4e9ff2a74867ab6ed, type: 2}
+  - {fileID: 2100000, guid: 4b27d3f7cc6e3874f846b190df388caf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
