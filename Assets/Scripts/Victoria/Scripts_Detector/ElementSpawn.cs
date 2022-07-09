@@ -11,7 +11,7 @@ using System.IO;
 public class ElementSpawn : MonoBehaviour
 {
     public GameObject[] elements;
-    public GameObject[] rocks; // FILL IN ROCK-PREFABS ONCE THEY'VE BEEN CONSTRUCTED AND FILLED WITH ELEMENTS
+    public GameObject[] rocks;
     public Transform[] spawnPos; // RE-POSITION THEM IN THE SCENE ONCE THE PROPPER TERRAIN HAS BEEN BUILT BY ALEX
 
     void Awake()
@@ -22,20 +22,26 @@ public class ElementSpawn : MonoBehaviour
 
     private void SpawnElements()
     {
-        for (int i = 0; i < elements.Length; i++)
+        if (PhotonNetwork.IsMasterClient)
         {
-            Vector3 spawnPos = new Vector3(Random.Range(0, 10), 1, Random.Range(0, 10));
-            PhotonNetwork.Instantiate(Path.Combine("PhotonElements", elements[i].name), spawnPos, Quaternion.identity);
-        }
+            for (int i = 0; i < elements.Length; i++)
+            {
+                Vector3 spawnPos = new Vector3(Random.Range(0, 10), 1, Random.Range(0, 10));
+                PhotonNetwork.Instantiate(Path.Combine("PhotonElements", elements[i].name), spawnPos, Quaternion.identity);
+            }
+        }    
     }
 
     private void SpawnRocks()
     {
-        for (int i = 0; i < elements.Length; i++)
+        if (PhotonNetwork.IsMasterClient)
         {
-            PhotonNetwork.Instantiate(Path.Combine("PhotonRocks", rocks[i].name), spawnPos[i].position, Random.rotation); // FILL IN ROCK-PREFABS-FOLDER INSTEAD OF ELEMENTS
-            PhotonNetwork.Instantiate(Path.Combine("PhotonElements", elements[i].name), spawnPos[i].position, Random.rotation);
-        }
+            for (int i = 0; i < elements.Length; i++)
+            {
+                PhotonNetwork.Instantiate(Path.Combine("PhotonRocks", rocks[i].name), spawnPos[i].position, Random.rotation);
+                PhotonNetwork.Instantiate(Path.Combine("PhotonElements", elements[i].name), spawnPos[i].position, Random.rotation);
+            }
+        }      
     }
 
     private void SpawnOne()
