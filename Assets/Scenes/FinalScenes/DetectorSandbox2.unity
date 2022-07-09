@@ -11885,6 +11885,11 @@ PrefabInstance:
       propertyPath: sceneViewId
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 7176654975107539668, guid: 64da82dd51967404eb48aa0d11d62070,
+        type: 3}
+      propertyPath: OwnershipTransfer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64da82dd51967404eb48aa0d11d62070, type: 3}
 --- !u!1 &1770912139
@@ -18702,6 +18707,7 @@ MonoBehaviour:
   - {fileID: 7091140999355563782, guid: 7b7ff84c3bef6e04fbe3e31d36c51a1a, type: 3}
   - {fileID: 6494867074676084268, guid: c69e8651bf5710743a82d17e8898bebe, type: 3}
   - {fileID: 5230726298113742696, guid: 055cdf6dea46ec246833450a608fdc96, type: 3}
+  rocks: []
   spawnPos:
   - {fileID: 1576252413}
   - {fileID: 2049265782}
