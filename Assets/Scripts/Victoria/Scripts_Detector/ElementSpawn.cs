@@ -16,8 +16,8 @@ public class ElementSpawn : MonoBehaviour
 
     void Awake()
     {
-        SpawnElements();
-        //SpawnRocks();
+        //SpawnElements();
+        SpawnRocks();
     }
 
     private void SpawnElements()
@@ -33,7 +33,8 @@ public class ElementSpawn : MonoBehaviour
     {
         for (int i = 0; i < elements.Length; i++)
         {
-            PhotonNetwork.Instantiate(Path.Combine("PhotonElements", rocks[i].name), spawnPos[i].position, Quaternion.identity); // FILL IN ROCK-PREFABS-FOLDER INSTEAD OF ELEMENTS
+            PhotonNetwork.Instantiate(Path.Combine("PhotonRocks", rocks[i].name), spawnPos[i].position, Random.rotation); // FILL IN ROCK-PREFABS-FOLDER INSTEAD OF ELEMENTS
+            PhotonNetwork.Instantiate(Path.Combine("PhotonElements", elements[i].name), spawnPos[i].position, Random.rotation);
         }
     }
 

@@ -651,7 +651,6 @@ GameObject:
   - component: {fileID: 6831455868968223436}
   - component: {fileID: 6831455868968223437}
   - component: {fileID: 2004222776972713524}
-  - component: {fileID: 2240835641590259935}
   m_Layer: 0
   m_Name: LeftHand Controller_CAVE
   m_TagString: LeftController
@@ -1262,19 +1261,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _robotArmsActive: 0
   lerpDuration: 1.5
---- !u!114 &2240835641590259935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6831455868968223439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b5319af292e7f64ea69a74e94f1f3a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inputDeviceCharacteristics_CAVE: 576
 --- !u!1 &6831455869267348691
 GameObject:
   m_ObjectHideFlags: 0
@@ -1515,7 +1501,6 @@ GameObject:
   - component: {fileID: 6831455869800854869}
   - component: {fileID: 6831455869800854870}
   - component: {fileID: 7091221809659932049}
-  - component: {fileID: 2042656636813472330}
   m_Layer: 0
   m_Name: RightHand Controller_CAVE
   m_TagString: RightController
@@ -2126,19 +2111,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _robotArmsActive: 0
   lerpDuration: 1.5
---- !u!114 &2042656636813472330
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6831455869800854952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b5319af292e7f64ea69a74e94f1f3a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inputDeviceCharacteristics_CAVE: 320
 --- !u!1 &6831455869937613592
 GameObject:
   m_ObjectHideFlags: 0
