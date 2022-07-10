@@ -1,0 +1,541 @@
+Assets/Imports/AllSkyFree/Cold Sunset/Cold Sunset Equirect.png
+Assets/Imports/AllSkyFree/Cold Sunset/Cold Sunset__Cam_0_Front+Z.png
+Assets/Imports/AllSkyFree/Cold Sunset/Cold Sunset__Cam_1_Back-Z.png
+Assets/Imports/AllSkyFree/Cold Sunset/Cold Sunset__Cam_2_Left+X.png
+Assets/Imports/AllSkyFree/Cold Sunset/Cold Sunset__Cam_3_Right-X.png
+Assets/Imports/AllSkyFree/Cold Sunset/Cold Sunset__Cam_4_Up+Y.png
+Assets/Imports/AllSkyFree/Cold Sunset/Cold Sunset__Cam_5_Down-Y.png
+Assets/Imports/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_0_Front+Z.png
+Assets/Imports/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_1_Back-Z.png
+Assets/Imports/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_2_Left+X.png
+Assets/Imports/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_3_Right-X.png
+Assets/Imports/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_4_Up+Y.png
+Assets/Imports/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_5_Down-Y.png
+Assets/Imports/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_EquiRect_flat.png
+Assets/Imports/AllSkyFree/_AllSkyFree_Documentation.pdf
+Assets/Imports/CTI URP/CTI Runtime Components URP/CTI URP Demo/Textures/T Jatoba Bark NO.psd
+Assets/Imports/CTI URP/CTI Runtime Components URP/CTI URP Demo/Textures/T Jatoba Billboard AA.png
+Assets/Imports/CTI URP/CTI Runtime Components URP/CTI URP Demo/Textures/T Jatoba Billboard NTS.png
+Assets/Imports/CTI URP/CTI Runtime Components URP/CTI URP Demo/Textures/T Jatoba Leaves AA.png
+Assets/Imports/CTI URP/CTI Runtime Components URP/CTI URP Demo/Textures/T Jatoba Leaves NTS.psd
+Assets/Imports/CTI URP/CTI Runtime Components URP/CTI URP Demo/Textures/T jatoba Bark AS.tif
+Assets/Imports/CTI URP/CTI Runtime Components URP/Custom Tree Importer 3.0 URP.pdf
+Assets/Imports/CTI URP/CTI Runtime Components URP/Resources/CTI_Default_NST.psd
+Assets/Imports/Conifers [BOTD]/Conifers [BOTD] Documentation.pdf
+Assets/Imports/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer  Branches [Albedo] [Smoothness].tif
+Assets/Imports/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Branches [Trans] [Smoothness].psd
+Assets/Imports/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Branches_Normal combined.tif
+Assets/Imports/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Trunk [Albedo] [Smoothness].tif
+Assets/Imports/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Trunk [Normal] [AO] [Specular].psd
+Assets/Imports/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer x Stump [Albedo] [Smoothness].tif
+Assets/Imports/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer x Stump [Normal] [AO] [Specular].tif
+Assets/Imports/Conifers [BOTD]/Shared Sources/Textures/Billboards/Billboard Bare/Conifer Bare [Albedo].png
+Assets/Imports/Conifers [BOTD]/Shared Sources/Textures/Billboards/Billboard Bare/Conifer Bare [Normal] [Trans] [Smoothness].png
+Assets/Imports/Conifers [BOTD]/Shared Sources/Textures/Billboards/Billboard Medium/Conifer Medium [Albedo].png
+Assets/Imports/Conifers [BOTD]/Shared Sources/Textures/Billboards/Billboard Medium/Conifer Medium [Normal] [Trans] [Smoothness].png
+Assets/Imports/Conifers [BOTD]/Shared Sources/Textures/Billboards/Billboard Small/Conifer Small [Albedo].png
+Assets/Imports/Conifers [BOTD]/Shared Sources/Textures/Billboards/Billboard Small/Conifer Small [Normal] [Trans] [Smoothness].png
+Assets/Imports/Conifers [BOTD]/Shared Sources/Textures/Billboards/Billboard Tall/Conifer Tall  [Normal] [Trans] [Smoothness].png
+Assets/Imports/Conifers [BOTD]/Shared Sources/Textures/Billboards/Billboard Tall/Conifer Tall [Albedo].png
+Assets/Imports/ExcavatorModel/source/ExcavatorBody.fbx
+Assets/Imports/ExcavatorModel/textures/Arm_AO.jpeg
+Assets/Imports/ExcavatorModel/textures/Arm_albedo.jpeg
+Assets/Imports/ExcavatorModel/textures/Arm_metallic.jpeg
+Assets/Imports/ExcavatorModel/textures/Arm_roughness.jpeg
+Assets/Imports/ExcavatorModel/textures/BackLegs_AO.jpeg
+Assets/Imports/ExcavatorModel/textures/BackLegs_albedo.jpeg
+Assets/Imports/ExcavatorModel/textures/BackLegs_metallic.jpeg
+Assets/Imports/ExcavatorModel/textures/BackLegs_roughness.jpeg
+Assets/Imports/ExcavatorModel/textures/Base_Phnumatics_AO.jpeg
+Assets/Imports/ExcavatorModel/textures/Base_Phnumatics_albedo.jpeg
+Assets/Imports/ExcavatorModel/textures/Base_Phnumatics_metallic.jpeg
+Assets/Imports/ExcavatorModel/textures/Base_Phnumatics_roughness.jpeg
+Assets/Imports/ExcavatorModel/textures/Body_AO.jpeg
+Assets/Imports/ExcavatorModel/textures/Body_albedo.jpeg
+Assets/Imports/ExcavatorModel/textures/Body_metallic.jpeg
+Assets/Imports/ExcavatorModel/textures/Body_opacity.jpeg
+Assets/Imports/ExcavatorModel/textures/Body_roughness.jpeg
+Assets/Imports/ExcavatorModel/textures/FrontLegs_AO.jpeg
+Assets/Imports/ExcavatorModel/textures/FrontLegs_albedo.jpeg
+Assets/Imports/ExcavatorModel/textures/FrontLegs_metallic.jpeg
+Assets/Imports/ExcavatorModel/textures/FrontLegs_roughness.jpeg
+Assets/Imports/ExcavatorModel/textures/Interior_AO.jpeg
+Assets/Imports/ExcavatorModel/textures/Interior_albedo.jpeg
+Assets/Imports/ExcavatorModel/textures/Interior_metallic.jpeg
+Assets/Imports/ExcavatorModel/textures/Interior_roughness.jpeg
+Assets/Imports/ExcavatorModel/textures/Legs_AO.jpeg
+Assets/Imports/ExcavatorModel/textures/Legs_albedo.jpeg
+Assets/Imports/ExcavatorModel/textures/Legs_metallic.jpeg
+Assets/Imports/ExcavatorModel/textures/Legs_roughness.jpeg
+Assets/Imports/ExcavatorModel/textures/Pipes_Rails_AO.jpeg
+Assets/Imports/ExcavatorModel/textures/Pipes_Rails_albedo.jpeg
+Assets/Imports/ExcavatorModel/textures/Pipes_Rails_metallic.jpeg
+Assets/Imports/ExcavatorModel/textures/Pipes_Rails_roughness.jpeg
+Assets/Imports/ExcavatorModel/textures/parts_AO.jpeg
+Assets/Imports/ExcavatorModel/textures/parts_albedo.jpeg
+Assets/Imports/ExcavatorModel/textures/parts_metallic.jpeg
+Assets/Imports/ExcavatorModel/textures/parts_roughness.jpeg
+Assets/Imports/IL3DN/Graphics/Textures/IL3DN_FX_GradientRadial.psd
+Assets/Imports/Smoke/Smoke0391_L.jpg
+Assets/Imports/_Barking_Dog/3D Free Modular Kit/_Meshes/Column_01_Top.FBX
+Assets/Imports/_Barking_Dog/3D Free Modular Kit/_Meshes/Door_Arch_01.FBX
+Assets/Imports/_Barking_Dog/3D Free Modular Kit/_Meshes/Door_Left_01.FBX
+Assets/Imports/_Barking_Dog/3D Free Modular Kit/_Meshes/Fan_01.FBX
+Assets/Imports/_Barking_Dog/3D Free Modular Kit/_Meshes/Floor_01.FBX
+Assets/Imports/_Barking_Dog/3D Free Modular Kit/_Meshes/Floor_Small_01.FBX
+Assets/Imports/_Barking_Dog/3D Free Modular Kit/_Meshes/Light_01.FBX
+Assets/Imports/_Barking_Dog/3D Free Modular Kit/_Meshes/Roof_01.FBX
+Assets/Imports/_Barking_Dog/3D Free Modular Kit/_Meshes/Roof_Angle_01.FBX
+Assets/Imports/_Barking_Dog/3D Free Modular Kit/_Meshes/Roof_Angle_Large_01.FBX
+Assets/Imports/_Barking_Dog/3D Free Modular Kit/_Meshes/Roof_Angle_Smal_01.FBX
+Assets/Imports/_Barking_Dog/3D Free Modular Kit/_Meshes/Roof_Door_01.FBX
+Assets/Imports/_Barking_Dog/3D Free Modular Kit/_Meshes/Wall_Arc_90_01.FBX
+Assets/Imports/_Barking_Dog/3D Free Modular Kit/_Meshes/Wall_Arc_90_02.FBX
+Assets/Imports/_Barking_Dog/3D Free Modular Kit/_Meshes/Wall_HalfArc_90_02.FBX
+Assets/Imports/_Barking_Dog/3D Free Modular Kit/_Meshes/Wall_HalfArc_90_03.FBX
+Assets/Imports/_Barking_Dog/3D Free Modular Kit/_Meshes/Wall_Simple_01.FBX
+Assets/Imports/_Barking_Dog/3D Free Modular Kit/_Textures/Ambient_01.png
+Assets/Imports/_Barking_Dog/3D Free Modular Kit/_Textures/Diffuse_01.png
+Assets/Imports/_Barking_Dog/3D Free Modular Kit/_Textures/Metal_01.tif
+Assets/Imports/_Barking_Dog/3D Free Modular Kit/_Textures/Neon.png
+Assets/Imports/_Barking_Dog/3D Free Modular Kit/_Textures/Normal_01.png
+Assets/Materials/Artem/LabTextures/Casing/LabMK2_Casing_AlbedoTransparency.png
+Assets/Materials/Artem/LabTextures/Casing/LabMK2_Casing_MetallicSmoothness.png
+Assets/Materials/Artem/LabTextures/Casing/LabMK2_Casing_Normal.png
+Assets/Materials/Artem/LabTextures/CasingMK2/Casing_Casing_AlbedoTransparency.png
+Assets/Materials/Artem/LabTextures/CasingMK2/Casing_Casing_MetallicSmoothness.png
+Assets/Materials/Artem/LabTextures/CasingMK2/Casing_Casing_Normal.png
+Assets/Materials/Artem/LabTextures/Conv/Conv_Conv_AlbedoTransparency.png
+Assets/Materials/Artem/LabTextures/Conv/Conv_Conv_MetallicSmoothness.png
+Assets/Materials/Artem/LabTextures/Conv/Conv_Conv_Normal.png
+Assets/Materials/Artem/LabTextures/Door/Door_Door_AlbedoTransparency.png
+Assets/Materials/Artem/LabTextures/Door/Door_Door_MetallicSmoothness.png
+Assets/Materials/Artem/LabTextures/Door/Door_Door_Normal.png
+Assets/Materials/Artem/LabTextures/Ladder/Ladder_Rail_AlbedoTransparency.png
+Assets/Materials/Artem/LabTextures/Ladder/Ladder_Rail_MetallicSmoothness.png
+Assets/Materials/Artem/LabTextures/Ladder/Ladder_Rail_Normal.png
+Assets/Materials/Artem/LabTextures/Ladder/Ladder_Stairs_AlbedoTransparency.png
+Assets/Materials/Artem/LabTextures/Ladder/Ladder_Stairs_MetallicSmoothness.png
+Assets/Materials/Artem/LabTextures/Ladder/Ladder_Stairs_Normal.png
+Assets/Materials/Artem/LabTextures/RadTop/BarrelRad_BarrelBody_AlbedoTransparency.png
+Assets/Materials/Artem/LabTextures/RadTop/BarrelRad_BarrelBody_MetallicSmoothness.png
+Assets/Materials/Artem/LabTextures/RadTop/BarrelRad_BarrelBody_Normal.png
+Assets/Materials/Artem/LabTextures/RadTop/BarrelRad_BarrelTop_AlbedoTransparency.png
+Assets/Materials/Artem/LabTextures/RadTop/BarrelRad_BarrelTop_MetallicSmoothness.png
+Assets/Materials/Artem/LabTextures/RadTop/BarrelRad_BarrelTop_Normal.png
+Assets/Materials/Artem/LabTextures/RadTop/BarrelRad_RadTopCase_AlbedoTransparency.png
+Assets/Materials/Artem/LabTextures/RadTop/BarrelRad_RadTopCase_MetallicSmoothness.png
+Assets/Materials/Artem/LabTextures/RadTop/BarrelRad_RadTopCase_Normal.png
+Assets/Materials/Artem/LabTextures/RadTop/BarrelRad_RadTopParts_AlbedoTransparency.png
+Assets/Materials/Artem/LabTextures/RadTop/BarrelRad_RadTopParts_MetallicSmoothness.png
+Assets/Materials/Artem/LabTextures/RadTop/BarrelRad_RadTopParts_Normal.png
+Assets/Materials/Artem/LabTextures/RadTop/BarrelRad_Ramps_AlbedoTransparency.png
+Assets/Materials/Artem/LabTextures/RadTop/BarrelRad_Ramps_MetallicSmoothness.png
+Assets/Materials/Artem/LabTextures/RadTop/BarrelRad_Ramps_Normal.png
+Assets/Materials/Artem/LabTextures/RadTop/BarrelRad_tube_AlbedoTransparency.png
+Assets/Materials/Artem/LabTextures/RadTop/BarrelRad_tube_MetallicSmoothness.png
+Assets/Materials/Artem/LabTextures/RadTop/BarrelRad_tube_Normal.png
+Assets/Materials/Artem/LabTextures/Radiator/RadiatorCasing_Blades_AlbedoTransparency.png
+Assets/Materials/Artem/LabTextures/Radiator/RadiatorCasing_Blades_MetallicSmoothness.png
+Assets/Materials/Artem/LabTextures/Radiator/RadiatorCasing_Blades_Normal.png
+Assets/Materials/Artem/LabTextures/Radiator/RadiatorCasing_RadiatorCasing_AlbedoTransparency.png
+Assets/Materials/Artem/LabTextures/Radiator/RadiatorCasing_RadiatorCasing_MetallicSmoothness.png
+Assets/Materials/Artem/LabTextures/Radiator/RadiatorCasing_RadiatorCasing_Normal.png
+Assets/Materials/Artem/LabTextures/Radiator/RadiatorCasing_Radiator_AlbedoTransparency.png
+Assets/Materials/Artem/LabTextures/Radiator/RadiatorCasing_Radiator_MetallicSmoothness.png
+Assets/Materials/Artem/LabTextures/Radiator/RadiatorCasing_Radiator_Normal.png
+Assets/Materials/Artem/Metal Detector/layers/DetectorMK2_ArmHolder_AlbedoTransparency.png
+Assets/Materials/Artem/Metal Detector/layers/DetectorMK2_ArmHolder_MetallicSmoothness.png
+Assets/Materials/Artem/Metal Detector/layers/DetectorMK2_ArmHolder_Normal.png
+Assets/Materials/Artem/Metal Detector/layers/DetectorMK2_Bolt_AlbedoTransparency.png
+Assets/Materials/Artem/Metal Detector/layers/DetectorMK2_Bolt_MetallicSmoothness.png
+Assets/Materials/Artem/Metal Detector/layers/DetectorMK2_Bolt_Normal.png
+Assets/Materials/Artem/Metal Detector/layers/DetectorMK2_Cable_AlbedoTransparency.png
+Assets/Materials/Artem/Metal Detector/layers/DetectorMK2_Cable_MetallicSmoothness.png
+Assets/Materials/Artem/Metal Detector/layers/DetectorMK2_Cable_Normal.png
+Assets/Materials/Artem/Metal Detector/layers/DetectorMK2_Coil_AlbedoTransparency.png
+Assets/Materials/Artem/Metal Detector/layers/DetectorMK2_Coil_MetallicSmoothness.png
+Assets/Materials/Artem/Metal Detector/layers/DetectorMK2_Coil_Normal.png
+Assets/Materials/Artem/Metal Detector/layers/DetectorMK2_Curve_AlbedoTransparency.png
+Assets/Materials/Artem/Metal Detector/layers/DetectorMK2_Curve_MetallicSmoothness.png
+Assets/Materials/Artem/Metal Detector/layers/DetectorMK2_Curve_Normal.png
+Assets/Materials/Artem/Metal Detector/layers/DetectorMK2_MainRing_AlbedoTransparency.png
+Assets/Materials/Artem/Metal Detector/layers/DetectorMK2_MainRing_MetallicSmoothness.png
+Assets/Materials/Artem/Metal Detector/layers/DetectorMK2_MainRing_Normal.png
+Assets/Materials/Artem/Metal Detector/layers/DetectorMK2_Monitor_AlbedoTransparency.png
+Assets/Materials/Artem/Metal Detector/layers/DetectorMK2_Monitor_MetallicSmoothness.png
+Assets/Materials/Artem/Metal Detector/layers/DetectorMK2_Monitor_Normal.png
+Assets/Materials/Artem/Metal Detector/layers/DetectorMK2_Tubes_AlbedoTransparency.png
+Assets/Materials/Artem/Metal Detector/layers/DetectorMK2_Tubes_MetallicSmoothness.png
+Assets/Materials/Artem/Metal Detector/layers/DetectorMK2_Tubes_Normal.png
+Assets/Materials/Artem/PressMK2/Button/ButtonCasing/PressMK2_ButtonCasing_AlbedoTransparency.png
+Assets/Materials/Artem/PressMK2/Button/ButtonCasing/PressMK2_ButtonCasing_MetallicSmoothness.png
+Assets/Materials/Artem/PressMK2/Button/ButtonCasing/PressMK2_ButtonCasing_Normal.png
+Assets/Materials/Artem/PressMK2/Button/PressMK2_Button_AlbedoTransparency.png
+Assets/Materials/Artem/PressMK2/Button/PressMK2_Button_MetallicSmoothness.png
+Assets/Materials/Artem/PressMK2/Button/PressMK2_Button_Normal.png
+Assets/Materials/Artem/PressMK2/Casing/PressMK2_MainCasing_AlbedoTransparency.png
+Assets/Materials/Artem/PressMK2/Casing/PressMK2_MainCasing_MetallicSmoothness.png
+Assets/Materials/Artem/PressMK2/Casing/PressMK2_MainCasing_Normal.png
+Assets/Materials/Artem/PressMK2/ConvCasing/PressMK2_ConvCasing_AlbedoTransparency.png
+Assets/Materials/Artem/PressMK2/ConvCasing/PressMK2_ConvCasing_MetallicSmoothness.png
+Assets/Materials/Artem/PressMK2/ConvCasing/PressMK2_ConvCasing_Normal.png
+Assets/Materials/Artem/PressMK2/Hatch/PressMK2_Material.001_AlbedoTransparency.png
+Assets/Materials/Artem/PressMK2/Hatch/PressMK2_Material.001_MetallicSmoothness.png
+Assets/Materials/Artem/PressMK2/Hatch/PressMK2_Material.001_Normal.png
+Assets/Materials/Artem/PressMK2/Plate/PressMK2_PistonPlate_AlbedoTransparency.png
+Assets/Materials/Artem/PressMK2/Plate/PressMK2_PistonPlate_MetallicSmoothness.png
+Assets/Materials/Artem/PressMK2/Plate/PressMK2_PistonPlate_Normal.png
+Assets/Materials/Artem/PressMK2/Screw/PressMK2_Screw_AlbedoTransparency.png
+Assets/Materials/Artem/PressMK2/Screw/PressMK2_Screw_MetallicSmoothness.png
+Assets/Materials/Artem/PressMK2/Screw/PressMK2_Screw_Normal.png
+Assets/Materials/Artem/PressMK2/Tube/PressMK2_Tube_AlbedoTransparency.png
+Assets/Materials/Artem/PressMK2/Tube/PressMK2_Tube_MetallicSmoothness.png
+Assets/Materials/Artem/PressMK2/Tube/PressMK2_Tube_Normal.png
+Assets/Materials/Artem/PressMK2/Valve/PressMK2_Valve_AlbedoTransparency.png
+Assets/Materials/Artem/PressMK2/Valve/PressMK2_Valve_MetallicSmoothness.png
+Assets/Materials/Artem/PressMK2/Valve/PressMK2_Valve_Normal.png
+Assets/Materials/Stone textures pack/Stone 05/diffuse2.tga
+Assets/Materials/Stone textures pack/Stone 05/normal.tga
+Assets/Materials/Textures/Terrain/terrain_mudslide_01_a.tif
+Assets/Materials/Textures/Terrain/terrain_mudslide_01_n.tif
+Assets/Materials/Textures/Terrain/terrain_wetmud_01_a.tif
+Assets/Materials/Textures/Terrain/terrain_wetmud_01_n.tif
+Assets/Materials/Textures/Vegetation/veg_foliage_01_d.tif
+Assets/Materials/Victoria/Materials_Analyzer/ArrowImg.png
+Assets/Materials/Victoria/Materials_Analyzer/ArrowWhite.jpg
+Assets/Materials/Victoria/Materials_Analyzer/DisplayTexture.jpg
+Assets/Materials/Victoria/Materials_Analyzer/DisplayTexture3.jpg
+Assets/Models/Artem/BarrelRad.fbx
+Assets/Models/Artem/Detector.fbx
+Assets/Models/Artem/DetectorMK2.fbx
+Assets/Models/Artem/LabMK3.fbx
+Assets/Models/Artem/PressMK2.fbx
+Assets/Models/Artem/RadiatorCasing.fbx
+Assets/Models/Artem/SolarPannelCasing.fbx
+Assets/Models/Artem/fracturedstone.fbx
+Assets/Models/Felix/RobotArm_Rig.fbx
+Assets/Models/Felix/RobotArm_V2.fbx
+Assets/Models/Felix/hand_model.L.fbx
+Assets/Models/Felix/hand_model.R.fbx
+Assets/Models/Vegetation/veg_clovers_01.fbx
+Assets/Models/Vegetation/veg_clovers_purple_01.fbx
+Assets/Models/Vegetation/veg_clovers_white_01.fbx
+Assets/Models/Vegetation/veg_dandelion_01.fbx
+Assets/Packages/Mining-chopping vfx/Textures/VFX/Smoke.png
+Assets/Packages/Mining-chopping vfx/Textures/VFX/Spark.png
+Assets/Packages/Mining-chopping vfx/Textures/VFX/Stones.png
+Assets/Packages/Mining-chopping vfx/Textures/VFX/Stones_normal.png
+Assets/Packages/Models/HQ Rocks/Textures/Rock_2_N.png
+Assets/Packages/Models/HQ Rocks/Textures/Rock_a_v1.png
+Assets/Packages/Models/HQ Rocks/Textures/Rock_detailed_n_v1.png
+Assets/Packages/Models/HQ Rocks/Textures/Rock_m_v1.tga
+Assets/Packages/Tools/PBR Tools Kit/Models/Pickaxe_LOD0.obj
+Assets/Packages/Tools/PBR Tools Kit/Textures/Pickaxe/Pickaxe_AlbedoTransparency.tga
+Assets/Packages/Tools/PBR Tools Kit/Textures/Pickaxe/Pickaxe_MetallicSmoothness.tga
+Assets/Packages/Tools/PBR Tools Kit/Textures/Pickaxe/Pickaxe_Normal.tga
+Assets/Packages/Tools/PBR Tools Kit/Textures/Pickaxe/Pickaxe_Occlusion.tga
+Assets/Photon/PhotonNetworking-Documentation.pdf
+Assets/Photon/PhotonUnityNetworking/Code/Editor/CopyIcon.png
+Assets/Photon/PhotonUnityNetworking/Code/Editor/CopyIconPro.png
+Assets/Photon/PhotonUnityNetworking/Code/Editor/PunGradient.png
+Assets/Photon/PhotonUnityNetworking/Code/Editor/help.png
+Assets/Photon/PhotonUnityNetworking/Icons/PunIcon-128.png
+Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp128.png
+Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp32.png
+Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp48.png
+Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp512.png
+Assets/Prefabs/Alex/1976428.png
+Assets/Prefabs/Alex/2206606.png
+Assets/Prefabs/Artem/Press/Press.fbx
+Assets/Prefabs/Victoria/ModularConveyorTools/Demo/Materials/Conveyors/Textures/Conveyor_1_basecolor.png
+Assets/Prefabs/Victoria/ModularConveyorTools/Demo/Materials/Conveyors/Textures/Conveyor_1_metallic.png
+Assets/Prefabs/Victoria/ModularConveyorTools/Demo/Materials/Conveyors/Textures/Conveyor_1_normal.png
+Assets/Prefabs/Victoria/ModularConveyorTools/Demo/Materials/Conveyors/Textures/Conveyor_1_roughness.png
+Assets/Prefabs/Victoria/ModularConveyorTools/Demo/Materials/Conveyors/Textures/Conveyor_2_basecolor.png
+Assets/Prefabs/Victoria/ModularConveyorTools/Demo/Materials/Conveyors/Textures/Conveyor_4_metallic.png
+Assets/Prefabs/Victoria/ModularConveyorTools/Demo/Materials/Conveyors/Textures/Conveyor_5_basecolor.png
+Assets/Prefabs/Victoria/ModularConveyorTools/Demo/Materials/Conveyors/Textures/Conveyor_5_metallic.png
+Assets/Prefabs/Victoria/ModularConveyorTools/Demo/Materials/Conveyors/Textures/Conveyor_5_normal.png
+Assets/Prefabs/Victoria/ModularConveyorTools/Demo/Materials/Conveyors/Textures/Conveyor_5_roughness.png
+Assets/Prefabs/Victoria/ModularConveyorTools/Demo/Materials/Rollers/Textures/Roller_DefaultMaterial_MetallicSmoothness.png
+Assets/Prefabs/Victoria/ModularConveyorTools/Demo/Materials/Rollers/Textures/Roller_DefaultMaterial_Normal.png
+Assets/Prefabs/Victoria/ModularConveyorTools/Models/ConveyorFlap.fbx
+Assets/Prefabs/Victoria/ModularConveyorTools/Models/Roller.fbx
+Assets/Prefabs/Victoria/ModularConveyorTools/Models/RoundBelt1m.fbx
+Assets/Prefabs/Victoria/ModularConveyorTools/Models/RoundBelt2mSlope.fbx
+Assets/Prefabs/Victoria/ModularConveyorTools/Models/ThinRail2mSlope.fbx
+Assets/Prefabs/Victoria/OtherAssets/Customizable Skybox/Customizable Skybox Documentaion.pdf
+Assets/Prefabs/Victoria/OtherAssets/Elements/ElementImages/GaAs_Img.PNG
+Assets/Prefabs/Victoria/OtherAssets/Elements/ElementImages/GaInAs_Img.PNG
+Assets/Prefabs/Victoria/OtherAssets/Elements/ElementImages/GaInNAs_Img.PNG
+Assets/Prefabs/Victoria/OtherAssets/Elements/ElementImages/GaInP_Img.PNG
+Assets/Prefabs/Victoria/OtherAssets/Elements/ElementImages/Ge_Img.PNG
+Assets/Prefabs/Victoria/OtherAssets/Elements/ElementImages/Si_Img.PNG
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Models/ConstructionLight_Low.fbx
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Models/Stud.fbx
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Models/Workbench.fbx
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Models/Workbench_Low.fbx
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Models/Workshop_Set.fbx
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Models/brush_low.fbx
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Models/hammer_low.fbx
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Models/jigsaw_low.fbx
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Models/magneticlevel_low.fbx
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Models/paintbucket_low.fbx
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Models/safetygoggles_low.fbx
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Models/safetyhat_low.fbx
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Models/small_plane.fbx
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Concrete/Ground_Albedo.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Concrete/Ground_Normal.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Metal/Metal_Albedo.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Metal/Metal_Normal.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Plastic/PlasticRidges_Albedo.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Plastic/PlasticRidges_MetallicOcculusionSmoothness.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Plastic/PlasticRidges_Normal.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Plastic/PlasticRough_Albedo.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Plastic/PlasticRough_MetallicOcculusionSmoothness.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Plastic/Plastic_AlbedoSmoothness.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Plastic/Plastic_Normal.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Props/Hammer/Hammer_Albedo.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Props/Hammer/Hammer_MetallicOcculusionSmoothness.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Props/Hammer/Hammer_Normal.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Albedo.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Props/HardHat/SafetyHat_MetallicOcculusionSmoothness.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Normal.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Albedo.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Props/Paint/Paint1G_Albedo.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Props/Paint/Paint1G_MetallicOcculusionRoughness.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Props/Paint/Paint1G_Normal.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Props/Paint/Paint5G_AlbedoSmoothness.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Props/Paint/PaintAnimMask.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Props/Paint/PaintLabel.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Props/Paint/Paintbrush_Albedo.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Props/Paint/Paintbrush_MetallicOcculusionSmoothness.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Props/Paint/Paintbrush_Normal.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Wood/OBS_Albedo.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Wood/OBS_MetallicOcculusionSmoothness.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Wood/OBS_Normal.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Wood/Plywood_Albedo.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif
+Assets/Prefabs/Victoria/OtherAssets/ExampleAssets/Textures/Wood/Plywood_Normal.tif
+Assets/Prefabs/Victoria/OtherAssets/Sounds_Detector/zapsplat_multimedia_beep_digital_001_26599.mp3
+Assets/Prefabs/Victoria/PrefabsAnalyzer/AnalyzerMachine.fbx
+Assets/Prefabs/Victoria/Prefabs_Blockout/SemiClearGlass.fbx
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-0_comp_dir.png
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-0_comp_light.exr
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-10_comp_dir.png
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-10_comp_light.exr
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-11_comp_dir.png
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-11_comp_light.exr
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-12_comp_dir.png
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-12_comp_light.exr
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-13_comp_dir.png
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-13_comp_light.exr
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-1_comp_dir.png
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-1_comp_light.exr
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-2_comp_dir.png
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-2_comp_light.exr
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-3_comp_dir.png
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-3_comp_light.exr
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-4_comp_dir.png
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-4_comp_light.exr
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-5_comp_dir.png
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-5_comp_light.exr
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-6_comp_dir.png
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-6_comp_light.exr
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-7_comp_dir.png
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-7_comp_light.exr
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-8_comp_dir.png
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-8_comp_light.exr
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-9_comp_dir.png
+Assets/Scenes/FinalScenes/DetectorSandbox2/Lightmap-9_comp_light.exr
+Assets/Scenes/FinalScenes/DetectorSandbox2/ReflectionProbe-0.exr
+Assets/Scenes/Victoria/Scenes_Blockout/SceneBlockout/Lightmap-0_comp_dir.png
+Assets/Scenes/Victoria/Scenes_Blockout/SceneBlockout/Lightmap-0_comp_light.exr
+Assets/Scenes/Victoria/Scenes_Blockout/SceneBlockout/Lightmap-0_comp_shadowmask.png
+Assets/Scenes/Victoria/Scenes_Blockout/SceneBlockout/Lightmap-1_comp_dir.png
+Assets/Scenes/Victoria/Scenes_Blockout/SceneBlockout/Lightmap-1_comp_light.exr
+Assets/Scenes/Victoria/Scenes_Blockout/SceneBlockout/Lightmap-1_comp_shadowmask.png
+Assets/Scenes/Victoria/Scenes_Blockout/SceneBlockout/ReflectionProbe-0.exr
+Assets/Sounds/Mining/Hit0.mp3
+Assets/Sounds/Mining/Hit1.mp3
+Assets/Sounds/Mining/HitBreak.mp3
+Assets/TerrainSampleAssets/README.pdf
+Assets/TerrainSampleAssets/Textures/Details/BushDry_BaseColor.tif
+Assets/TerrainSampleAssets/Textures/Details/BushDry_MaskMap.tif
+Assets/TerrainSampleAssets/Textures/Details/BushDry_Normal.tif
+Assets/TerrainSampleAssets/Textures/Details/BushDry_Thickness.tif
+Assets/TerrainSampleAssets/Textures/Details/Bush_A_BaseColor.tif
+Assets/TerrainSampleAssets/Textures/Details/Bush_A_MaskMap.tif
+Assets/TerrainSampleAssets/Textures/Details/Bush_A_Normal.tif
+Assets/TerrainSampleAssets/Textures/Details/Fern_BaseColor.tif
+Assets/TerrainSampleAssets/Textures/Details/Fern_MaskMap.tif
+Assets/TerrainSampleAssets/Textures/Details/Fern_Normal.tif
+Assets/TerrainSampleAssets/Textures/Details/Fern_Thickness.tif
+Assets/TerrainSampleAssets/Textures/Details/GrassDry_BaseColor.tif
+Assets/TerrainSampleAssets/Textures/Details/GrassDry_MaskMap.tif
+Assets/TerrainSampleAssets/Textures/Details/GrassDry_Normal.tif
+Assets/TerrainSampleAssets/Textures/Details/GrassDry_Thickness.tif
+Assets/TerrainSampleAssets/Textures/Details/Grass_A_BaseColor.tif
+Assets/TerrainSampleAssets/Textures/Details/Grass_A_MaskMap.tif
+Assets/TerrainSampleAssets/Textures/Details/Grass_A_Normal.tif
+Assets/TerrainSampleAssets/Textures/Details/Grass_A_Thickness.tif
+Assets/TerrainSampleAssets/Textures/Details/Grass_C_BaseColor.tif
+Assets/TerrainSampleAssets/Textures/Details/Grass_C_MaskMap.tif
+Assets/TerrainSampleAssets/Textures/Details/Grass_C_Normal.tif
+Assets/TerrainSampleAssets/Textures/Details/Grass_C_Thickness.tif
+Assets/TerrainSampleAssets/Textures/Details/Heather_A_BaseColor.tif
+Assets/TerrainSampleAssets/Textures/Details/Heather_A_MaskMap.tif
+Assets/TerrainSampleAssets/Textures/Details/Heather_A_Normal.tif
+Assets/TerrainSampleAssets/Textures/Details/Heather_A_Thickness.tif
+Assets/TerrainSampleAssets/Textures/Details/Plant_BaseColor.tif
+Assets/TerrainSampleAssets/Textures/Details/Plant_MaskMap.tif
+Assets/TerrainSampleAssets/Textures/Details/Plant_Normal.tif
+Assets/TerrainSampleAssets/Textures/Details/Plant_Thickness.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Canyon01_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Canyon02_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Canyon03_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Canyon04_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Canyon05_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Clouds_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Cracked_Earth01_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Cracked_Earth02_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Default_White.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Errosion01_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Errosion02_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Flat_Mountain01_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Hills01_Heightmap.tiff
+Assets/TerrainSampleAssets/Textures/Heightmaps/Hills02_Heightmap.tiff
+Assets/TerrainSampleAssets/Textures/Heightmaps/Island01_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Mountain01_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Mountain02_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Mountain03_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Mountain04_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Mountain05_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Mountain06_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Mountain07_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Mountain08_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Mountain09_Heightmap.tiff
+Assets/TerrainSampleAssets/Textures/Heightmaps/Mountain10_Heightmap.tiff
+Assets/TerrainSampleAssets/Textures/Heightmaps/Mountain11_Heightmap.tiff
+Assets/TerrainSampleAssets/Textures/Heightmaps/Plateau01_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Plateau02_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Plateau03_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Ridge01_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Ridge02_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Ridge03_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Ridge04_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Ridge05_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Ridge06_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Ridge_Edge01_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Rolling_Hills01_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Slope01_Heightmap.tiff
+Assets/TerrainSampleAssets/Textures/Heightmaps/Slope02_Heightmap.tiff
+Assets/TerrainSampleAssets/Textures/Heightmaps/Slope03_Heightmap.tiff
+Assets/TerrainSampleAssets/Textures/Heightmaps/Slope04_Heightmap.tiff
+Assets/TerrainSampleAssets/Textures/Heightmaps/Soft_Peaks01_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Volcano01_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Heightmaps/Volcano02_Heightmap.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Black_Sand_BaseColor.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Black_Sand_MaskMap.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Black_Sand_Normal.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Grass_A_BaseColor.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Grass_A_MaskMap.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Grass_A_Normal.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Grass_B_BaseColor.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Grass_B_MaskMap.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Grass_B_Normal.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Grass_Dry_BaseColor.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Grass_Dry_MaskMap.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Grass_Dry_Normal.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Grass_Moss_BaseColor.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Grass_Moss_MaskMap.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Grass_Moss_Normal.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Grass_Soil_BaseColor.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Grass_Soil_MaskMap.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Grass_Soil_Normal.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Heather_BaseColor.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Heather_MaskMap.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Heather_Normal.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Muddy_BaseColor.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Muddy_MaskMap.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Muddy_Normal.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_A_BaseColor.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_A_MaskMap.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_A_Normal.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_B_BaseColor.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_B_MaskMap.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_B_Normal.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_C_BaseColor.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_C_MaskMap.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_C_Normal.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Rock_BaseColor.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Rock_MaskMap.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Rock_Normal.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Sand_BaseColor.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Sand_MaskMap.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Sand_Normal.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Snow_BaseColor.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Snow_MaskMap.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Snow_Normal.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Soil_Rocks_BaseColor.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Soil_Rocks_MaskMap.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Soil_Rocks_Normal.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Tidal_Pools_BaseColor.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Tidal_Pools_MaskMap.tif
+Assets/TerrainSampleAssets/Textures/Terrain/Tidal_Pools_Normal.tif
+Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd
+Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg
+Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
+Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg
+Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg
+Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg
+Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd
+Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg
+Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg
+Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg
+Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png
+Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png
+Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd
+Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd
+Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd
+Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd
+Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+Assets/TextMesh Pro/Sprites/EmojiOne.png
+Assets/Textures/Artem/Solar_Panel_001_ambientOcclusion.jpg
+Assets/Textures/Artem/Solar_Panel_001_basecolor.jpg
+Assets/Textures/Artem/Solar_Panel_001_height.png
+Assets/Textures/Artem/Solar_Panel_001_metallic.jpg
+Assets/Textures/Artem/Solar_Panel_001_normal.jpg
+Assets/Textures/Artem/Solar_Panel_001_roughness.jpg
+Assets/Textures/Felix/Lab_CautionSign_1.png
+Assets/TutorialInfo/Icons/URP.png
+Assets/VR Hand Package/Oculus Hands/Animations/l_hand_default_anim.fbx
+Assets/VR Hand Package/Oculus Hands/Animations/l_hand_fist_anim.fbx
+Assets/VR Hand Package/Oculus Hands/Animations/l_hand_pinch_anim.fbx
+Assets/VR Hand Package/Oculus Hands/Animations/r_hand_default_anim.fbx
+Assets/VR Hand Package/Oculus Hands/Animations/r_hand_fist_anim.fbx
+Assets/VR Hand Package/Oculus Hands/Animations/r_hand_pinch_anim.fbx
+Assets/VR Hand Package/Oculus Hands/Models/l_hand_skeletal_lowres.fbx
+Assets/VR Hand Package/Oculus Hands/Models/r_hand_skeletal_lowres.fbx
