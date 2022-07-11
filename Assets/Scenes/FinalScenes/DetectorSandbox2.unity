@@ -52044,12 +52044,6 @@ Transform:
   m_Father: {fileID: 6826708877484030691}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1106156041136833148 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5518062333424949884, guid: 2e65dfe2e0dd73d4c94fc63fd0486c90,
-    type: 3}
-  m_PrefabInstance: {fileID: 4885776107478767616}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1119322018034633159
 GameObject:
   m_ObjectHideFlags: 0
@@ -66938,22 +66932,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
---- !u!114 &4380365377082376985
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106156041136833148}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 144a1da19a892f64e90b7f0c7e48346f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.01
-  idleColor: {r: 0, g: 0, b: 0, a: 0}
-  heatColor: {r: 1, g: 0.058782995, b: 0.033018887, a: 0}
-  heat: 0
 --- !u!4 &4381050595502719082
 Transform:
   m_ObjectHideFlags: 0
@@ -68239,7 +68217,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 34e48a3ce50b34c339d8fc61e309e31d, type: 2}
+      objectReference: {fileID: 2100000, guid: 9e2b5c92b07648a429413672b09657d2, type: 2}
     - target: {fileID: 7838606649431642175, guid: 2e65dfe2e0dd73d4c94fc63fd0486c90,
         type: 3}
       propertyPath: m_StaticEditorFlags
