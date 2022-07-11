@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 7416536dbe0334cfd888dd1beb75a9fb, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: cdbb40e11399e4a17882ada20a1b896a, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2132057994}
-  m_IndirectSpecularColor: {r: 0.030403666, g: 0.042770695, b: 0.076113045, a: 1}
+  m_IndirectSpecularColor: {r: 0.12076032, g: 0.18643649, b: 0.3352496, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -50052,7 +50052,7 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: -6478536213147159724, guid: b13784c7817c9614c9e2e8de15f9fd2c, type: 3}
@@ -50307,7 +50307,7 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: -6478536213147159724, guid: b13784c7817c9614c9e2e8de15f9fd2c, type: 3}
@@ -51211,7 +51211,7 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: -6478536213147159724, guid: b13784c7817c9614c9e2e8de15f9fd2c, type: 3}
@@ -51400,7 +51400,7 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 6699446615349125189, guid: b13784c7817c9614c9e2e8de15f9fd2c, type: 3}
@@ -52473,7 +52473,7 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 6699446615349125189, guid: b13784c7817c9614c9e2e8de15f9fd2c, type: 3}
@@ -52577,7 +52577,7 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: -3522955778539423533, guid: b13784c7817c9614c9e2e8de15f9fd2c, type: 3}
@@ -67172,12 +67172,13 @@ MonoBehaviour:
   OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 4504496225220759677}
+  - {fileID: 8158906417500644607}
+  - {fileID: 7293203687146564181}
+  - {fileID: 9152212463941244165}
+  - {fileID: 5865474573813524095}
+  - {fileID: 8247644034332335873}
+  - {fileID: 5384250782573148976}
   sceneViewId: 3
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -73149,12 +73150,13 @@ MonoBehaviour:
   OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 9036089832434627371}
+  - {fileID: 4687605736908905283}
+  - {fileID: 5544715659420940431}
+  - {fileID: 7931067597699563920}
+  - {fileID: 5704085229904943993}
+  - {fileID: 5211131995016904116}
+  - {fileID: 3358519028721652763}
   sceneViewId: 2
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -74875,7 +74877,7 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: -6478536213147159724, guid: b13784c7817c9614c9e2e8de15f9fd2c, type: 3}
@@ -75266,7 +75268,7 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: -6478536213147159724, guid: b13784c7817c9614c9e2e8de15f9fd2c, type: 3}
@@ -78501,7 +78503,7 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: -6478536213147159724, guid: b13784c7817c9614c9e2e8de15f9fd2c, type: 3}
@@ -78732,7 +78734,7 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 6699446615349125189, guid: b13784c7817c9614c9e2e8de15f9fd2c, type: 3}
@@ -80011,7 +80013,7 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 6699446615349125189, guid: b13784c7817c9614c9e2e8de15f9fd2c, type: 3}
@@ -80131,7 +80133,7 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: -3522955778539423533, guid: b13784c7817c9614c9e2e8de15f9fd2c, type: 3}
