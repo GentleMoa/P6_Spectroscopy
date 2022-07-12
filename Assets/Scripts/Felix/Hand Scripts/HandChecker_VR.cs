@@ -2,6 +2,10 @@
 //------- Felix Venne - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 28.06.2022 --------//
 //---------------------------------------------------------------------------------------------------------------//
 
+// A script placed on the VR player, looking for the CAVE player's hands and parenting them to the CAVE player's controllers
+
+// - - - UNUSED IN FINAL VERSION - - - //
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

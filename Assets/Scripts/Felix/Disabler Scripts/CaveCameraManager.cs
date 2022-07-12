@@ -1,6 +1,8 @@
 //---------------------------------------------------------------------------------------------------------------//
-//------- Felix Venne - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 28.06.2022 --------//
+//------- Provided by Philipp Petry - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project -------//
 //---------------------------------------------------------------------------------------------------------------//
+
+// A simple script to disable the CAVE player's cameras & audio listeners on the client's side
 
 using System.Collections;
 using System.Collections.Generic;
@@ -12,7 +14,7 @@ public class CaveCameraManager : MonoBehaviour
     private Camera[] _cameras;
     private PhotonView _photonView;
     private AudioListener[] _audioListeners;
-    // Start is called before the first frame update
+
     void Start()
     {
         _photonView = GetComponent<PhotonView>();

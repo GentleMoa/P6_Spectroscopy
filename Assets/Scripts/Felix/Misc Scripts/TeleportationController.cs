@@ -1,8 +1,12 @@
 //---------------------------------------------------------------------------------------------------------------//
-//------- Felix Venne - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 28.06.2022 --------//
+//------- Felix Venne - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 12.07.2022 --------//
 //---------------------------------------------------------------------------------------------------------------//
 
 //Credit: "Fist Full of Shrimp" on Youtube: https://www.youtube.com/watch?v=q1HuVUdq9ps&list=PLZxzW13nmdJE_HAMQEqTNk3BgYjedyfUX&index=6, accessed 04.06.2022
+
+// A script to improve XR Interaction Toolkit's basic teleportation system
+
+// - - - UNUSED IN FINAL VERSION - - - //
 
 using System.Collections;
 using System.Collections.Generic;
@@ -75,13 +79,7 @@ public class TeleportationController : MonoBehaviour
         _teleportActivate.performed -= OnTeleportActivate;
         _teleportCancel.performed -= OnTeleportCancel;
     }
-    //We use the Update function to check for when a teleportation event has occured. 
-    //The checks needed to ensure a succesful teleport event are
-    //-Teleporting is currently active
-    //-The ray currently the active one
-    //-The Thumbstick isn't being pressed
-    //-The rayInteractor is hitting a valid target
-    //If those pass, we make a teleportation request to the Teleport Provider
+
     void Update()
     {
 

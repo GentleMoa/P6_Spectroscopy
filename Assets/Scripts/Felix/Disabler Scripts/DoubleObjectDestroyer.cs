@@ -1,6 +1,10 @@
 //---------------------------------------------------------------------------------------------------------------//
-//------- Felix Venne - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 28.06.2022 --------//
+//------- Felix Venne - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 12.07.2022 --------//
 //---------------------------------------------------------------------------------------------------------------//
+
+// A flawed script to disable items spawned twice due to multiplayer
+
+// - - - UNUSED IN FINAL VERSION - - - //
 
 using System.Collections;
 using System.Collections.Generic;
@@ -11,7 +15,6 @@ public class DoubleObjectDestroyer : MonoBehaviour
 {
     private PhotonView _photonView;
 
-    // Start is called before the first frame update
     void Start()
     {
         _photonView = this.gameObject.GetComponent<PhotonView>();

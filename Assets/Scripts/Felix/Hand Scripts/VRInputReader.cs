@@ -1,5 +1,5 @@
 //---------------------------------------------------------------------------------------------------------------//
-//------- Felix Venne - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 28.06.2022 --------//
+//------- Felix Venne - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 12.07.2022 --------//
 //---------------------------------------------------------------------------------------------------------------//
 
 //Credit: "Fist Full of Shrimp" on Youtube: https://www.youtube.com/watch?v=qQqNQ4y-cU8&list=PLZxzW13nmdJE_HAMQEqTNk3BgYjedyfUX&index=3&t=31s, accessed 03.06.2022
@@ -37,7 +37,6 @@ public class VRInputReader : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         //We should have a total of 3 Input Devices. If it's less, then we try to initialize them again.

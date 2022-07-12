@@ -1,6 +1,8 @@
 //---------------------------------------------------------------------------------------------------------------//
-//------- Felix Venne - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 28.06.2022 --------//
+//------- Felix Venne - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 12.07.2022 --------//
 //---------------------------------------------------------------------------------------------------------------//
+
+// A simple script to disable problematic inputs from the host's / client's side in multiplayer
 
 using System.Collections;
 using System.Collections.Generic;
@@ -23,7 +25,6 @@ public class XRInputDisabler : MonoBehaviour
     [SerializeField] private GameObject _xrActionInputManager_VR;
     [SerializeField] private GameObject _vrInputReader;
 
-    // Start is called before the first frame update
     void Start()
     {
         if (_photonView.IsMine)

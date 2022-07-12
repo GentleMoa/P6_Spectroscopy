@@ -1,6 +1,10 @@
 //---------------------------------------------------------------------------------------------------------------//
-//------- Felix Venne - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 28.06.2022 --------//
+//------- Felix Venne - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 12.07.2022 --------//
 //---------------------------------------------------------------------------------------------------------------//
+
+// A flawed script to disable items spawned twice due to multiplayer
+
+// - - - UNUSED IN FINAL VERSION - - - //
 
 using System.Collections;
 using System.Collections.Generic;
@@ -9,7 +13,6 @@ using Photon.Pun;
 
 public class MasterObjectsDestroyer : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
         //Checking if this gameobject belongs to the master's (CAVE) or the client's (VR) side of the multiplayer application

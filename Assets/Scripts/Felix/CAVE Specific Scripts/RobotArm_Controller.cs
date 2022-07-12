@@ -1,6 +1,8 @@
 //---------------------------------------------------------------------------------------------------------------//
-//------- Felix Venne - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 28.06.2022 --------//
+//------- Felix Venne - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 12.067.2022 -------//
 //---------------------------------------------------------------------------------------------------------------//
+
+// A script enabling the CAVE player to "interact" with grabables via the robot arms
 
 using System.Collections;
 using System.Collections.Generic;
@@ -17,7 +19,6 @@ public class RobotArm_Controller : MonoBehaviour
     private float _lerpValue = 0.0f;
     [SerializeField] private float lerpDuration = 1.5f;
     
-    // Start is called before the first frame update
     void Start()
     {
         Invoke("GetRobotArmTargetReference", 0.1f);
@@ -29,10 +30,7 @@ public class RobotArm_Controller : MonoBehaviour
     {
         RaycastHit hit;
 
-        //Drawing the raycast for debugging purposes
-        //Debug.DrawRay(this.gameObject.transform.position, transform.forward, Color.blue, 0.0f);
-
-        //Updating the IK target to the hit pos of a controller raycast
+        //Updating the IK target to the hit position of a controller raycast
         if (Physics.Raycast(this.gameObject.transform.position, transform.forward, out hit, 3.0f))
         {
             if (hit.collider.gameObject != null)
@@ -71,14 +69,17 @@ public class RobotArm_Controller : MonoBehaviour
         }
     }
 
+    //Defining the rest postition (to which the robot arms lerp back when inactive)
     private void DefineRestPos()
     {
         _restPos = _robotArmTarget.transform.position;
         _restPosDefined = true;
-        Debug.Log("Rest Position has been defined as: " + _restPos + ", for " + _robotArmTarget.tag);
+
+        //Only for debugging purposes
+        //Debug.Log("Rest Position has been defined as: " + _restPos + ", for " + _robotArmTarget.tag);
     }
 
-    //These functions are called on the "Interactable Event" on each of the XR controllers
+    //These functions are called on the "Interactable Event" on each of the XR controllers!!
     public void ToggleRobotArm_On()
     {
         if (_robotArmsActive == false)
@@ -89,6 +90,7 @@ public class RobotArm_Controller : MonoBehaviour
         }
     }
 
+    //These functions are called on the "Interactable Event" on each of the XR controllers!!
     public void ToggleRobotArm_Off()
     {
         if (_robotArmsActive == true)
@@ -102,6 +104,8 @@ public class RobotArm_Controller : MonoBehaviour
     private void DefineLastActivePos()
     {
         _lastActivePos = _robotArmTarget.transform.position;
-        Debug.Log("Last Active Position has been defined as: " + _lastActivePos + ", for " + _robotArmTarget.tag);
+
+        //Only for debugging purposes
+        //Debug.Log("Last Active Position has been defined as: " + _lastActivePos + ", for " + _robotArmTarget.tag);
     }
 }

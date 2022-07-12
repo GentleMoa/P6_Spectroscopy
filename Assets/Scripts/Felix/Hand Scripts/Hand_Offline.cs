@@ -4,12 +4,12 @@
 
 //Credit: "Fist Full of Shrimp" on Youtube: https://www.youtube.com/watch?v=qQqNQ4y-cU8&list=PLZxzW13nmdJE_HAMQEqTNk3BgYjedyfUX&index=3&t=31s, accessed 03.06.2022
 
+//Offline Version of the script not reliand on Photon/Multiplayer for offline debugging
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
-using Photon.Pun;
-using System.IO;
 
 public class Hand_Offline : MonoBehaviour
 {
@@ -41,21 +41,6 @@ public class Hand_Offline : MonoBehaviour
         {
 
             _targetDevice = devices[0];
-
-            //if (gameObject.tag == "LeftHand")
-            //{
-            //    //Instantiate Left hand here
-            //    GameObject spawnedHand = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "LeftHand"), new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z), Quaternion.identity);
-            //    _handAnimator = spawnedHand.GetComponent<Animator>();
-            //    spawnedHand.transform.parent = this.gameObject.transform;
-            //}
-            //else if (this.gameObject.tag == "RightHand")
-            //{
-            //    //Instantiate Right hand here
-            //    GameObject spawnedHand = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "RightHand"), new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z), Quaternion.identity);
-            //    _handAnimator = spawnedHand.GetComponent<Animator>();
-            //    spawnedHand.transform.parent = this.gameObject.transform;
-            //}
 
             GameObject spawnedHand = Instantiate(handPrefab, transform);
             _handAnimator = spawnedHand.GetComponent<Animator>();

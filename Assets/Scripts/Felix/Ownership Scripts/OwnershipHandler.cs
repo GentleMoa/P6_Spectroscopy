@@ -1,6 +1,10 @@
 //---------------------------------------------------------------------------------------------------------------//
-//------- Felix Venne - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 28.06.2022 --------//
+//------- Felix Venne - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 12.07.2022 --------//
 //---------------------------------------------------------------------------------------------------------------//
+
+// A simple flawed script, attempting to hand over ownership on a object this script is placed on
+
+// - - - UNUSED IN FINAL VERSION - - - //
 
 using System.Collections;
 using System.Collections.Generic;
@@ -12,7 +16,6 @@ public class OwnershipHandler : MonoBehaviour
 {
     private PhotonView _photonView;
 
-    // Start is called before the first frame update
     void Start()
     {
         _photonView = GetComponent<PhotonView>();
@@ -32,23 +35,5 @@ public class OwnershipHandler : MonoBehaviour
         {
             Debug.Log("No Controller touched the ball but this object did: " + collision.gameObject.name);
         }
-    
-    
     }
-
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    if (other.gameObject.tag == "LeftController" || other.gameObject.tag == "RightController")
-    //    {
-    //        Debug.Log("Ownership WILL be requested by: " + other.gameObject.name);
-    //
-    //        _photonView.RequestOwnership();
-    //
-    //        Debug.Log("Ownership HAS been requested by: " + other.gameObject.name);
-    //    }
-    //    else
-    //    {
-    //        Debug.Log("No Controller touched the ball but this object did: " + other.gameObject.name);
-    //    }
-    //}
 }

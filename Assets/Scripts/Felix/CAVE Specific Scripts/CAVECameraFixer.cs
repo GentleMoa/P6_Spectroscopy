@@ -1,6 +1,8 @@
 //---------------------------------------------------------------------------------------------------------------//
-//------- Felix Venne - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 28.06.2022 --------//
+//------- Felix Venne - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 12.07.2022 --------//
 //---------------------------------------------------------------------------------------------------------------//
+
+// A simple script to fix CAVE player camera issues
 
 using System.Collections;
 using System.Collections.Generic;
@@ -12,9 +14,10 @@ public class CAVECameraFixer : MonoBehaviour
     private PhotonView _photonView;
     private Camera[] _cameras;
 
-    // Start is called before the first frame update
     void Start()
     {
+        //This is run in order to fix camera issues the CAVE player had. Enabling and immediately disabling orthographic mode fixed it.
+
         _photonView = GetComponent<PhotonView>();
         _cameras = GetComponentsInChildren<Camera>();
 

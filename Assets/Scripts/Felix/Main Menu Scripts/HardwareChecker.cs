@@ -1,6 +1,9 @@
 //---------------------------------------------------------------------------------------------------------------//
-//------- Felix Venne - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 28.06.2022 --------//
+//------- Felix Venne - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 12.07.2022 --------//
 //---------------------------------------------------------------------------------------------------------------//
+
+// A script to check for the hardware used (originally: more than 5 displays vs HMD connected), later only deciding factor: more than 5 displays connected?
+// This hardware detection only works in build, NOT in the editor!!
 
 using System.Collections;
 using System.Collections.Generic;
@@ -28,7 +31,6 @@ public class HardwareChecker : MonoBehaviour
     //Time frame which is given to find the HMD
     [SerializeField] private float timeFrame = 0.8f;
 
-    // Start is called before the first frame update
     void Start()
     {
         InvokeRepeating("CheckForHMD", 0.1f, 0.1f);
