@@ -27,7 +27,7 @@ public class PlayerManager : MonoBehaviour
         if (PhotonNetwork.IsMasterClient)
         {
             //CAVE Player with Vive Controllers (able to control Robot Arms)
-            PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "CAVE_Player_Controllers_V2"), new Vector3(-1.6f, 1.4f, 15.3f), Quaternion.identity * Quaternion.Euler(0.0f, 90.0f, 0.0f));
+            //PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "CAVE_Player_Controllers_V2"), new Vector3(-1.6f, 1.4f, 15.3f), Quaternion.identity * Quaternion.Euler(0.0f, 90.0f, 0.0f));
 
             //"Fake" CAVE User prefab (VR), for testing/debugging the Robot Arms!
             //PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "VRPlayerController_RobotArmTest"), new Vector3(-2.0f, 1.17f, 16.0f), Quaternion.identity);
@@ -36,7 +36,7 @@ public class PlayerManager : MonoBehaviour
             //PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "VRPlayerController_2"), new Vector3(0f, 0.5f, 0f), Quaternion.identity);
 
             Debug.Log("Instantiated CavePlayer");
-            //PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "VRPlayerController_2"), new Vector3(0f, 0f, 2f), Quaternion.identity);
+            PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "VRPlayerController_2"), new Vector3(0f, 0f, 2f), Quaternion.identity);
         }
         else
         {
