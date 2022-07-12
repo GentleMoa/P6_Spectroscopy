@@ -4,16 +4,14 @@ using UnityEngine;
 
 public class GrabCheck : MonoBehaviour
 {
-    public bool grabbed = true;
+    public bool grabbed = false;
     // Start is called before the first frame update
-    void Start()
+    public void Grabbed()
     {
-
+        grabbed = true;
     }
-
-    // Update is called once per frame
-    void Update()
+    public void UnGrabbed()
     {
-        
+        grabbed = false;
     }
 }

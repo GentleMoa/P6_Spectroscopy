@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SP_Kick : MonoBehaviour
 {
-    public Vector3 impulse = new Vector3(-4.0f, 0.0f, 0.0f);
+    public Vector3 impulse = new Vector3(-6.0f, 0.0f, 0.0f);
     Rigidbody sp_Rigidbody;
     // Start is called before the first frame update
     void Start()

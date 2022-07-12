@@ -132,7 +132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4c67e4ca769e94448608c8c99af6e58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  impulse: {x: -4, y: 0, z: 0}
+  impulse: {x: -6, y: 0, z: 0}
 --- !u!114 &4021179919019782211
 MonoBehaviour:
   m_ObjectHideFlags: 0

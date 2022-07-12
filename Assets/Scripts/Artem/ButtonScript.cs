@@ -24,7 +24,7 @@ public class ButtonScript : MonoBehaviour
         if (buttonPressed)
         {
             Pressed();
-            Invoke("SpawnSollarPannel", 7.5f);
+            Invoke("SpawnSollarPannel", 11.5f);
 
         }
     }
