@@ -88520,10 +88520,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6862532897130945569, guid: e4bd9240f2fb02d4697876273c7884d5,
+        type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6862532897130945569, guid: e4bd9240f2fb02d4697876273c7884d5,
+        type: 3}
+      propertyPath: m_PreserveTreePrototypeLayers
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6862532897130945571, guid: e4bd9240f2fb02d4697876273c7884d5,
         type: 3}
       propertyPath: m_Name
       value: Terrain
+      objectReference: {fileID: 0}
+    - target: {fileID: 6862532897130945571, guid: e4bd9240f2fb02d4697876273c7884d5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 6862532897130945582, guid: e4bd9240f2fb02d4697876273c7884d5,
         type: 3}
