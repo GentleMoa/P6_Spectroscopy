@@ -50,6 +50,7 @@ public class NewDetector : MonoBehaviour
     public Transform getClosestElement()
     {
         elements = GameObject.FindGameObjectsWithTag("Element"); // find all elements here instead of in Start() so it updates when an element has been collected
+
         float closestDistance = Mathf.Infinity;
         
 

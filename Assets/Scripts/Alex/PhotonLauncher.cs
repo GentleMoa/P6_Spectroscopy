@@ -121,8 +121,14 @@ public class PhotonLauncher : MonoBehaviourPunCallbacks
 
     public void StartGame()
     {
+        //Adding this debug log somehow makes the scene loading more reliable
+        Debug.Log("About to load into the game scene");
+
         // using Photon Loadlevel instead of SceneManager, so all Players can load scenes at the same time
         PhotonNetwork.LoadLevel(1);
+
+        //Adding this debug log somehow makes the scene loading more reliable
+        Debug.Log("Loaded into the game scene");
     }
 
     public void LeaveRoom()

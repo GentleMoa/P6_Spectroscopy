@@ -21,6 +21,6 @@ public class VRPlayer_HeightResetter : MonoBehaviour
     private void ResetPlayerHeight()
     {
         //This line is necessary to reset the VR player's height to a proper level
-        _characterController.center = new Vector3(0.0f, 1.0f, 0.0f);
+        _characterController.center = new Vector3(0.0f, 0.5f, 0.0f);
     }
 }
