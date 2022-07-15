@@ -613,7 +613,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4885776106628951023}
   - component: {fileID: 4885776106628951025}
-  - component: {fileID: 4885776106628951024}
   m_Layer: 0
   m_Name: PressParent
   m_TagString: Untagged
@@ -660,18 +659,6 @@ MonoBehaviour:
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &4885776106628951024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4885776106628951022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d35efbc6b1842346a4075443d6801a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5379560611782436881
 GameObject:
   m_ObjectHideFlags: 0
