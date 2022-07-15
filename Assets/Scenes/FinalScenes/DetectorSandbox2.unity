@@ -8474,7 +8474,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 359885967}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.65, y: 2.46, z: 26.17}
+  m_LocalPosition: {x: 2.71, y: 2.46, z: 21.44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8493,7 +8493,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b84d4def0e967eb469dd673bfc1eab47, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.63
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -8502,7 +8502,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 22.5
+  MaxDistance: 15.39
   Pan2D: 0
   rolloffMode: 2
   BypassEffects: 0
@@ -35828,7 +35828,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 04ac428ae078309428f081fffffd9829, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.201
+  m_Volume: 0.125
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -43571,10 +43571,35 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1256145395608587655, guid: 64da82dd51967404eb48aa0d11d62070,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 28.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1256145395608587655, guid: 64da82dd51967404eb48aa0d11d62070,
+        type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 1.1
+      objectReference: {fileID: 0}
     - target: {fileID: 1752643816946974546, guid: 64da82dd51967404eb48aa0d11d62070,
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930994403755728389, guid: 64da82dd51967404eb48aa0d11d62070,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930994403755728389, guid: 64da82dd51967404eb48aa0d11d62070,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 19.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930994403755728389, guid: 64da82dd51967404eb48aa0d11d62070,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5244535290763617397, guid: 64da82dd51967404eb48aa0d11d62070,
         type: 3}
@@ -67074,6 +67099,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 130434541071653896, guid: 2e65dfe2e0dd73d4c94fc63fd0486c90,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 130434541071653942, guid: 2e65dfe2e0dd73d4c94fc63fd0486c90,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -67187,7 +67217,7 @@ PrefabInstance:
     - target: {fileID: 4885776106628951025, guid: 2e65dfe2e0dd73d4c94fc63fd0486c90,
         type: 3}
       propertyPath: sceneViewId
-      value: 11
+      value: 666
       objectReference: {fileID: 0}
     - target: {fileID: 5379560611782436881, guid: 2e65dfe2e0dd73d4c94fc63fd0486c90,
         type: 3}
@@ -81190,7 +81220,7 @@ MonoBehaviour:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 0
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -84826,7 +84856,7 @@ MonoBehaviour:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 0
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -86661,7 +86691,7 @@ MonoBehaviour:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 0
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1

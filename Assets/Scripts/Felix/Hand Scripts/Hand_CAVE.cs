@@ -95,31 +95,31 @@ public class Hand_CAVE : MonoBehaviour
         }
         else
         {
-            UpdateHand();
+            //UpdateHand();
         }
     }
 
-    private void UpdateHand()
-    {
-        //This will get the value for our trigger from the target device and output a flaot into triggerValue
-        if (_targetDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue))
-        {
-            _handAnimator.SetFloat("Trigger", triggerValue);
-        }
-        else
-        {
-            _handAnimator.SetFloat("Trigger", 0);
-        }
-        //This will get the value for our grip from the target device and output a flaot into gripValue
-        if (_targetDevice.TryGetFeatureValue(CommonUsages.grip, out float gripValue))
-        {
-            _handAnimator.SetFloat("Grip", gripValue);
-        }
-        else
-        {
-            _handAnimator.SetFloat("Grip", 0);
-        }
-    }
+   //private void UpdateHand()
+   //{
+   //    //This will get the value for our trigger from the target device and output a flaot into triggerValue
+   //    if (_targetDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue))
+   //    {
+   //        _handAnimator.SetFloat("Trigger", triggerValue);
+   //    }
+   //    else
+   //    {
+   //        _handAnimator.SetFloat("Trigger", 0);
+   //    }
+   //    //This will get the value for our grip from the target device and output a flaot into gripValue
+   //    if (_targetDevice.TryGetFeatureValue(CommonUsages.grip, out float gripValue))
+   //    {
+   //        _handAnimator.SetFloat("Grip", gripValue);
+   //    }
+   //    else
+   //    {
+   //        _handAnimator.SetFloat("Grip", 0);
+   //    }
+   //}
 
 
 }

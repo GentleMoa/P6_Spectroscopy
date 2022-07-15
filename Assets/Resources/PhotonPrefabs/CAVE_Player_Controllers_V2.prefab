@@ -647,7 +647,6 @@ GameObject:
   - component: {fileID: 6831455868968223432}
   - component: {fileID: 6831455868968223433}
   - component: {fileID: 6831455868968223434}
-  - component: {fileID: 6831455868968223435}
   - component: {fileID: 6831455868968223436}
   - component: {fileID: 6831455868968223437}
   - component: {fileID: 2004222776972713524}
@@ -1024,19 +1023,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _photonView: {fileID: 0}
---- !u!114 &6831455868968223435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6831455868968223439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 918b5db742af71146a30fb8ab7400fdf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _buttonScript: {fileID: 0}
 --- !u!120 &6831455868968223436
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -1497,7 +1483,6 @@ GameObject:
   - component: {fileID: 6831455869800854865}
   - component: {fileID: 6831455869800854866}
   - component: {fileID: 6831455869800854867}
-  - component: {fileID: 6831455869800854868}
   - component: {fileID: 6831455869800854869}
   - component: {fileID: 6831455869800854870}
   - component: {fileID: 7091221809659932049}
@@ -1874,19 +1859,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _photonView: {fileID: 0}
---- !u!114 &6831455869800854868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6831455869800854952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 918b5db742af71146a30fb8ab7400fdf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _buttonScript: {fileID: 0}
 --- !u!120 &6831455869800854869
 LineRenderer:
   m_ObjectHideFlags: 0
