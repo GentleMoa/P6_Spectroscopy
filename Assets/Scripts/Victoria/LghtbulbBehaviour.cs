@@ -31,7 +31,7 @@ public class LghtbulbBehaviour : MonoBehaviour
     // enable the light(bulb) on multijunction-cell stay
     private void OnTriggerStay(Collider other)
     {
-        if (other.CompareTag("Layer"))
+        if (other.CompareTag("LayerJunction"))
         {
             lightbulbLight.GetComponent<Light>().enabled = true;
             bulbMat.EnableKeyword("_EMISSION");
@@ -41,7 +41,7 @@ public class LghtbulbBehaviour : MonoBehaviour
     // enable the light(bulb) on multijunction-cell exit
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Layer"))
+        if (other.CompareTag("LayerJunction"))
         {
             lightbulbLight.GetComponent<Light>().enabled = false;
             bulbMat.DisableKeyword("_EMISSION");

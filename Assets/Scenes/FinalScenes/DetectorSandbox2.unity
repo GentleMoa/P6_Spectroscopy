@@ -67114,6 +67114,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4447631681365977870, guid: 2e65dfe2e0dd73d4c94fc63fd0486c90,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4885776106628951022, guid: 2e65dfe2e0dd73d4c94fc63fd0486c90,
         type: 3}
       propertyPath: m_Name
@@ -67445,7 +67450,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!1 &4889619028719094777
 GameObject:
@@ -83843,7 +83848,6 @@ GameObject:
   - component: {fileID: 1059072581649662405}
   - component: {fileID: 3188419529381901153}
   - component: {fileID: 1998630744137485520}
-  - component: {fileID: 7916811887482024383}
   m_Layer: 7
   m_Name: BigTube
   m_TagString: Untagged
@@ -83851,20 +83855,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &7916811887482024383
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7916811887482024382}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5516707165154790398, guid: e0a3fc1468f474b4daab543fdf3d8555, type: 3}
 --- !u!1 &7923062488411643005
 GameObject:
   m_ObjectHideFlags: 0

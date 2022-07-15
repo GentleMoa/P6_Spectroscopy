@@ -24,6 +24,8 @@ TagManager:
   - RightHand_VR
   - LeftHand_CAVE
   - RightHand_CAVE
+  - Pickaxe
+  - LayerJunction
   layers:
   - Default
   - TransparentFX

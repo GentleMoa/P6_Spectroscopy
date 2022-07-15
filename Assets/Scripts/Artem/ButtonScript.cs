@@ -42,7 +42,10 @@ public class ButtonScript : MonoBehaviour
         //printingOngoing = true;
         button_Animator.SetTrigger("PressProcess");
         ComponentOverseer.Instance.printing = true;
+
         buttonPressed = false;
+
+        Invoke("SpawnSollarPannel", 11.5f);
     }
 
     private void SpawnSollarPannel()

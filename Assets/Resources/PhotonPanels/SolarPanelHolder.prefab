@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 7410504856226425151}
   m_Layer: 0
   m_Name: SolarPanel
-  m_TagString: Untagged
+  m_TagString: LayerJunction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -132,7 +132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4c67e4ca769e94448608c8c99af6e58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  impulse: {x: -6, y: 0, z: 0}
+  impulse: {x: -5, y: 0, z: 0}
 --- !u!114 &4021179919019782211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -317,7 +317,7 @@ GameObject:
   - component: {fileID: 300766533172851523}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: LayerJunction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -398,7 +398,7 @@ GameObject:
   - component: {fileID: 987130060055792838}
   m_Layer: 0
   m_Name: SolarPanelHolder
-  m_TagString: Untagged
+  m_TagString: LayerJunction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

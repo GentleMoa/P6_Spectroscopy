@@ -24,5 +24,6 @@ public class LayerShredder : MonoBehaviour
             Debug.Log("Layer collides");
             Destroy(other.gameObject);
         }
+
     }
 }
