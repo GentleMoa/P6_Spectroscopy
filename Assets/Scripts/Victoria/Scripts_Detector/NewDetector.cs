@@ -90,7 +90,7 @@ public class NewDetector : MonoBehaviour
             if (waitTime <= 0)
             {
                 waitTime = mediumBeepFrequ;
-                audioS.PlayOneShot(audioS.clip);
+                //audioS.PlayOneShot(audioS.clip);
             }
             else
             {
