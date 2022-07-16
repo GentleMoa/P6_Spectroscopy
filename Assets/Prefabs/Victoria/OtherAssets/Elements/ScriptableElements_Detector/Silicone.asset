@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Silicone
   m_EditorClassIdentifier: 
   name: Si (Silicon)
-  image: {fileID: 21300000, guid: 13b17b05560217842bb94b7b8ec41d03, type: 3}
-  absorbingWavelegth: 
-  conpatibleWithElements: []
+  image: {fileID: 21300000, guid: 60732565b50e4da4eb8eeb4027a536b9, type: 3}
   efficiency: 13.8
   layer: {fileID: 3119451604655524663, guid: 5d222294a5cf17c44823cf6a3439846d, type: 3}

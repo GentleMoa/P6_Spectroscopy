@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: GaInNAs (Galluim_Induim_Nitrogen_Arsenide)
   m_EditorClassIdentifier: 
   name: GaInNAs (Galluim_Induim_Nitrogen_Arsenide)
-  image: {fileID: 21300000, guid: 3aba716512aa383409e50f9e99ce5461, type: 3}
-  absorbingWavelegth: 
-  conpatibleWithElements: []
+  image: {fileID: 21300000, guid: ab130c7bf95305d4cbe87b9ba4c62a5a, type: 3}
   efficiency: 13.8
   layer: {fileID: 3119451604655524663, guid: 78af1b65106307c4ab033d73eb898bb2, type: 3}

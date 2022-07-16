@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: GaInP (Galluim_Induim_Phosphate)
   m_EditorClassIdentifier: 
   name: GaInP (Galluim_Induim_Phosphate)
-  image: {fileID: 21300000, guid: 376641f8534324e41b198fc79fac1820, type: 3}
-  absorbingWavelegth: 
-  conpatibleWithElements: []
+  image: {fileID: 21300000, guid: a6f5f7d37a6a0a249be2980b8bdc2480, type: 3}
   efficiency: 10.4
   layer: {fileID: 3119451604655524663, guid: 7a842a6f3bfebd249b579d8fcac6289c, type: 3}
