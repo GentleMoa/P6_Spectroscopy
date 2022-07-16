@@ -13,38 +13,30 @@ public class LghtbulbBehaviour : MonoBehaviour
     [SerializeField] private Light lightbulbLight;
     [SerializeField] private Material bulbMat;
 
-    //private void Awake()
-    //{
-    //    if (PhotonNetwork.IsMasterClient)
-    //    {
-    //        PhotonNetwork.Instantiate(Path.Combine("PhotonMachines", "PanelReader"), new Vector3(-3.3f, 1.086f, -2.8f), Quaternion.identity);
-    //    }
-    //}
-
     void Start()
     {
-        // disable the light(bulb) on start 
-        lightbulbLight.GetComponent<Light>().enabled = false;
-        bulbMat.DisableKeyword("_EMISSION");
+        // Disable the light(bulb) on start 
+        lightbulbLight.GetComponent<Light>().enabled = false; // Disable the PointLight inside the Lightbulb
+        bulbMat.DisableKeyword("_EMISSION");                  // Disable emmision on the lightbulb's material
     }
 
-    // enable the light(bulb) on multijunction-cell stay
+    // Enable the light(bulb) once the multijunction-cell (with the right tag) enters the collider
     private void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("LayerJunction"))
         {
-            lightbulbLight.GetComponent<Light>().enabled = true;
-            bulbMat.EnableKeyword("_EMISSION");
+            lightbulbLight.GetComponent<Light>().enabled = true; // Enable the PointLight inside the Lightbulb to show that the manufactured multijunction-cell is working, yay!
+            bulbMat.EnableKeyword("_EMISSION");                  // Enable emmision on the lightbulb's material
         }
     }
 
-    // enable the light(bulb) on multijunction-cell exit
+    // Disable the light(bulb) once the multijunction-cell (with the right tag) exits the collider again
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("LayerJunction"))
         {
-            lightbulbLight.GetComponent<Light>().enabled = false;
-            bulbMat.DisableKeyword("_EMISSION");
+            lightbulbLight.GetComponent<Light>().enabled = false; // Disable the PointLight inside the Lightbulb
+            bulbMat.DisableKeyword("_EMISSION");                  // Disable emmision on the lightbulb's material
         }
     }
 }

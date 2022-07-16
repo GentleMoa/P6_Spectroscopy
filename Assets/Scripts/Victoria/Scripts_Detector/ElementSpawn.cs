@@ -10,9 +10,11 @@ using System.IO;
 
 public class ElementSpawn : MonoBehaviour
 {
+    // Reference what should be spawned...
     public GameObject[] elements;
     public GameObject[] rocks;
-    public Transform[] spawnPos; // RE-POSITION THEM IN THE SCENE ONCE THE PROPPER TERRAIN HAS BEEN BUILT BY ALEX
+    // ...and where:
+    public Transform[] spawnPos;
 
     void Awake()
     {
@@ -22,8 +24,9 @@ public class ElementSpawn : MonoBehaviour
 
     private void SpawnElements()
     {
-        if (PhotonNetwork.IsMasterClient)
+        if (PhotonNetwork.IsMasterClient) // Make sure it's not spawned twice (once per player)
         {
+            // Spawn every element in the array once at a random position in a specific area on the terrain
             for (int i = 0; i < elements.Length; i++)
             {
                 Vector3 spawnPos = new Vector3(Random.Range(0, 10), 1, Random.Range(0, 10));
@@ -34,20 +37,14 @@ public class ElementSpawn : MonoBehaviour
 
     private void SpawnRocks()
     {
-        if (PhotonNetwork.IsMasterClient)
+        if (PhotonNetwork.IsMasterClient) // Make sure it's not spawned twice (once per player)
         {
+            // Spawn every element in the array inside a rock at fixed points on the terrain
             for (int i = 0; i < elements.Length; i++)
             {
                 PhotonNetwork.Instantiate(Path.Combine("PhotonRocks", rocks[i].name), spawnPos[i].position, Random.rotation);
                 PhotonNetwork.Instantiate(Path.Combine("PhotonElements", elements[i].name), spawnPos[i].position, Random.rotation);
             }
         }      
-    }
-
-    private void SpawnOne()
-    {
-        // spawn only one element at a random pos (for debugging purposes)
-        Vector3 spawnPos = new Vector3(Random.Range(0, 10), 1, Random.Range(0, 10));
-        PhotonNetwork.Instantiate(Path.Combine("PhotonElement", elements[4].name), spawnPos, Quaternion.identity);
     }
 }
