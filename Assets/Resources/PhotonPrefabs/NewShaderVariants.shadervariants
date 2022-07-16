@@ -100,6 +100,8 @@ ShaderVariantCollection:
       variants:
       - keywords: 
         passType: 8
+      - keywords: _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 8
       - keywords: 
         passType: 13
       - keywords: DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON FOG_EXP LIGHTMAP_ON _ADDITIONAL_LIGHTS
@@ -169,10 +171,6 @@ ShaderVariantCollection:
       - keywords: FOG_EXP _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE _NORMALMAP
           _PARALLAXMAP
         passType: 13
-      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _EMISSION _MAIN_LIGHT_SHADOWS
-          _METALLICSPECGLOSSMAP _NORMALMAP _OCCLUSIONMAP _REFLECTION_PROBE_BLENDING
-          _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
-        passType: 13
       - keywords: _NORMALMAP
         passType: 13
       - keywords: _NORMALMAP _PARALLAXMAP
@@ -182,8 +180,6 @@ ShaderVariantCollection:
       variants:
       - keywords: 
         passType: 8
-      - keywords: 
-        passType: 13
       - keywords: DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON FOG_EXP LIGHTMAP_ON _ADDITIONAL_LIGHTS
           _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _MASKMAP _NORMALMAP
           _REFLECTION_PROBE_BLENDING _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT _TERRAIN_INSTANCED_PERPIXEL_NORMAL

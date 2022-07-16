@@ -25800,7 +25800,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6902679092255292049}
   - component: {fileID: 6902679092255292050}
-  - component: {fileID: 6902679092255292051}
   m_Layer: 0
   m_Name: HeadTracker
   m_TagString: Untagged
@@ -25815,8 +25814,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6902679092255292048}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.151, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25842,65 +25841,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a410f43409d8774d8bebdfdd8120a59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &6902679092255292051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6902679092255292048}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2fadf230d1919748a9aa21d40f74619, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TrackingType: 2
-  m_UpdateType: 0
-  m_PositionInput:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Position Input
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: e627db30-6468-4b1b-8e9e-4e8995b10ca4
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 3755882719261599965, guid: 206006d0ad9fe0a478555f341f052f5a,
-      type: 3}
-  m_RotationInput:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Rotation Input
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 21e585ab-a9d0-4fd2-a9a0-69c0e263b2fe
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 7071019448954012532, guid: 206006d0ad9fe0a478555f341f052f5a,
-      type: 3}
-  m_PositionAction:
-    m_Name: 
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: 
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings: []
-    m_Flags: 0
-  m_RotationAction:
-    m_Name: 
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: 
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings: []
-    m_Flags: 0
-  m_HasMigratedActions: 1
 --- !u!1 &6902679092285812213
 GameObject:
   m_ObjectHideFlags: 0
