@@ -1,5 +1,5 @@
 //---------------------------------------------------------------------------------------------------------------//
-//-------Alex Zarenko - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 03.06.2022 --------//
+//-------Alex Zarenko - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project ---------------------//
 //---------------------------------------------------------------------------------------------------------------//
 
 using System.Collections;

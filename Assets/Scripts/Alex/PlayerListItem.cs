@@ -1,5 +1,5 @@
 //---------------------------------------------------------------------------------------------------------------//
-//-------Alex Zarenko - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 03.06.2022 --------//
+//-------Alex Zarenko - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project ---------------------//
 //---------------------------------------------------------------------------------------------------------------//
 
 using System.Collections;
@@ -11,6 +11,7 @@ using TMPro;
 
 public class PlayerListItem : MonoBehaviourPunCallbacks
 {
+    // setting up Player Items with Nicknames
     [SerializeField] TMP_Text text; 
     Player player;
     public void SetUp(Player _player)

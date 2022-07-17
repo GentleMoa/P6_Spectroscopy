@@ -1,5 +1,5 @@
 //---------------------------------------------------------------------------------------------------------------//
-//-------Alex Zarenko - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 03.06.2022 --------//
+//-------Alex Zarenko - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project ---------------------//
 //---------------------------------------------------------------------------------------------------------------//
 
 using System.Collections;
@@ -50,6 +50,8 @@ public class PhotonLauncher : MonoBehaviourPunCallbacks
         Debug.Log("Joined Lobby.");
         MenuManager.Instance.OpenMenu("title");
 
+        // utilizing Felix's Hardwarechecker to assign VR or CAVE Prefixes to Usernames
+        // Usernames simply get a random number assigned aswell
         if (hardwareChecker.caveSetupPresent == false)
         {
            //Activate the corresponding player (VR)
@@ -60,12 +62,12 @@ public class PhotonLauncher : MonoBehaviourPunCallbacks
             //Activate the corresponding player (CAVE)
             PhotonNetwork.NickName = "CAVE Player " + Random.Range(0, 1000).ToString("0000");
         }
-
-        //PhotonNetwork.NickName = "Player " + Random.Range(0, 1000).ToString("0000");
     }
 
     public void CreateRoom()
     {
+        // OLD FUNCTION - Old Menu was using a Inputfield so User's can Name their Lobby.
+
         // making sure a Room Name is entered, or return
         //if (string.IsNullOrEmpty(roomNameInputField.text))
         //{
@@ -168,6 +170,8 @@ public class PhotonLauncher : MonoBehaviourPunCallbacks
 
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
+        // Instantiating a new playerListItemPrefab per player in the Lobby.
+        // It will be seen in the Player List, before the Host starts the game. All participating players are Listed.
         Instantiate(playerListItemPrefab, playerListContent).GetComponent<PlayerListItem>().SetUp(newPlayer);
     }
 }

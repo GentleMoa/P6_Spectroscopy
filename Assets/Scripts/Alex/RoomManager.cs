@@ -1,5 +1,5 @@
 //---------------------------------------------------------------------------------------------------------------//
-//-------Alex Zarenko - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project - 05.06.2022 --------//
+//-------Alex Zarenko - Hochschule Darmstadt - Expanded Realities 2022 - Semester 6 Project ---------------------//
 //---------------------------------------------------------------------------------------------------------------//
 
 using System.Collections;
@@ -43,6 +43,7 @@ public class RoomManager : MonoBehaviourPunCallbacks
     {
         if (scene.buildIndex == 1 && PhotonNetwork.InRoom) //we're in the GameScene + in a Photon Room
         {
+            // instantiate a PlayerManager per User in the online Lobby
             PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "PlayerManager"), Vector3.zero, Quaternion.identity);
         }
     }
