@@ -1,3 +1,9 @@
+// Created by Artem Brodetskii 28.06.22 //
+// Starts the solar panel printing process //
+//--------------------------------------------------------------------------------------------//
+//--------------------------------------------------------------------------------------------//
+//--------------------------------------------------------------------------------------------//
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,15 +16,12 @@ public class ButtonScript : MonoBehaviour
     public GameObject point;
     public bool buttonPressed = false;
     Animator button_Animator;
-    //public bool printingOngoing = false;
     
-    // Start is called before the first frame update
     void Start()
     {
         button_Animator = gameObject.GetComponentInParent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (buttonPressed)
@@ -31,15 +34,6 @@ public class ButtonScript : MonoBehaviour
 
     public void Pressed()
     {
-        //if (printingOngoing == false)
-        //{
-        //    //printingOngoing = true;
-        //    button_Animator.SetTrigger("PressProcess");
-        //    ComponentOverseer.Instance.printing = true;
-        //    buttonPressed = false;
-        //}
-
-        //printingOngoing = true;
         button_Animator.SetTrigger("PressProcess");
         ComponentOverseer.Instance.printing = true;
 
@@ -50,10 +44,8 @@ public class ButtonScript : MonoBehaviour
 
     private void SpawnSollarPannel()
     {
-        //Instantiate(sollarPannel, point.transform.position, Quaternion.identity);
         PhotonNetwork.Instantiate(Path.Combine("PhotonPanels", "SolarPanelHolder"), point.transform.position, Quaternion.identity);
         ComponentOverseer.Instance.printing = false;
-        //printingOngoing = false;
     }
 
 }

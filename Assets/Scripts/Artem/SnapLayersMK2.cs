@@ -1,3 +1,8 @@
+// Created by Artem Brodetskii 14.06.22 //
+// Allows you to attach panels to each other by creating a "ghost" object where a new layer can be placed //
+//--------------------------------------------------------------------------------------------//
+//--------------------------------------------------------------------------------------------//
+//--------------------------------------------------------------------------------------------//
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,22 +12,16 @@ public class SnapLayersMK2 : MonoBehaviour
     public GameObject layer;
     public bool layerWriter = false;
 
-    void Start()
-    {
-        
-    }
-
-
     void Update()
     {
         if (layerWriter && layer != null)
         {
             if (layer.GetComponent<GrabCheck>().grabbed)
             {
-                layer.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
-                Transform childnext = layer.transform.Find("SnapAnchor");
-                childnext.gameObject.SetActive(false);
-                this.gameObject.GetComponent<Collider>().enabled = true;
+                layer.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None; 
+                Transform childnext = layer.transform.Find("SnapAnchor");                
+                childnext.gameObject.SetActive(false);                                   
+                this.gameObject.GetComponent<Collider>().enabled = true;                 
             }
         }
     }
@@ -38,10 +37,10 @@ public class SnapLayersMK2 : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Layer"))
-        {
-            Transform child = transform.Find("Ghost");
-            child.gameObject.SetActive(false);
+        if (other.CompareTag("Layer"))                  
+        {                                               
+            Transform child = transform.Find("Ghost");  
+            child.gameObject.SetActive(false);          
         }
     }
 
